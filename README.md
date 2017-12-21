@@ -1,4 +1,4 @@
-# accelerated-mobile-pages-foundations
+# PWA FAYA:80
 
 This folder contains the source code for a Google I/O 2016 codelab.
 

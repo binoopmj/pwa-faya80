@@ -1,24 +1,30 @@
-# PWA FAYA:80
+# Port:80 PWA
 
-This folder contains the source code for a Google I/O 2016 codelab.
+![Travis](https://img.shields.io/travis/rust-lang/rust.svg)  ![David](https://img.shields.io/david/expressjs/express.svg)  ![Lience](https://img.shields.io/dub/l/vibe-d.svg)
+
+#### Demo https://m.fayaport80.com
+Port-80 PWS helps to navigate through FAYA:80 event details,If you're attending on-site or remotely.This app will:
+* Event schedule with corresponding details.
+* Save events to google calendar.
+* Event reminders.
+* Watch events in realtime.
+* Fetch the event details in the feed.
+* Instructions for onsite attendees.
+* Download Source code and presentation PPT.
+### Features
+* Progressive web app.
+* Native experience, they are responsive and work on every device.
+* Push notifications.
+* Offline support.
+* Add to Home screen feature.
+* Ahead-of-Time compilation.
+* Application Shell.
+* Service worker.
+
+### Technology stack
+* Angular 5
+* AMP
+* Firebase
 
 ### License
-
-```
-Copyright 2016 Google, Inc.
-
-Licensed to the Apache Software Foundation (ASF) under one or more contributor
-license agreements. See the NOTICE file distributed with this work for
-additional information regarding copyright ownership. The ASF licenses this
-file to you under the Apache License, Version 2.0 (the "License"); you may not
-use this file except in compliance with the License. You may obtain a copy of
-the License at
-
-http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
-WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
-License for the specific language governing permissions and limitations under
-the License.
-```
+MIT

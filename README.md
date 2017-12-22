@@ -4,6 +4,7 @@
 
 #### Demo https://m.fayaport80.com
 Port-80 PWS helps to navigate through FAYA:80 event details,If you're attending on-site or remotely.This app will:
+* Give overall details about FAYA:80 and all its events.
 * Event schedule with corresponding details.
 * Save events to google calendar.
 * Event reminders.

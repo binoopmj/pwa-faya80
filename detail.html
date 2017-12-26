@@ -23,6 +23,7 @@
       header {
         font-size: 2em;
         text-align: center;
+        margin-top: 6px;
       }
       .banner {
         background: #4d4e6d;
@@ -43,8 +44,8 @@
           color: #87C142;
       }
       p {
-        padding: 0.5em;
-        margin: 0.5em;
+        padding: 0;
+        margin: 0.5em 0;
       }
       .edition-list {
         display: block;
@@ -72,6 +73,30 @@
       }
       .content {
         padding: 5px 10px;
+      }
+      footer {
+        background: #313131;
+        color: #969595;
+        font-size: 11px;
+        padding: 10px;
+        clear: left;
+      }
+      footer ul{
+        padding-left: 15px;
+      }
+      footer a {
+        color: #87be49;
+        text-decoration: none;
+      }
+      footer h5 {
+        color: #fff;
+        font-size: 14px;
+        margin: 5px 0;
+        font-weight: 300;
+      }
+      footer p.copy-right-footer {
+        font-size: 10px;
+        margin-top: 20px;
       }
       /* event page */
         ul {
@@ -104,13 +129,24 @@
         .video-detail-wrap span.month {
             margin-top: 10px;
         }
+        .speaker-detail {
+            font-size: 11px;
+            display: block; 
+        }
+        .event-detail h4 {
+            margin: 8px 0;
+        }
+        .event-detail p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
     </style>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
   </head>
   <body>
     <header>
         <a href="../index.amp.html">
-            <amp-img src="/logo.png" class="logo"  width="75" height="27"></amp-img>
+            <amp-img src="logo.png" class="logo"  width="131" height="31"></amp-img>
         </a>
     </header>
     <div class="content">
@@ -118,11 +154,11 @@
             <amp-img  width="100" height="75" layout="responsive" src="images/ai.jpg"></amp-img> 
             <div class="event-detail">
                 <h4>Deep Learning in AI – A Closer Look with Image Recognition</h4>                    
-                <span class="speaker">By: Shine Xavier</span> 
-                <span class="company"> Senior Architect,   UST Global</span> 
-                <span class="month">Streamed live on 07/06/2017 5:00 pm</span>
+                <span class="speaker-detail speaker">By: Shine Xavier</span> 
+                <span class="speaker-detail company"> Senior Architect,   UST Global</span> 
+                <span class="speaker-detail month">Streamed live on 07/06/2017 5:00 pm</span>
                 <p>
-                    Artificial Intelligence and Deep Learning are the most talked about technologies driving the disruptive innovation of the future. The May edition of FAYA:80 provided a stepping stone for the technology enthusiasts to explore AI and its associated concepts. Now it’s the time to take a closer look at Deep Learning to discover the advances in algorithms and methods. Deep learning is revolutionizing artificial intelligence as machines become increasingly more intelligent and are able to recognize and sort objects and understand what they are.
+                    &nbsp;&nbsp;&nbsp;&nbsp;    Artificial Intelligence and Deep Learning are the most talked about technologies driving the disruptive innovation of the future. The May edition of FAYA:80 provided a stepping stone for the technology enthusiasts to explore AI and its associated concepts. Now it’s the time to take a closer look at Deep Learning to discover the advances in algorithms and methods. Deep learning is revolutionizing artificial intelligence as machines become increasingly more intelligent and are able to recognize and sort objects and understand what they are.
                     The 49th edition of FAYA:80 lets you take a deep dive into the advancing trends in Deep Learning, their impact to our ecosystem and successful applications in business leading to the creation of next generation products. Get the chance to use Image Recognition as a case study and learn how to implement AI, uncover its best practices & limitations in building intelligent applications.
                     The session will be equally beneficial for Web and Mobile application Developers, Testers and top level Technical Managers and other technology enthusiasts.
                     Join us for the session to know more.
@@ -131,12 +167,12 @@
                     <strong>Topics Covered:</strong> 
                 </p>
                 <p>
-                    What is Deep Learning/Neural Networks?
-                    Relationship b/w Neural Nets and Logistic Regression
-                    Basic Learning Concepts
-                    Best Practices & Applications
-                    Comparison of different Neural Networks – ANN’s vs CNN’s
-                    Case Study – Image Recognition
+                    What is Deep Learning/Neural Networks?<br>
+                    Relationship b/w Neural Nets and Logistic Regression<br>
+                    Basic Learning Concepts<br>
+                    Best Practices & Applications<br>
+                    Comparison of different Neural Networks – ANN’s vs CNN’s<br>
+                    Case Study – Image Recognition<br>
                 </p>
                 <p>
                     <strong>Sessions:</strong>
@@ -150,5 +186,24 @@
             </div>           
         </div>
     </div>
+    <footer>
+        <h5>Who should attend? </h5>
+        <ul>
+            <li>Directors, CEOs & CTOs</li>
+            <li>Entrepreneurs</li>
+            <li>Data Scientists</li>
+            <li>Machine Learning Scientists</li>
+            <li>Developers</li>
+            <li>Big Data Experts</li>
+            <li>All genres of Technology Enthusiasts</li>
+        </ul>
+        <h5>Contact Us </h5>
+        <span>FAYA Corporation</span><br>
+        <span>Email on <a href="mailto:info@fayausa.com">info@fayausa.com</a></span><br>
+        <span>call - 866-686-5988</span>
+        <p class="copy-right-footer">Copyright ©
+            <a href="http://fayausa.com">FAYA Corporation</a> 2017. 2330 S. Archibald Ave. Ontario, CA 91761
+        </p>
+    </footer>
   </body>
 </html>

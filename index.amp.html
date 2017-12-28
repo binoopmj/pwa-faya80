@@ -22,7 +22,7 @@
 
     <link rel="canonical" href="/index.html">
     <link rel="shortcut icon" href="amp_favicon.ico">
-
+    <link rel="manifest" href="/manifest.json">
     <title>Faya:80</title>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     
@@ -30,7 +30,8 @@
     <style amp-custom>
       body {
         width: auto;
-        margin: 0;
+        margin: 0 auto ;
+        max-width: 900px;
         padding: 0;
         font-family: 'Lato', sans-serif;
         color: #333;
@@ -116,6 +117,7 @@
       }
     </style>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
   </head>
   <body>
     <header>
@@ -169,5 +171,10 @@
           <a href="http://fayausa.com">FAYA Corporation</a> 2017. 2330 S. Archibald Ave. Ontario, CA 91761
       </p>
     </footer>
+    <amp-install-serviceworker 
+      src="/service-worker.js" 
+      layout="nodisplay"
+      data-iframe-src="/install-service-worker.html">
+    </amp-install-serviceworker>
   </body>
 </html>

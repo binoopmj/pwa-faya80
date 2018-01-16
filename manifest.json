@@ -2,7 +2,7 @@
     "name": "Faya:80",
     "short_name": "Faya:80",
     "theme_color": "#313131",
-    "background_color": "#87c142",
+    "background_color": "#333333",
     "display": "standalone",
     "start_url": "/index.amp.html",
     "icons": [

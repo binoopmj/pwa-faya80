@@ -133,11 +133,31 @@
             margin-top: 10px;
         }
         @media only screen and (min-width : 768px) {
+          .footer-widget {
+            width: 50%;
+            float: left;
+            font-size: 13px;
+          }
+          .copy-right-footer {
+            clear: left;
+          }
+          footer h5 {
+            font-size: 17px;
+          }
+          footer p.copy-right-footer {
+            font-size: 13px;
+          }
+          footer {
+            padding: 25px;
+          }
           .event-list li {
             width: 23%;
             padding: 0 1%;
             float:left;
             list-style-type: none;
+          }
+          .video-detail-wrap span.company {
+            font-size: 12px;
           }
         }
     </style>
@@ -260,23 +280,27 @@
           </ul>
       </div>
       <footer>
+        <div class="footer-widget">
           <h5>Who should attend? </h5>
           <ul>
-              <li>Directors, CEOs & CTOs</li>
-              <li>Entrepreneurs</li>
-              <li>Data Scientists</li>
-              <li>Machine Learning Scientists</li>
-              <li>Developers</li>
-              <li>Big Data Experts</li>
-              <li>All genres of Technology Enthusiasts</li>
+            <li>Directors, CEOs & CTOs</li>
+            <li>Entrepreneurs</li>
+            <li>Data Scientists</li>
+            <li>Machine Learning Scientists</li>
+            <li>Developers</li>
+            <li>Big Data Experts</li>
+            <li>All genres of Technology Enthusiasts</li>
           </ul>
+        </div>
+        <div class="footer-widget">
           <h5>Contact Us </h5>
           <span>FAYA Corporation</span><br>
           <span>Email on <a href="mailto:info@fayausa.com">info@fayausa.com</a></span><br>
           <span>call - 866-686-5988</span>
-          <p class="copy-right-footer">Copyright ©
-              <a href="http://fayausa.com">FAYA Corporation</a> 2017. 2330 S. Archibald Ave. Ontario, CA 91761
-          </p>
+        </div>
+        <p class="copy-right-footer">Copyright ©
+            <a href="http://fayausa.com">FAYA Corporation</a> 2017. 2330 S. Archibald Ave. Ontario, CA 91761
+        </p>
       </footer>
     </div>
     <amp-install-serviceworker 

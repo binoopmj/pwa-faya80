@@ -14,13 +14,14 @@
     <style amp-custom>
     body {
         width: auto;
-        margin: 0 auto;
-        max-width: 900px;
-        padding: 0;
         font-family: 'Lato', sans-serif;
         color: #333;
       }
-
+      .wrapper {
+        margin: 0 auto ;
+        max-width: 1200px;
+        padding: 0;
+      }
       header {
         font-size: 2em;
         text-align: center;
@@ -109,6 +110,7 @@
             padding: 0 1%;
             float:left;
             list-style-type: none;
+            height: 260px;
         }
         .video-detail-wrap {
             font-size: 13px;
@@ -130,74 +132,153 @@
         .video-detail-wrap span.month {
             margin-top: 10px;
         }
-        
+        @media only screen and (min-width : 768px) {
+          .event-list li {
+            width: 23%;
+            padding: 0 1%;
+            float:left;
+            list-style-type: none;
+          }
+        }
     </style>
+    
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
+  
   </head>
   <body>
-    <header>
-        <a href="/index.amp.html">
-            <amp-img src="logo.png" class="logo"  width="131" height="31"></amp-img>
-        </a>
-    </header>
-    <div class="content">
-        <ul class="event-list">
-            <li>
-                <div class="video-widget-wrap">
-                    <a href="/detail.html">
-                        <div class="video-thumb">
-                            <amp-img  width="100" height="50" layout="responsive" src="images/ai.jpg"></amp-img>
-                            <div class="video-overlay"></div>
-                        </div>
-                    </a>
-                    <div class="video-detail-wrap">
-                        <h4>
-                            Deep Learning in AI – A Closer Look with ...			    				</h4>
-                        <span class="speaker">By: Manuyash Chaudhary</span> 
-                        <span class="company"> AI &amp; NLP Developer &amp; Researcher,   Accubits Technologies</span> 
-                        <span class="month">07/06/2017 5:00 pm</span>
-                    </div>
-                </div> 
-            </li>
-            <li>
-                <div class="video-widget-wrap">
-                    <a href="/detail.html">
-                        <div class="video-thumb">
-                            <amp-img  width="100" height="50" layout="responsive" src="images/js.jpg"></amp-img>
-                            <div class="video-overlay"></div>
-                        </div>
-                    </a>
-                    <div class="video-detail-wrap">
-                        <h4>
-                            Fuel Up JavaScript with Functional Programming			    				</h4>
-                        <span class="speaker">By: Shine Xavier</span> 
-                        <span class="company"> Senior Architect,   UST Global</span> 
-                        <span class="month">01/03/2017 5:00 pm</span>
-                    </div>
-                </div> 
-            </li>
-        </ul>
+    <div class="wrapper">
+      <header>
+          <a href="/index.amp.html">
+              <amp-img src="logo.png" class="logo"  width="131" height="31"></amp-img>
+          </a>
+      </header>
+      <div class="content">
+          <ul class="event-list">
+              <li>
+                  <div class="video-widget-wrap">
+                      <a href="/detail.html">
+                          <div class="video-thumb">
+                              <amp-img  width="100" height="50" layout="responsive" src="images/ai.jpg"></amp-img>
+                              <div class="video-overlay"></div>
+                          </div>
+                      </a>
+                      <div class="video-detail-wrap">
+                          <h4>
+                              Deep Learning in AI – A Closer Look with ...			    				</h4>
+                          <span class="speaker">By: Manuyash Chaudhary</span> 
+                          <span class="company"> AI &amp; NLP Developer &amp; Researcher,   Accubits Technologies</span> 
+                          <span class="month">07/06/2017 5:00 pm</span>
+                      </div>
+                  </div> 
+              </li>
+              <li>
+                  <div class="video-widget-wrap">
+                      <a href="/detail.html">
+                          <div class="video-thumb">
+                              <amp-img  width="100" height="50" layout="responsive" src="images/js.jpg"></amp-img>
+                              <div class="video-overlay"></div>
+                          </div>
+                      </a>
+                      <div class="video-detail-wrap">
+                          <h4>
+                              Fuel Up JavaScript with Functional Programming			    				</h4>
+                          <span class="speaker">By: Shine Xavier</span> 
+                          <span class="company"> Senior Architect,   UST Global</span> 
+                          <span class="month">01/03/2017 5:00 pm</span>
+                      </div>
+                  </div> 
+              </li>
+              <li>
+                  <div class="video-widget-wrap">
+                      <a href="/detail.html">
+                          <div class="video-thumb">
+                              <amp-img  width="100" height="50" layout="responsive" src="images/ai.jpg"></amp-img>
+                              <div class="video-overlay"></div>
+                          </div>
+                      </a>
+                      <div class="video-detail-wrap">
+                          <h4>
+                              Deep Learning in AI – A Closer Look with ...                  </h4>
+                          <span class="speaker">By: Manuyash Chaudhary</span> 
+                          <span class="company"> AI &amp; NLP Developer &amp; Researcher,   Accubits Technologies</span> 
+                          <span class="month">07/06/2017 5:00 pm</span>
+                      </div>
+                  </div> 
+              </li>
+              <li>
+                  <div class="video-widget-wrap">
+                      <a href="/detail.html">
+                          <div class="video-thumb">
+                              <amp-img  width="100" height="50" layout="responsive" src="images/js.jpg"></amp-img>
+                              <div class="video-overlay"></div>
+                          </div>
+                      </a>
+                      <div class="video-detail-wrap">
+                          <h4>
+                              Fuel Up JavaScript with Functional Programming                  </h4>
+                          <span class="speaker">By: Shine Xavier</span> 
+                          <span class="company"> Senior Architect,   UST Global</span> 
+                          <span class="month">01/03/2017 5:00 pm</span>
+                      </div>
+                  </div> 
+              </li>
+              <li>
+                  <div class="video-widget-wrap">
+                      <a href="/detail.html">
+                          <div class="video-thumb">
+                              <amp-img  width="100" height="50" layout="responsive" src="images/ai.jpg"></amp-img>
+                              <div class="video-overlay"></div>
+                          </div>
+                      </a>
+                      <div class="video-detail-wrap">
+                          <h4>
+                              Deep Learning in AI – A Closer Look with ...                  </h4>
+                          <span class="speaker">By: Manuyash Chaudhary</span> 
+                          <span class="company"> AI &amp; NLP Developer &amp; Researcher,   Accubits Technologies</span> 
+                          <span class="month">07/06/2017 5:00 pm</span>
+                      </div>
+                  </div> 
+              </li>
+              <li>
+                  <div class="video-widget-wrap">
+                      <a href="/detail.html">
+                          <div class="video-thumb">
+                              <amp-img  width="100" height="50" layout="responsive" src="images/js.jpg"></amp-img>
+                              <div class="video-overlay"></div>
+                          </div>
+                      </a>
+                      <div class="video-detail-wrap">
+                          <h4>
+                              Fuel Up JavaScript with Functional Programming                  </h4>
+                          <span class="speaker">By: Shine Xavier</span> 
+                          <span class="company"> Senior Architect,   UST Global</span> 
+                          <span class="month">01/03/2017 5:00 pm</span>
+                      </div>
+                  </div> 
+              </li>
+          </ul>
+      </div>
+      <footer>
+          <h5>Who should attend? </h5>
+          <ul>
+              <li>Directors, CEOs & CTOs</li>
+              <li>Entrepreneurs</li>
+              <li>Data Scientists</li>
+              <li>Machine Learning Scientists</li>
+              <li>Developers</li>
+              <li>Big Data Experts</li>
+              <li>All genres of Technology Enthusiasts</li>
+          </ul>
+          <h5>Contact Us </h5>
+          <span>FAYA Corporation</span><br>
+          <span>Email on <a href="mailto:info@fayausa.com">info@fayausa.com</a></span><br>
+          <span>call - 866-686-5988</span>
+          <p class="copy-right-footer">Copyright ©
+              <a href="http://fayausa.com">FAYA Corporation</a> 2017. 2330 S. Archibald Ave. Ontario, CA 91761
+          </p>
+      </footer>
     </div>
-    <footer>
-        <h5>Who should attend? </h5>
-        <ul>
-            <li>Directors, CEOs & CTOs</li>
-            <li>Entrepreneurs</li>
-            <li>Data Scientists</li>
-            <li>Machine Learning Scientists</li>
-            <li>Developers</li>
-            <li>Big Data Experts</li>
-            <li>All genres of Technology Enthusiasts</li>
-        </ul>
-        <h5>Contact Us </h5>
-        <span>FAYA Corporation</span><br>
-        <span>Email on <a href="mailto:info@fayausa.com">info@fayausa.com</a></span><br>
-        <span>call - 866-686-5988</span>
-        <p class="copy-right-footer">Copyright ©
-            <a href="http://fayausa.com">FAYA Corporation</a> 2017. 2330 S. Archibald Ave. Ontario, CA 91761
-        </p>
-    </footer>
     <amp-install-serviceworker 
         src="/service-worker.js" 
         layout="nodisplay"

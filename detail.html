@@ -14,13 +14,14 @@
     <style amp-custom>
     body {
         width: auto;
-        margin: 0 auto ;
-        max-width: 900px;
-        padding: 0;
         font-family: 'Lato', sans-serif;
         color: #333;
       }
-
+      .wrapper {
+        margin: 0 auto ;
+        max-width: 1200px;
+        padding: 0;
+      }
       header {
         font-size: 2em;
         text-align: center;
@@ -144,69 +145,74 @@
     </style>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
+    <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
   </head>
   <body>
-    <header>
-        <a href="../index.amp.html">
-            <amp-img src="logo.png" class="logo"  width="131" height="31"></amp-img>
-        </a>
-    </header>
-    <div class="content">
-        <div class="event-detail-wrap">
-            <amp-img  width="100" height="50" layout="responsive" src="images/ai.jpg"></amp-img> 
-            <div class="event-detail">
-                <h4>Deep Learning in AI – A Closer Look with Image Recognition</h4>                    
-                <span class="speaker-detail speaker">By: Shine Xavier</span> 
-                <span class="speaker-detail company"> Senior Architect,   UST Global</span> 
-                <span class="speaker-detail month">Streamed live on 07/06/2017 5:00 pm</span>
-                <p>
-                    &nbsp;&nbsp;&nbsp;&nbsp;    Artificial Intelligence and Deep Learning are the most talked about technologies driving the disruptive innovation of the future. The May edition of FAYA:80 provided a stepping stone for the technology enthusiasts to explore AI and its associated concepts. Now it’s the time to take a closer look at Deep Learning to discover the advances in algorithms and methods. Deep learning is revolutionizing artificial intelligence as machines become increasingly more intelligent and are able to recognize and sort objects and understand what they are.
-                    The 49th edition of FAYA:80 lets you take a deep dive into the advancing trends in Deep Learning, their impact to our ecosystem and successful applications in business leading to the creation of next generation products. Get the chance to use Image Recognition as a case study and learn how to implement AI, uncover its best practices & limitations in building intelligent applications.
-                    The session will be equally beneficial for Web and Mobile application Developers, Testers and top level Technical Managers and other technology enthusiasts.
-                    Join us for the session to know more.
-                </p>
-                <p>
-                    <strong>Topics Covered:</strong> 
-                </p>
-                <p>
-                    What is Deep Learning/Neural Networks?<br>
-                    Relationship b/w Neural Nets and Logistic Regression<br>
-                    Basic Learning Concepts<br>
-                    Best Practices & Applications<br>
-                    Comparison of different Neural Networks – ANN’s vs CNN’s<br>
-                    Case Study – Image Recognition<br>
-                </p>
-                <p>
-                    <strong>Sessions:</strong>
-                </p>
-                <p>
-                    Techbites (Speaker: Arun Unnikrishnan, FAYA)
-                </p>
-                <p>
-                    Deep Learning in AI (Speaker: Manuyash Chaudhary, Accubits Technologies)
-                </p>
-            </div>           
+    <div class="wrapper">
+        <header>
+            <a href="../index.amp.html">
+                <amp-img src="logo.png" class="logo"  width="131" height="31"></amp-img>
+            </a>
+        </header>
+        <div class="content">
+            <div class="event-detail-wrap">
+                <!-- <amp-img  width="100" height="50" layout="responsive" src="images/ai.jpg"></amp-img>  -->
+               
+                <amp-youtube    data-videoid="RnxqTfPEvhE"    layout="responsive"    width="480" height="270"></amp-youtube>
+                <div class="event-detail">
+                    <h4>Deep Learning in AI – A Closer Look with Image Recognition</h4>                    
+                    <span class="speaker-detail speaker">By: Shine Xavier</span> 
+                    <span class="speaker-detail company"> Senior Architect,   UST Global</span> 
+                    <span class="speaker-detail month">Streamed live on 07/06/2017 5:00 pm</span>
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;    Artificial Intelligence and Deep Learning are the most talked about technologies driving the disruptive innovation of the future. The May edition of FAYA:80 provided a stepping stone for the technology enthusiasts to explore AI and its associated concepts. Now it’s the time to take a closer look at Deep Learning to discover the advances in algorithms and methods. Deep learning is revolutionizing artificial intelligence as machines become increasingly more intelligent and are able to recognize and sort objects and understand what they are.
+                        The 49th edition of FAYA:80 lets you take a deep dive into the advancing trends in Deep Learning, their impact to our ecosystem and successful applications in business leading to the creation of next generation products. Get the chance to use Image Recognition as a case study and learn how to implement AI, uncover its best practices & limitations in building intelligent applications.
+                        The session will be equally beneficial for Web and Mobile application Developers, Testers and top level Technical Managers and other technology enthusiasts.
+                        Join us for the session to know more.
+                    </p>
+                    <p>
+                        <strong>Topics Covered:</strong> 
+                    </p>
+                    <p>
+                        What is Deep Learning/Neural Networks?<br>
+                        Relationship b/w Neural Nets and Logistic Regression<br>
+                        Basic Learning Concepts<br>
+                        Best Practices & Applications<br>
+                        Comparison of different Neural Networks – ANN’s vs CNN’s<br>
+                        Case Study – Image Recognition<br>
+                    </p>
+                    <p>
+                        <strong>Sessions:</strong>
+                    </p>
+                    <p>
+                        Techbites (Speaker: Arun Unnikrishnan, FAYA)
+                    </p>
+                    <p>
+                        Deep Learning in AI (Speaker: Manuyash Chaudhary, Accubits Technologies)
+                    </p>
+                </div>           
+            </div>
         </div>
+        <footer>
+            <h5>Who should attend? </h5>
+            <ul>
+                <li>Directors, CEOs & CTOs</li>
+                <li>Entrepreneurs</li>
+                <li>Data Scientists</li>
+                <li>Machine Learning Scientists</li>
+                <li>Developers</li>
+                <li>Big Data Experts</li>
+                <li>All genres of Technology Enthusiasts</li>
+            </ul>
+            <h5>Contact Us </h5>
+            <span>FAYA Corporation</span><br>
+            <span>Email on <a href="mailto:info@fayausa.com">info@fayausa.com</a></span><br>
+            <span>call - 866-686-5988</span>
+            <p class="copy-right-footer">Copyright ©
+                <a href="http://fayausa.com">FAYA Corporation</a> 2017. 2330 S. Archibald Ave. Ontario, CA 91761
+            </p>
+        </footer>
     </div>
-    <footer>
-        <h5>Who should attend? </h5>
-        <ul>
-            <li>Directors, CEOs & CTOs</li>
-            <li>Entrepreneurs</li>
-            <li>Data Scientists</li>
-            <li>Machine Learning Scientists</li>
-            <li>Developers</li>
-            <li>Big Data Experts</li>
-            <li>All genres of Technology Enthusiasts</li>
-        </ul>
-        <h5>Contact Us </h5>
-        <span>FAYA Corporation</span><br>
-        <span>Email on <a href="mailto:info@fayausa.com">info@fayausa.com</a></span><br>
-        <span>call - 866-686-5988</span>
-        <p class="copy-right-footer">Copyright ©
-            <a href="http://fayausa.com">FAYA Corporation</a> 2017. 2330 S. Archibald Ave. Ontario, CA 91761
-        </p>
-    </footer>
     <amp-install-serviceworker 
         src="/service-worker.js" 
         layout="nodisplay"

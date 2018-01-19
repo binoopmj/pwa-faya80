@@ -1,34 +1,18 @@
-<!--
- Copyright 2016 Google Inc.
- 
- Licensed under the Apache License, Version 2.0 (the "License");
- you may not use this file except in compliance with the License.
- You may obtain a copy of the License at
- 
-      http://www.apache.org/licenses/LICENSE-2.0
- 
- Unless required by applicable law or agreed to in writing, software
- distributed under the License is distributed on an "AS IS" BASIS,
- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- See the License for the specific language governing permissions and
- limitations under the License.
--->
 
 <!doctype html>
 <html ⚡ lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="canonical" href="/index.html">
-    <link rel="shortcut icon" href="amp_favicon.ico">
+    <link rel="shortcut icon" href="../amp_favicon.ico">
     <link rel="manifest" href="/manifest.json">
     <title>Faya:80</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    
+
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
     <style amp-custom>
-      body {
+    body {
         width: auto;
         font-family: 'Lato', sans-serif;
         color: #333;
@@ -69,7 +53,6 @@
         display: block;
         list-style-type: none;
         padding: 0;
-        text-align: center;
       }
 
       .edition-list__item {
@@ -117,141 +100,116 @@
         font-size: 10px;
         margin-top: 20px;
       }
-      .open-stage-content {
-        text-align: center ;
-        padding:20px;
-        clear: left;
-      }
-      .open-stage-content h2 {
-          color: #659E22;
-          font-size: 22px;
-          margin-bottom: 30px;
-      }
-      .open-stage-content p {
-          color: #5F5F5F;
-          font-size: 14px;
-          font-weight: 100;
-          margin-bottom: 5px;
-      }
-      .open-stage-content strong {
-          font-size: 20px;
-          font-weight: 400;
-          color: #5F5F5F;
-          margin-top: 20px;
-          display: inline-block;
-      }
-      ul {
-          margin: 0;
-          padding: 0;
-      }
-      .event-list {
-          margin-top: 25px;
-      }
-      .event-list li {
-          width: 48%;
-          padding: 0 1%;
-          float:left;
-          list-style-type: none;
-          height: 260px;
-      }
-      .video-detail-wrap {
-          font-size: 13px;
-      }
-      .video-detail-wrap h4 {
-          font-size: 15px;
-          color: #333;
-          margin: 4px 0;
-      }
-
-      .video-detail-wrap span {
-          display: block;
-          font-weight: 100;
-          font-size: 13px;
-      }
-      .video-detail-wrap span.company {
-          font-size: 11px;
-      }
-      .video-detail-wrap span.month {
-          margin-top: 10px;
-      }
-      @media only screen and (min-width : 768px) {
-        .banner h1 {
-          font-size: 35px;
-        }
-        .banner p {
-          font-size: 20px;
-        }
-        .open-stage-content p {
-          font-size: 18px;
+      /* event page */
+        ul {
+            margin: 0;
+            padding: 0;
         }
         .event-list li {
-          width: 23%;
-          padding: 0 1%;
-          float:left;
-          list-style-type: none;
+            width: 48%;
+            padding: 0 1%;
+            float:left;
+            list-style-type: none;
+            height: 260px;
+        }
+        .video-detail-wrap {
+            font-size: 13px;
+        }
+        .video-detail-wrap h4 {
+            font-size: 15px;
+            color: #333;
+            margin: 4px 0;
+        }
+
+        .video-detail-wrap span {
+            display: block;
+            font-weight: 100;
+            font-size: 13px;
         }
         .video-detail-wrap span.company {
-          font-size: 12px;
+            font-size: 11px;
         }
-        .footer-widget {
-          width: 50%;
-          float: left;
-          font-size: 13px;
+        .video-detail-wrap span.month {
+            margin-top: 10px;
         }
-        .copy-right-footer {
-          clear: left;
+        @media only screen and (min-width : 768px) {
+          .footer-widget {
+            width: 50%;
+            float: left;
+            font-size: 13px;
+          }
+          .copy-right-footer {
+            clear: left;
+          }
+          footer h5 {
+            font-size: 17px;
+          }
+          footer p.copy-right-footer {
+            font-size: 13px;
+          }
+          footer {
+            padding: 25px;
+          }
+          .event-list li {
+            width: 23%;
+            padding: 0 1%;
+            float:left;
+            list-style-type: none;
+          }
+          .video-detail-wrap span.company {
+            font-size: 12px;
+          }
         }
-        footer h5 {
-          font-size: 17px;
-        }
-        footer p.copy-right-footer {
-          font-size: 13px;
-        }
-        footer {
-          padding: 25px;
-        }
-      }
     </style>
+    
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
-    <script async type="text/javascript">
-      function myFunction(obj) {
-
-          var location = obj.getAttribute('data-attr');
-          console.log (location)
-      }
-    </script>
+  
   </head>
   <body>
     <div class="wrapper">
       <header>
-          <amp-img src="logo.png" class="logo"  width="131" height="31"></amp-img>
+          <a href="/index.amp.html">
+              <amp-img src="logo.png" class="logo"  width="131" height="31"></amp-img>
+          </a>
       </header>
-      <article>
-        <div class="banner">
-            <h1>Knowledge Shared is <span>Power Multiplied</span></h1>
-            <p>Breaking Echo Chambers through Free Knowledge Sharing</p>
-        </div>
-        <div class="content">
-          <ul class="edition-list">
-            <li class="edition-list__item">
-              <button onclick="myFunction(this)" data-attr="tvm">
-                <h2>TVM</h2>
-              </button>
-            </li>
-            <li class="edition-list__item">
-              <button onclick="myFunction(this)" data-attr="cochin">
-                <h2>Cochin</h2>
-              </button>
-            </li>
-            <li class="edition-list__item">
-              <button onclick="myFunction(this)" data-attr="kozhikode">
-                <h2>Kozhikode</h2>
-              </button>
-            </li>
-          </ul>
+      <div class="content">
           <ul class="event-list">
-              <li class="loc-cls tvm">
+              <li>
+                  <div class="video-widget-wrap">
+                      <a href="/detail.html">
+                          <div class="video-thumb">
+                              <amp-img  width="100" height="50" layout="responsive" src="images/ai.jpg"></amp-img>
+                              <div class="video-overlay"></div>
+                          </div>
+                      </a>
+                      <div class="video-detail-wrap">
+                          <h4>
+                              Deep Learning in AI – A Closer Look with ...			    				</h4>
+                          <span class="speaker">By: Manuyash Chaudhary</span> 
+                          <span class="company"> AI &amp; NLP Developer &amp; Researcher,   Accubits Technologies</span> 
+                          <span class="month">07/06/2017 5:00 pm</span>
+                      </div>
+                  </div> 
+              </li>
+              <li>
+                  <div class="video-widget-wrap">
+                      <a href="/detail.html">
+                          <div class="video-thumb">
+                              <amp-img  width="100" height="50" layout="responsive" src="images/js.jpg"></amp-img>
+                              <div class="video-overlay"></div>
+                          </div>
+                      </a>
+                      <div class="video-detail-wrap">
+                          <h4>
+                              Fuel Up JavaScript with Functional Programming			    				</h4>
+                          <span class="speaker">By: Shine Xavier</span> 
+                          <span class="company"> Senior Architect,   UST Global</span> 
+                          <span class="month">01/03/2017 5:00 pm</span>
+                      </div>
+                  </div> 
+              </li>
+              <li>
                   <div class="video-widget-wrap">
                       <a href="/detail.html">
                           <div class="video-thumb">
@@ -268,7 +226,7 @@
                       </div>
                   </div> 
               </li>
-              <li class="loc-cls tvm">
+              <li>
                   <div class="video-widget-wrap">
                       <a href="/detail.html">
                           <div class="video-thumb">
@@ -285,7 +243,7 @@
                       </div>
                   </div> 
               </li>
-              <li class="loc-cls cochin">
+              <li>
                   <div class="video-widget-wrap">
                       <a href="/detail.html">
                           <div class="video-thumb">
@@ -302,41 +260,7 @@
                       </div>
                   </div> 
               </li>
-              <li class="loc-cls cochin">
-                  <div class="video-widget-wrap">
-                      <a href="/detail.html">
-                          <div class="video-thumb">
-                              <amp-img  width="100" height="50" layout="responsive" src="images/js.jpg"></amp-img>
-                              <div class="video-overlay"></div>
-                          </div>
-                      </a>
-                      <div class="video-detail-wrap">
-                          <h4>
-                              Fuel Up JavaScript with Functional Programming                  </h4>
-                          <span class="speaker">By: Shine Xavier</span> 
-                          <span class="company"> Senior Architect,   UST Global</span> 
-                          <span class="month">01/03/2017 5:00 pm</span>
-                      </div>
-                  </div> 
-              </li>
-              <li class="loc-cls kozhikode">
-                  <div class="video-widget-wrap">
-                      <a href="/detail.html">
-                          <div class="video-thumb">
-                              <amp-img  width="100" height="50" layout="responsive" src="images/ai.jpg"></amp-img>
-                              <div class="video-overlay"></div>
-                          </div>
-                      </a>
-                      <div class="video-detail-wrap">
-                          <h4>
-                              Deep Learning in AI – A Closer Look with ...                  </h4>
-                          <span class="speaker">By: Manuyash Chaudhary</span> 
-                          <span class="company"> AI &amp; NLP Developer &amp; Researcher,   Accubits Technologies</span> 
-                          <span class="month">07/06/2017 5:00 pm</span>
-                      </div>
-                  </div> 
-              </li>
-              <li class="loc-cls kozhikode">
+              <li>
                   <div class="video-widget-wrap">
                       <a href="/detail.html">
                           <div class="video-thumb">
@@ -354,19 +278,7 @@
                   </div> 
               </li>
           </ul>
-        </div> 
-        <div class="open-stage">
-          <div class="open-stage-content">
-            <h2>The FAYA:80 Story</h2>
-            <p>FAYA:80 (read FAYA Port 80) is a monthly technology hangout for technology enthusiasts by technology enthusiasts to break the ice, analyse and evaluate emerging trends in technology.</p>
-            <p>
-            Held on the first Wednesday of the month at the Floor of Madness (FAYA, Technopark, Thiruvananthapuram), the series stands for Free Knowledge Sharing and aims to provide an open platform for entrepreneurs, developers and technology professionals to keep at par with the latest tools and technologies.</p>
-            <p>
-            Started in 2013, we have had 49 editions of FAYA:80 and DISRUPT KERALA 2017 marks the 50th instance. NASSCOM’s association with FAYA:80 from its 38th edition has helped further its impact to a wider audience across the state.</p>
-            <strong>Push your Limits &amp; Broaden the Horizons of your Knowledge!!!</strong>
-          </div>
-        </div> 
-      </article>
+      </div>
       <footer>
         <div class="footer-widget">
           <h5>Who should attend? </h5>
@@ -392,9 +304,9 @@
       </footer>
     </div>
     <amp-install-serviceworker 
-      src="/service-worker.js" 
-      layout="nodisplay"
-      data-iframe-src="/install-service-worker.html">
-    </amp-install-serviceworker>
+        src="/service-worker.js" 
+        layout="nodisplay"
+        data-iframe-src="/install-service-worker.html">
+    </amp-install-serviceworker>  
   </body>
 </html>

@@ -25,6 +25,7 @@
     <link rel="manifest" href="/manifest.json">
     <title>Faya:80</title>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="common.css">
     
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
     <style amp-custom>
@@ -32,21 +33,43 @@
         width: auto;
         font-family: 'Lato', sans-serif;
         color: #333;
+        -webkit-font-smoothing: antialiased;
       }
       .wrapper {
+        padding: 0;
+        clear: left;
+      }
+      .container {
         margin: 0 auto ;
         max-width: 1200px;
-        padding: 0;
       }
       header {
         font-size: 2em;
         text-align: center;
-        margin-top: 6px;
+        padding : 15px 0;
+        margin: 0 auto ;
+        max-width: 1200px;
       }
       .banner {
         background: #4d4e6d;
         text-align: center;
         padding: 10px;
+        position: relative;
+        background: url(./images/banner-port80.jpg) no-repeat top center;
+      }
+      .banner-content {
+        position: relative;
+        z-index: 2;
+        padding: 40px 0;
+      }
+      .banner-overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 1;
       }
       h1 {
         margin: 0;
@@ -65,31 +88,6 @@
         padding: 0;
         margin: 0.5em 0;
       }
-      .edition-list {
-        display: block;
-        list-style-type: none;
-        padding: 0;
-        text-align: center;
-      }
-
-      .edition-list__item {
-        display: inline-block;
-        border: 1px solid #ddd;
-      }
-
-      .edition-list__item a{
-        text-decoration: none;
-        cursor: pointer;
-        display: block;
-        padding: 10px;
-      }
-
-      .edition-list__item h2 {
-        margin: 0;
-        text-decoration: none;
-        color: #4d4e6d;
-        font-size: 18px;
-      }
       .content {
         padding: 5px 10px;
       }
@@ -99,6 +97,7 @@
         font-size: 11px;
         padding: 10px;
         clear: left;
+        margin: 0 auto ;
       }
       footer ul{
         padding-left: 15px;
@@ -116,11 +115,19 @@
       footer p.copy-right-footer {
         font-size: 10px;
         margin-top: 20px;
+        display: inline-block;
+        clear: left;
+        width: 100%;
+      }
+      .open-stage-wrap {
+        text-align: center ;
+        padding: 40px 0;
+        clear: left;
+        background: url(./images/port80-bg.jpg) repeat top center;
       }
       .open-stage-content {
-        text-align: center ;
-        padding:20px;
-        clear: left;
+        background: rgba(255, 255, 255, 0.75);
+        padding: 20px 30px;
       }
       .open-stage-content h2 {
           color: #659E22;
@@ -144,54 +151,29 @@
           margin: 0;
           padding: 0;
       }
-      .event-list {
-          margin-top: 25px;
-      }
-      .event-list li {
-          width: 48%;
-          padding: 0 1%;
-          float:left;
-          list-style-type: none;
-          height: 260px;
-      }
-      .video-detail-wrap {
-          font-size: 13px;
-      }
-      .video-detail-wrap h4 {
-          font-size: 15px;
-          color: #333;
-          margin: 4px 0;
-      }
 
-      .video-detail-wrap span {
-          display: block;
-          font-weight: 100;
-          font-size: 13px;
+      .view-btn {
+        background: #87c142;
+        color: #fff;
+        padding: 10px 20px;
+        margin-top: 25px;
+        display: inline-block;
+        text-decoration: none;
+        font-size: 20px;
+        text-transform: uppercase;
       }
-      .video-detail-wrap span.company {
-          font-size: 11px;
-      }
-      .video-detail-wrap span.month {
-          margin-top: 10px;
+      .view-btn:hover {
+        background: #659E22;
       }
       @media only screen and (min-width : 768px) {
         .banner h1 {
-          font-size: 35px;
+          font-size: 40px;
         }
         .banner p {
-          font-size: 20px;
+          font-size: 25px;
         }
         .open-stage-content p {
-          font-size: 18px;
-        }
-        .event-list li {
-          width: 23%;
-          padding: 0 1%;
-          float:left;
-          list-style-type: none;
-        }
-        .video-detail-wrap span.company {
-          font-size: 12px;
+          font-size: 16px;
         }
         .footer-widget {
           width: 50%;
@@ -214,147 +196,24 @@
     </style>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
-    <script async type="text/javascript">
-      function myFunction(obj) {
-
-          var location = obj.getAttribute('data-attr');
-          console.log (location)
-      }
-    </script>
   </head>
   <body>
+    <header>
+        <amp-img src="logo.png" class="logo"  width="200" height="46"></amp-img>
+    </header>
     <div class="wrapper">
-      <header>
-          <amp-img src="logo.png" class="logo"  width="131" height="31"></amp-img>
-      </header>
       <article>
         <div class="banner">
+          <div class="banner-overlay"></div>
+          <div class="banner-content">
             <h1>Knowledge Shared is <span>Power Multiplied</span></h1>
             <p>Breaking Echo Chambers through Free Knowledge Sharing</p>
+          </div>
         </div>
-        <div class="content">
-          <ul class="edition-list">
-            <li class="edition-list__item">
-              <button onclick="myFunction(this)" data-attr="tvm">
-                <h2>TVM</h2>
-              </button>
-            </li>
-            <li class="edition-list__item">
-              <button onclick="myFunction(this)" data-attr="cochin">
-                <h2>Cochin</h2>
-              </button>
-            </li>
-            <li class="edition-list__item">
-              <button onclick="myFunction(this)" data-attr="kozhikode">
-                <h2>Kozhikode</h2>
-              </button>
-            </li>
-          </ul>
-          <ul class="event-list">
-              <li class="loc-cls tvm">
-                  <div class="video-widget-wrap">
-                      <a href="/detail.html">
-                          <div class="video-thumb">
-                              <amp-img  width="100" height="50" layout="responsive" src="images/ai.jpg"></amp-img>
-                              <div class="video-overlay"></div>
-                          </div>
-                      </a>
-                      <div class="video-detail-wrap">
-                          <h4>
-                              Deep Learning in AI – A Closer Look with ...                  </h4>
-                          <span class="speaker">By: Manuyash Chaudhary</span> 
-                          <span class="company"> AI &amp; NLP Developer &amp; Researcher,   Accubits Technologies</span> 
-                          <span class="month">07/06/2017 5:00 pm</span>
-                      </div>
-                  </div> 
-              </li>
-              <li class="loc-cls tvm">
-                  <div class="video-widget-wrap">
-                      <a href="/detail.html">
-                          <div class="video-thumb">
-                              <amp-img  width="100" height="50" layout="responsive" src="images/js.jpg"></amp-img>
-                              <div class="video-overlay"></div>
-                          </div>
-                      </a>
-                      <div class="video-detail-wrap">
-                          <h4>
-                              Fuel Up JavaScript with Functional Programming                  </h4>
-                          <span class="speaker">By: Shine Xavier</span> 
-                          <span class="company"> Senior Architect,   UST Global</span> 
-                          <span class="month">01/03/2017 5:00 pm</span>
-                      </div>
-                  </div> 
-              </li>
-              <li class="loc-cls cochin">
-                  <div class="video-widget-wrap">
-                      <a href="/detail.html">
-                          <div class="video-thumb">
-                              <amp-img  width="100" height="50" layout="responsive" src="images/ai.jpg"></amp-img>
-                              <div class="video-overlay"></div>
-                          </div>
-                      </a>
-                      <div class="video-detail-wrap">
-                          <h4>
-                              Deep Learning in AI – A Closer Look with ...                  </h4>
-                          <span class="speaker">By: Manuyash Chaudhary</span> 
-                          <span class="company"> AI &amp; NLP Developer &amp; Researcher,   Accubits Technologies</span> 
-                          <span class="month">07/06/2017 5:00 pm</span>
-                      </div>
-                  </div> 
-              </li>
-              <li class="loc-cls cochin">
-                  <div class="video-widget-wrap">
-                      <a href="/detail.html">
-                          <div class="video-thumb">
-                              <amp-img  width="100" height="50" layout="responsive" src="images/js.jpg"></amp-img>
-                              <div class="video-overlay"></div>
-                          </div>
-                      </a>
-                      <div class="video-detail-wrap">
-                          <h4>
-                              Fuel Up JavaScript with Functional Programming                  </h4>
-                          <span class="speaker">By: Shine Xavier</span> 
-                          <span class="company"> Senior Architect,   UST Global</span> 
-                          <span class="month">01/03/2017 5:00 pm</span>
-                      </div>
-                  </div> 
-              </li>
-              <li class="loc-cls kozhikode">
-                  <div class="video-widget-wrap">
-                      <a href="/detail.html">
-                          <div class="video-thumb">
-                              <amp-img  width="100" height="50" layout="responsive" src="images/ai.jpg"></amp-img>
-                              <div class="video-overlay"></div>
-                          </div>
-                      </a>
-                      <div class="video-detail-wrap">
-                          <h4>
-                              Deep Learning in AI – A Closer Look with ...                  </h4>
-                          <span class="speaker">By: Manuyash Chaudhary</span> 
-                          <span class="company"> AI &amp; NLP Developer &amp; Researcher,   Accubits Technologies</span> 
-                          <span class="month">07/06/2017 5:00 pm</span>
-                      </div>
-                  </div> 
-              </li>
-              <li class="loc-cls kozhikode">
-                  <div class="video-widget-wrap">
-                      <a href="/detail.html">
-                          <div class="video-thumb">
-                              <amp-img  width="100" height="50" layout="responsive" src="images/js.jpg"></amp-img>
-                              <div class="video-overlay"></div>
-                          </div>
-                      </a>
-                      <div class="video-detail-wrap">
-                          <h4>
-                              Fuel Up JavaScript with Functional Programming                  </h4>
-                          <span class="speaker">By: Shine Xavier</span> 
-                          <span class="company"> Senior Architect,   UST Global</span> 
-                          <span class="month">01/03/2017 5:00 pm</span>
-                      </div>
-                  </div> 
-              </li>
-          </ul>
-        </div> 
+      </article>
+    </div>
+    <div class="wrapper open-stage-wrap"> 
+      <div class="container">
         <div class="open-stage">
           <div class="open-stage-content">
             <h2>The FAYA:80 Story</h2>
@@ -365,9 +224,12 @@
             Started in 2013, we have had 49 editions of FAYA:80 and DISRUPT KERALA 2017 marks the 50th instance. NASSCOM’s association with FAYA:80 from its 38th edition has helped further its impact to a wider audience across the state.</p>
             <strong>Push your Limits &amp; Broaden the Horizons of your Knowledge!!!</strong>
           </div>
-        </div> 
-      </article>
-      <footer>
+        </div>
+      </div>
+      <a class="view-btn" href="list.html" title="Editions">Editions</a>
+    </div> 
+    <footer>
+      <div class="container">
         <div class="footer-widget">
           <h5>Who should attend? </h5>
           <ul>
@@ -389,8 +251,8 @@
         <p class="copy-right-footer">Copyright ©
             <a href="http://fayausa.com">FAYA Corporation</a> 2017. 2330 S. Archibald Ave. Ontario, CA 91761
         </p>
-      </footer>
-    </div>
+      </div>
+    </footer>
     <amp-install-serviceworker 
       src="/service-worker.js" 
       layout="nodisplay"

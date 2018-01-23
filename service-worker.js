@@ -19,12 +19,12 @@ importScripts('workbox-sw.dev.v2.0.0.js');
 const workboxSW = new self.WorkboxSW();
 workboxSW.precache([
   {
-    "url": "images/ai.jpg",
-    "revision": "da971af664aa9fcc87289c850cc8614b"
+    "url": "images/banner-port80.jpg",
+    "revision": "76e9aa1ac0b0bcd98358199e1615b313"
   },
   {
-    "url": "images/js.jpg",
-    "revision": "f51f650dfe69858b7be3a2afdecf1a4f"
+    "url": "images/port80-bg.jpg",
+    "revision": "481548fc975196deaaeb7b513cf27a50"
   },
   {
     "url": "offline.html",

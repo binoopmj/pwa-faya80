@@ -1,0 +1,43 @@
+{
+   "event": [
+       {
+           "eventID" : "1",
+           "title": "TVM Deep Learning in AI – A Closer Look with",
+           "technology": "web",
+           "eventbanner":"ai.jpg",
+           "speaker": "Manuyash Chaudhary",
+           "profile": "AI & NLP Developer & Researcher, Accubits Technologies",
+           "thumb":"manuyash-chaudhary.jpg",
+           "date": "07/06/2017 5:00 pm",
+           "youtubeID": "RnxqTfPEvhE",
+           "details": "Artificial Intelligence and Deep Learning are the most talked about technologies driving the disruptive innovation of the future. The May edition of FAYA:80 provided a stepping stone for the technology enthusiasts to explore AI and its associated concepts. Now it’s the time to take a closer look at Deep Learning to discover the advances in algorithms and methods. Deep learning is revolutionizing artificial intelligence as machines become increasingly more intelligent and are able to recognize and sort objects and understand what they are. The 49th edition of FAYA:80 lets you take a deep dive into the advancing trends in Deep Learning, their impact to our ecosystem and successful applications in business leading to the creation of next generation products. Get the chance to use Image Recognition as a case study and learn how to implement AI, uncover its best practices & limitations in building intelligent applications. The session will be equally beneficial for Web and Mobile application Developers, Testers and top level Technical Managers and other technology enthusiasts. Join us for the session to know more.<strong>Topics Covered:</strong>What is Deep Learning/Neural Networks?<br>Relationship b/w Neural Nets and Logistic Regression",
+           "location": "tvm"
+       },
+       {
+          "eventID" : "2",
+           "title": "2 Deep Learning in AI – A Closer Look with",
+           "technology": "ios",
+           "eventbanner":"ai.jpg",
+           "speaker": "Manuyash Chaudhary",
+           "profile": "AI & NLP Developer & Researcher, Accubits Technologies",
+           "thumb":"manuyash-chaudhary.jpg",
+           "date": "07/06/2017 5:00 pm",
+           "youtubeID": "RnxqTfPEvhE",
+           "details": "Artificial Intelligence and Deep Learning are the most talked about technologies driving the disruptive innovation of the future. The May edition of FAYA:80 provided a stepping stone for the technology enthusiasts to explore AI and its associated concepts. Now it’s the time to take a closer look at Deep Learning to discover the advances in algorithms and methods. Deep learning is revolutionizing artificial intelligence as machines become increasingly more intelligent and are able to recognize and sort objects and understand what they are. The 49th edition of FAYA:80 lets you take a deep dive into the advancing trends in Deep Learning, their impact to our ecosystem and successful applications in business leading to the creation of next generation products. Get the chance to use Image Recognition as a case study and learn how to implement AI, uncover its best practices & limitations in building intelligent applications. The session will be equally beneficial for Web and Mobile application Developers, Testers and top level Technical Managers and other technology enthusiasts. Join us for the session to know more.",
+           "location": "tvm"
+       },
+       {
+          "eventID" : "3",
+           "title": "33Deep Learning in AI – A Closer Look with",
+           "technology": "security",
+           "eventbanner":"ai.jpg",
+           "speaker": "Manuyash Chaudhary",
+           "profile": "AI & NLP Developer & Researcher, Accubits Technologies",
+           "thumb":"manuyash-chaudhary.jpg",
+           "date": "07/06/2017 5:00 pm",
+           "youtubeID": "RnxqTfPEvhE",
+           "details": "Artificial Intelligence and Deep Learning are the most talked about technologies driving the disruptive innovation of the future. The May edition of FAYA:80 provided a stepping stone for the technology enthusiasts to explore AI and its associated concepts. Now it’s the time to take a closer look at Deep Learning to discover the advances in algorithms and methods. Deep learning is revolutionizing artificial intelligence as machines become increasingly more intelligent and are able to recognize and sort objects and understand what they are. The 49th edition of FAYA:80 lets you take a deep dive into the advancing trends in Deep Learning, their impact to our ecosystem and successful applications in business leading to the creation of next generation products. Get the chance to use Image Recognition as a case study and learn how to implement AI, uncover its best practices & limitations in building intelligent applications. The session will be equally beneficial for Web and Mobile application Developers, Testers and top level Technical Managers and other technology enthusiasts. Join us for the session to know more.",
+            "location": "tvm"      
+       }
+   ]
+}

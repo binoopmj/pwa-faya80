@@ -8,278 +8,57 @@
     <link rel="canonical" href="/index.html">
     <link rel="shortcut icon" href="../amp_favicon.ico">
     <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="common.css">
     <title>Faya:80</title>
-
-    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-    <style amp-custom>
-    body {
-        width: auto;
-        font-family: 'Lato', sans-serif;
-        color: #333;
-      }
-      .wrapper {
-        margin: 0 auto ;
-        max-width: 1200px;
-        padding: 0;
-      }
-      header {
-        font-size: 2em;
-        text-align: center;
-        margin-top: 6px;
-      }
-      .banner {
-        background: #4d4e6d;
-        text-align: center;
-        padding: 10px;
-      }
-      h1 {
-        margin: 0;
-        padding: 0.5em;
-      }
-      .banner h1 {
-        color: #fff;
-      }
-      .banner p {
-        color: #fff;
-      }
-      h1 span {
-          color: #87C142;
-      }
-      p {
-        padding: 0;
-        margin: 0.5em 0;
-      }
-      .edition-list {
-        display: block;
-        list-style-type: none;
-        padding: 0;
-      }
-
-      .edition-list__item {
-        display: inline-block;
-        border: 1px solid #ddd;
-      }
-
-      .edition-list__item a{
-        text-decoration: none;
-        cursor: pointer;
-        display: block;
-        padding: 10px;
-      }
-
-      .edition-list__item h2 {
-        margin: 0;
-        text-decoration: none;
-        color: #4d4e6d;
-        font-size: 18px;
-      }
-      .content {
-        padding: 5px 10px;
-      }
-      footer {
-        background: #313131;
-        color: #969595;
-        font-size: 11px;
-        padding: 10px;
-        clear: left;
-      }
-      footer ul{
-        padding-left: 15px;
-      }
-      footer a {
-        color: #87be49;
-        text-decoration: none;
-      }
-      footer h5 {
-        color: #fff;
-        font-size: 14px;
-        margin: 5px 0;
-        font-weight: 300;
-      }
-      footer p.copy-right-footer {
-        font-size: 10px;
-        margin-top: 20px;
-      }
-      /* event page */
-        ul {
-            margin: 0;
-            padding: 0;
-        }
-        .event-list li {
-            width: 48%;
-            padding: 0 1%;
-            float:left;
-            list-style-type: none;
-            height: 260px;
-        }
-        .video-detail-wrap {
-            font-size: 13px;
-        }
-        .video-detail-wrap h4 {
-            font-size: 15px;
-            color: #333;
-            margin: 4px 0;
-        }
-
-        .video-detail-wrap span {
-            display: block;
-            font-weight: 100;
-            font-size: 13px;
-        }
-        .video-detail-wrap span.company {
-            font-size: 11px;
-        }
-        .video-detail-wrap span.month {
-            margin-top: 10px;
-        }
-        @media only screen and (min-width : 768px) {
-          .footer-widget {
-            width: 50%;
-            float: left;
-            font-size: 13px;
-          }
-          .copy-right-footer {
-            clear: left;
-          }
-          footer h5 {
-            font-size: 17px;
-          }
-          footer p.copy-right-footer {
-            font-size: 13px;
-          }
-          footer {
-            padding: 25px;
-          }
-          .event-list li {
-            width: 23%;
-            padding: 0 1%;
-            float:left;
-            list-style-type: none;
-          }
-          .video-detail-wrap span.company {
-            font-size: 12px;
-          }
-        }
-    </style>
-    
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
-  
+    <script  type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+    <script  type="text/javascript" src="js/list.js"> </script>
   </head>
   <body>
+    <header>
+        <a href="/index.amp.html">
+            <amp-img src="logo.png" class="logo"  width="200" height="46"></amp-img>
+        </a>
+    </header>
     <div class="wrapper">
-      <header>
-          <a href="/index.amp.html">
-              <amp-img src="logo.png" class="logo"  width="131" height="31"></amp-img>
-          </a>
-      </header>
-      <div class="content">
-          <ul class="event-list">
-              <li>
-                  <div class="video-widget-wrap">
-                      <a href="/detail.html">
-                          <div class="video-thumb">
-                              <amp-img  width="100" height="50" layout="responsive" src="images/ai.jpg"></amp-img>
-                              <div class="video-overlay"></div>
-                          </div>
-                      </a>
-                      <div class="video-detail-wrap">
-                          <h4>
-                              Deep Learning in AI – A Closer Look with ...			    				</h4>
-                          <span class="speaker">By: Manuyash Chaudhary</span> 
-                          <span class="company"> AI &amp; NLP Developer &amp; Researcher,   Accubits Technologies</span> 
-                          <span class="month">07/06/2017 5:00 pm</span>
-                      </div>
-                  </div> 
-              </li>
-              <li>
-                  <div class="video-widget-wrap">
-                      <a href="/detail.html">
-                          <div class="video-thumb">
-                              <amp-img  width="100" height="50" layout="responsive" src="images/js.jpg"></amp-img>
-                              <div class="video-overlay"></div>
-                          </div>
-                      </a>
-                      <div class="video-detail-wrap">
-                          <h4>
-                              Fuel Up JavaScript with Functional Programming			    				</h4>
-                          <span class="speaker">By: Shine Xavier</span> 
-                          <span class="company"> Senior Architect,   UST Global</span> 
-                          <span class="month">01/03/2017 5:00 pm</span>
-                      </div>
-                  </div> 
-              </li>
-              <li>
-                  <div class="video-widget-wrap">
-                      <a href="/detail.html">
-                          <div class="video-thumb">
-                              <amp-img  width="100" height="50" layout="responsive" src="images/ai.jpg"></amp-img>
-                              <div class="video-overlay"></div>
-                          </div>
-                      </a>
-                      <div class="video-detail-wrap">
-                          <h4>
-                              Deep Learning in AI – A Closer Look with ...                  </h4>
-                          <span class="speaker">By: Manuyash Chaudhary</span> 
-                          <span class="company"> AI &amp; NLP Developer &amp; Researcher,   Accubits Technologies</span> 
-                          <span class="month">07/06/2017 5:00 pm</span>
-                      </div>
-                  </div> 
-              </li>
-              <li>
-                  <div class="video-widget-wrap">
-                      <a href="/detail.html">
-                          <div class="video-thumb">
-                              <amp-img  width="100" height="50" layout="responsive" src="images/js.jpg"></amp-img>
-                              <div class="video-overlay"></div>
-                          </div>
-                      </a>
-                      <div class="video-detail-wrap">
-                          <h4>
-                              Fuel Up JavaScript with Functional Programming                  </h4>
-                          <span class="speaker">By: Shine Xavier</span> 
-                          <span class="company"> Senior Architect,   UST Global</span> 
-                          <span class="month">01/03/2017 5:00 pm</span>
-                      </div>
-                  </div> 
-              </li>
-              <li>
-                  <div class="video-widget-wrap">
-                      <a href="/detail.html">
-                          <div class="video-thumb">
-                              <amp-img  width="100" height="50" layout="responsive" src="images/ai.jpg"></amp-img>
-                              <div class="video-overlay"></div>
-                          </div>
-                      </a>
-                      <div class="video-detail-wrap">
-                          <h4>
-                              Deep Learning in AI – A Closer Look with ...                  </h4>
-                          <span class="speaker">By: Manuyash Chaudhary</span> 
-                          <span class="company"> AI &amp; NLP Developer &amp; Researcher,   Accubits Technologies</span> 
-                          <span class="month">07/06/2017 5:00 pm</span>
-                      </div>
-                  </div> 
-              </li>
-              <li>
-                  <div class="video-widget-wrap">
-                      <a href="/detail.html">
-                          <div class="video-thumb">
-                              <amp-img  width="100" height="50" layout="responsive" src="images/js.jpg"></amp-img>
-                              <div class="video-overlay"></div>
-                          </div>
-                      </a>
-                      <div class="video-detail-wrap">
-                          <h4>
-                              Fuel Up JavaScript with Functional Programming                  </h4>
-                          <span class="speaker">By: Shine Xavier</span> 
-                          <span class="company"> Senior Architect,   UST Global</span> 
-                          <span class="month">01/03/2017 5:00 pm</span>
-                      </div>
-                  </div> 
-              </li>
+      
+      <div class="container">
+        <div class="content">
+          <ul class="edition-list">
+            <li class="edition-list__item">
+              <button class="active" data-attr="tvm">
+                <h2>TVM</h2>
+              </button>
+            </li>
+            <li class="edition-list__item">
+              <button data-attr="cochin">
+                <h2>Cochin</h2>
+              </button>
+            </li>
+            <li class="edition-list__item">
+              <button data-attr="kzkd">
+                <h2>Kozhikode</h2>
+              </button>
+            </li>
           </ul>
+          <ul class="filter-list">
+            <li><a href="#" id="all" class="fa fa-eye active">View  All</a></li>
+            <li><a href="#" id="web" class="fa fa-globe">Web</a></li>
+            <li><a href="#" id="ios" class="fa fa-apple">IOS</a></li>
+            <li><a href="#" id="android" class="fa fa-android">Android</a></li>
+            <li><a href="#" id="frontend" class="fa fa-html5">Front End</a></li>
+            <li><a href="#" id="security" class="fa fa-shield">Security</a></li>
+          </ul>
+          <ul class="event-list" id="event-list">
+              
+          </ul>
+        </div>
       </div>
-      <footer>
+    </div>
+    <footer>
+      <div class="container">
         <div class="footer-widget">
           <h5>Who should attend? </h5>
           <ul>
@@ -301,8 +80,9 @@
         <p class="copy-right-footer">Copyright ©
             <a href="http://fayausa.com">FAYA Corporation</a> 2017. 2330 S. Archibald Ave. Ontario, CA 91761
         </p>
-      </footer>
-    </div>
+      </div>
+    </footer>
+    
     <amp-install-serviceworker 
         src="/service-worker.js" 
         layout="nodisplay"

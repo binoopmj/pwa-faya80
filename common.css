@@ -303,6 +303,11 @@ ul {
   max-width: 700px;
   margin: 0 auto;
 }
+.video-wrap .event-banner {
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+}
 
 @media only screen and (min-width : 768px) {
   .content {

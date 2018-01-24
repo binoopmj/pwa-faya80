@@ -2,42 +2,17 @@
    "event": [
        {
            "eventID" : "1",
-           "title": "Kzkd Deep Learning in AI – A Closer Look with",
-           "technology": "web",
-           "eventbanner":"ai.jpg",
-           "speaker": "Manuyash Chaudhary",
-           "profile": "AI & NLP Developer & Researcher, Accubits Technologies",
-           "thumb":"manuyash-chaudhary.jpg",
-           "date": "07/06/2017 5:00 pm",
-           "youtubeID": "RnxqTfPEvhE",
-           "details": "Artificial Intelligence and Deep Learning are the most talked about technologies driving the disruptive innovation of the future. The May edition of FAYA:80 provided a stepping stone for the technology enthusiasts to explore AI and its associated concepts. Now it’s the time to take a closer look at Deep Learning to discover the advances in algorithms and methods. Deep learning is revolutionizing artificial intelligence as machines become increasingly more intelligent and are able to recognize and sort objects and understand what they are. The 49th edition of FAYA:80 lets you take a deep dive into the advancing trends in Deep Learning, their impact to our ecosystem and successful applications in business leading to the creation of next generation products. Get the chance to use Image Recognition as a case study and learn how to implement AI, uncover its best practices & limitations in building intelligent applications. The session will be equally beneficial for Web and Mobile application Developers, Testers and top level Technical Managers and other technology enthusiasts. Join us for the session to know more.",
-           "location": "tvm"
-       },
-       {
-          "eventID" : "2",
-           "title": "2 Deep Learning in AI – A Closer Look with",
-           "technology": "ios",
-           "eventbanner":"ai.jpg",
-           "speaker": "Manuyash Chaudhary",
-           "profile": "AI & NLP Developer & Researcher, Accubits Technologies",
-           "thumb":"manuyash-chaudhary.jpg",
-           "date": "07/06/2017 5:00 pm",
-           "youtubeID": "RnxqTfPEvhE",
-           "details": "Artificial Intelligence and Deep Learning are the most talked about technologies driving the disruptive innovation of the future. The May edition of FAYA:80 provided a stepping stone for the technology enthusiasts to explore AI and its associated concepts. Now it’s the time to take a closer look at Deep Learning to discover the advances in algorithms and methods. Deep learning is revolutionizing artificial intelligence as machines become increasingly more intelligent and are able to recognize and sort objects and understand what they are. The 49th edition of FAYA:80 lets you take a deep dive into the advancing trends in Deep Learning, their impact to our ecosystem and successful applications in business leading to the creation of next generation products. Get the chance to use Image Recognition as a case study and learn how to implement AI, uncover its best practices & limitations in building intelligent applications. The session will be equally beneficial for Web and Mobile application Developers, Testers and top level Technical Managers and other technology enthusiasts. Join us for the session to know more.",
-           "location": "tvm"
-       },
-       {
-          "eventID" : "3",
-           "title": "33Deep Learning in AI – A Closer Look with",
-           "technology": "qa",
-           "eventbanner":"ai.jpg",
-           "speaker": "Manuyash Chaudhary",
-           "profile": "AI & NLP Developer & Researcher, Accubits Technologies",
-           "thumb":"manuyash-chaudhary.jpg",
-           "date": "07/06/2017 5:00 pm",
-           "youtubeID": "RnxqTfPEvhE",
-           "details": "Artificial Intelligence and Deep Learning are the most talked about technologies driving the disruptive innovation of the future. The May edition of FAYA:80 provided a stepping stone for the technology enthusiasts to explore AI and its associated concepts. Now it’s the time to take a closer look at Deep Learning to discover the advances in algorithms and methods. Deep learning is revolutionizing artificial intelligence as machines become increasingly more intelligent and are able to recognize and sort objects and understand what they are. The 49th edition of FAYA:80 lets you take a deep dive into the advancing trends in Deep Learning, their impact to our ecosystem and successful applications in business leading to the creation of next generation products. Get the chance to use Image Recognition as a case study and learn how to implement AI, uncover its best practices & limitations in building intelligent applications. The session will be equally beneficial for Web and Mobile application Developers, Testers and top level Technical Managers and other technology enthusiasts. Join us for the session to know more.",
-            "location": "tvm"      
+           "title": "Discovering Cross-Platform Mobile App Development Using Xamarin",
+           "technology": "ios android",
+           "eventbanner":"Cross-Platform-Mobile-App.jpg",
+           "speaker": "Abdul Muhyami Arif",
+           "profile": "Mobile Developer, FantaCode",
+           "speakerdesc": "A technology enthusiast who strives to find cost-effective solutions to various problems, Abdul Muhyami Arif is a mobile developer at FantaCode whose current interest area includes Mobility and Chat Bots. He has been working on the Xamarin platform for three years, and has extensive hands-on experience in Xamarin.Android, Xamarin.Forms and Xamarin.IOS. An avid follower of the Microsoft technologies, he also develops UWP (Universal Windows Applications) applications and wishes to leverage the full power of Microsoft Azure, Mixed Reality and Bot Frameworks.",
+           "thumb":"Abdul-Muhyami-Arif.jpg",
+           "date": "17/01/2018 5:00 pm",
+           "youtubeID": "",
+           "details": "Writing a single version of code and using it on multiple platforms is a chance any software developer would jump at. Cross-platform application development has been a reality for a while now, but it came with its own set of problems ranging from testing issues to maintainability and sometimes even compromised user experience.<br>The Xamarin development platform, however, was a game changer. Considered to be one of the best, it allows cross-platform mobile app development for iOS, Android, and Windows Phone in C# and .NET.<br>The 8th edition of FAYA:80 Kozhikode, Discovering Cross-platform Mobile App Development Using Xamarin, will be an opportunity for all developers and other technology enthusiasts to get familiar with the concept of cross-platform development.<strong>Topics Covered:</strong>Introduction to the Xamarin Ecosystem<br>How to Fight the Learning Curve<br>Demo - Xamarin Forms<br>ML, AR demo Using Xamarin<strong>Sessions:</strong>Discovering Cross-Platform Mobile App Development Using Xamarin (Abdul Muhyami Arif, FantaCode)",
+           "location": "kzkd"
        }
    ]
 }

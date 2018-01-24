@@ -103,6 +103,8 @@ p {
   margin-bottom: 10px;
   font-family: 'Lato', sans-serif;
   text-transform: capitalize;
+  float: left;
+  clear: left;
 }
 .backbtn:before {
   margin-right: 5px;
@@ -181,13 +183,18 @@ ul {
     padding: 0 1%;
     float:left;
     list-style-type: none;
-    height: 260px;
+    margin-bottom: 15px;
+}
+.video-widget-wrap {
+    border: 1px solid #ddd;
 }
 .tech-filter {
   text-align: center;
 }
 .video-detail-wrap {
-    font-size: 13px;
+  font-size: 13px;
+  padding: 5px 10px;
+
 }
 .video-detail-wrap h4 {
     font-size: 15px;
@@ -225,7 +232,12 @@ ul {
 }
 .speaker-detail.company {
   font-size: 13px;
+}
+.speaker-wrap .details {
+  font-size: 14px;
   font-style: italic;
+  color: #555;
+  line-height: 21px;
 }
 .event-detail {
   color: #525252;
@@ -235,11 +247,15 @@ ul {
     margin: 20px 0 10px;
     font-weight: 100;
 }
-.event-detail .speaker-thumb {
-    width: 60px;
-    float: left;
-    border-radius: 30px;
+.speaker-wrap .speaker-thumb {
+    width: 100px;
+    border-radius: 50px;
     margin-right: 10px;
+    margin: 0 ;
+    display: block;
+}
+.speaker-wrap h3 {
+  margin: 5px 0;
 }
 .event-detail .event-content {
   margin-top: 20px;
@@ -269,17 +285,25 @@ ul {
   color: #000;
 }
 .filter-list li a:before {
-    position: absolute;
-    left: 50%;
-    top: 0;
-    font-size: 33px;
-    margin-left: -13px;
-    color: #ccc;
-    font-family: FontAwesome;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  font-size: 33px;
+  margin-left: -13px;
+  color: #ccc;
+  font-family: FontAwesome;
 }
 .filter-list li a.active:before {
   color: #87c142;
 }
+.video-wrap {
+  background: #000;
+}
+.video-wrap amp-youtube {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 @media only screen and (min-width : 768px) {
   .content {
     min-height: 400px;
@@ -319,6 +343,15 @@ ul {
   .filter-list li a:before {
     font-size: 40px;
     margin-left: -18px;
+  }
+  .event-detail {
+    width: 75%;
+    float: left;
+  }
+  .speaker-wrap {
+    width: 22%;
+    float: right;
+    margin-top: 20px;
   }
   footer h5 {
     font-size: 17px;

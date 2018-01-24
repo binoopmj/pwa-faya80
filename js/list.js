@@ -12,6 +12,9 @@ $(function() {
 	           
 	     	});
 	    });
+	    setTimeout(function(){ $('.video-widget-wrap').matchHeight({byRow: false});}, 100);
+	    $(".filter-list a").removeClass('active');
+	    $(".filter-list a#all").addClass('active');
 	});
 
    $.getJSON('location/tvm/tvm.json', function(data) {
@@ -36,4 +39,9 @@ $(function() {
 	    jQuerybtns.removeClass('active');
 	    $(this).addClass('active');
   	});
+  	
+});
+
+$( document ).ready(function() {
+    setTimeout(function(){ $('.video-widget-wrap').matchHeight({byRow: false});}, 500);
 });

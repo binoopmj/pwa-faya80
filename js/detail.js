@@ -13,14 +13,9 @@ $(function() {
 
       
 
-        // var follow = "<amp-youtube data-videoid='"+ f.youtubeID +"' layout='responsive' width='480' height='270'></amp-youtube><div class='event-detail'><h4>"+ f.title +"</h4><span class='speaker-detail speaker'>By: " + f.speaker + "</span><span class='speaker-detail company'>" + f.profile + "</span><span class='speaker-detail month'>Streamed live on " + f.date + "</span><p>"+ f.details +"</p></div>"
-
-        // $(follow).appendTo("#event-detail-wrap");
-      
-
       if (f.eventID == eID) {
 
-        var eventdetail = "<amp-youtube data-videoid='"+ f.youtubeID +"' layout='responsive' width='480' height='270'></amp-youtube><div class='event-detail'><h4>"+ f.title +"</h4><img class='speaker-thumb' src='/location/"+ location +"/speakers/"+ f.thumb +"'><span class='speaker-detail speaker'>By: " + f.speaker + "</span><span class='speaker-detail company'>" + f.profile + "</span><span class='speaker-detail month'>Streamed live on " + f.date + "</span><p class='event-content'>"+ f.details +"</p></div>"
+        var eventdetail = "<div class='video-wrap'><amp-youtube data-videoid='"+ f.youtubeID +"' layout='responsive' width='480' height='270'></amp-youtube></div><div class='event-detail'><h4>"+ f.title +"</h4><span class='speaker-detail speaker'>By: " + f.speaker + "</span><span class='speaker-detail month'>Streamed live on " + f.date + "</span><p class='event-content'>"+ f.details +"</p></div><div class='speaker-wrap'><img class='speaker-thumb' src='/location/"+ location +"/speakers/"+ f.thumb +"'><h3>"+ f.speaker +"</h3><span class='speaker-name'><span class='speaker-detail company'>" + f.profile + "</span></span><div class='details'><p>"+ f.speakerdesc +"</p></div></div>"
 
         $(eventdetail).appendTo("#event-detail-wrap");
 

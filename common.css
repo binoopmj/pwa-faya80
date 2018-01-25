@@ -92,7 +92,7 @@ p {
   margin: 0;
   text-decoration: none;
   color: #4d4e6d;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
 }
 .content {
@@ -362,6 +362,9 @@ ul {
     width: 22%;
     float: right;
     margin-top: 20px;
+  }
+  .edition-list__item h2 {
+    font-size: 16px;
   }
   footer h5 {
     font-size: 17px;

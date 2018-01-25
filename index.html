@@ -1,33 +1,27 @@
-<!--
- Copyright 2016 Google Inc.
- 
- Licensed under the Apache License, Version 2.0 (the "License");
- you may not use this file except in compliance with the License.
- You may obtain a copy of the License at
- 
-      http://www.apache.org/licenses/LICENSE-2.0
- 
- Unless required by applicable law or agreed to in writing, software
- distributed under the License is distributed on an "AS IS" BASIS,
- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- See the License for the specific language governing permissions and
- limitations under the License.
--->
 
 <!doctype html>
-<html lang="en">
+<html ⚡ lang="en">
   <head>
-    <link rel="shortcut icon" href="amp_favicon.ico">
-
-    <title>Faya</title>
-
-
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="canonical" href="/index.html">
+    <link rel="shortcut icon" href="../amp_favicon.ico">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="common.css">
-    <script src="base.js"></script>
+    <title>Faya:80</title>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
+    <script  type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+    <script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js?ver=1.0.0'></script>
+    <script  type="text/javascript" src="js/list.js"> </script>
   </head>
   <body>
-     <header>
-        <img src="logo.png" class="logo"  width="200" height="46"></img>
+    <header>
+        <a href="/index.html">
+            <amp-img src="logo.png" class="logo"  width="200" height="46"></amp-img>
+        </a>
     </header>
     <div class="wrapper">
       <article>
@@ -39,6 +33,41 @@
           </div>
         </div>
       </article>
+    </div>
+    <div class="wrapper">
+      <div class="container">
+        <div class="content">
+          <h4 class="filter-title">Watch and Get Updated </h4>
+          <ul class="edition-list">
+            <li class="edition-list__item">
+              <button class="active" data-attr="tvm">
+                <h2>Trivandrum</h2>
+              </button>
+            </li>
+            <li class="edition-list__item">
+              <button data-attr="cochin">
+                <h2>Cochin</h2>
+              </button>
+            </li>
+            <li class="edition-list__item">
+              <button data-attr="kzkd">
+                <h2>Kozhikode</h2>
+              </button>
+            </li>
+          </ul>
+          <ul class="filter-list">
+            <li><a href="#" id="all" class="fa fa-eye active">View  All</a></li>
+            <li><a href="#" id="web" class="fa fa-globe">Web</a></li>
+            <li><a href="#" id="ios" class="fa fa-apple">IOS</a></li>
+            <li><a href="#" id="android" class="fa fa-android">Android</a></li>
+            <li><a href="#" id="frontend" class="fa fa-html5">Front End</a></li>
+            <li><a href="#" id="security" class="fa fa-shield">Security</a></li>
+          </ul>
+          <ul class="event-list" id="event-list">
+              
+          </ul>
+        </div>
+      </div>
     </div>
     <div class="wrapper open-stage-wrap"> 
       <div class="container">
@@ -54,7 +83,7 @@
           </div>
         </div>
       </div>
-      <a class="view-btn" href="list.html" title="Editions">Editions</a>
+      <!-- <a class="view-btn" href="list.html" title="Editions">Editions</a> -->
     </div> 
     <footer>
       <div class="container">
@@ -81,5 +110,11 @@
         </p>
       </div>
     </footer>
+    
+    <amp-install-serviceworker 
+        src="/service-worker.js" 
+        layout="nodisplay"
+        data-iframe-src="/install-service-worker.html">
+    </amp-install-serviceworker>  
   </body>
 </html>

@@ -26,11 +26,6 @@ $(function() {
            $(details).appendTo("#event-list");
            
 
-
-           
-			console.log(Math.max(55,100));
-
-
      	});
     });
 

@@ -1,11 +1,11 @@
 $(function() { 
-  var url_string = window.location.href; //window.location.href
+  var url_string = window.location.href; //gets browser url
   var url = new URL(url_string);
-  var location = url.searchParams.get("loc");
+  var location = url.searchParams.get("loc"); 
   var eID = url.searchParams.get("id");
 
 
-  // People to Follow 
+  // Event details
 
   $.getJSON('/location/'+ location +'/' + location + '.json', function(data) {
 
@@ -16,7 +16,7 @@ $(function() {
       if (f.eventID == eID) {
 
         if (f.youtubeID == "") {
-          var bannerdetail = "<div class='video-wrap'><img class='event-banner' src='/location/"+f.location+"/banners/"+ f.eventbanner +"'/></div>"
+          var bannerdetail = "<div class='video-wrap'><img class='event-banner' src='/location/"+location+"/banners/"+ f.eventbanner +"'/></div>"
         } else {
           var bannerdetail = "<div class='video-wrap'><amp-youtube data-videoid='"+ f.youtubeID +"' layout='responsive' width='480' height='270'></amp-youtube></div>"
         }

@@ -63,21 +63,25 @@ p {
   padding: 0;
   text-align: center;
   margin-top: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .edition-list__item {
   display: inline-block;
+  border: 1px solid #ddd;
+  margin: 0px 4px;
+}
+.edition-list__item .active {
+  background: #87c042;
 }
 .edition-list__item .active h2 {
-  color: #87c142;
-  font-size: 22px; 
+  color: #fff;
 }
 .edition-list__item button{
   text-decoration: none;
   cursor: pointer;
   display: block;
-  padding: 10px;
+  padding: 6px 10px;
   border: none;
   background: none;
 }
@@ -88,7 +92,8 @@ p {
   margin: 0;
   text-decoration: none;
   color: #4d4e6d;
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 400;
 }
 .content {
   padding: 5px 10px;
@@ -346,8 +351,8 @@ ul {
     font-size: 14px;
   }
   .filter-list li a:before {
-    font-size: 40px;
-    margin-left: -18px;
+    font-size: 35px;
+    margin-left: -15px;
   }
   .event-detail {
     width: 75%;

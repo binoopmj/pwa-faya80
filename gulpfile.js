@@ -3,6 +3,7 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var browserSync = require('browser-sync').create();
+var imagemin = require('gulp-imagemin');
 
 //style paths
 var sassFiles = 'styles/sass/**/*.scss',
@@ -13,7 +14,11 @@ gulp.task('styles', function(){
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest(cssDest));
 });
-
+gulp.task('images', () =>
+    gulp.src('location/*/*/*.jpg')
+        .pipe(imagemin())
+        .pipe(gulp.dest('./location/'))
+);
 
 
 gulp.task('watch',function() {

@@ -1,25 +1,38 @@
 //gulpfile.js
 
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var browserSync = require('browser-sync').create();
-var imagemin = require('gulp-imagemin');
+var gulp = require('gulp'),
+    sass = require('gulp-sass'),
+    browserSync = require('browser-sync').create(),
+    newer = require('gulp-newer'), 
+    notify  = require('gulp-notify'),
+    imagemin = require('gulp-imagemin');
+
 
 //style paths
 var sassFiles = 'styles/sass/**/*.scss',
     cssDest = 'styles/';
 
+/**
+ * Styles
+*/
 gulp.task('styles', function(){
     gulp.src(sassFiles)
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest(cssDest));
 });
-gulp.task('images', () =>
-    gulp.src('location/*/*/*.jpg')
-        .pipe(imagemin())
-        .pipe(gulp.dest('./location/'))
-);
 
+/**
+ * Images
+*/
+gulp.task('images', function() {
+
+// Add the newer pipe to pass through newer images only
+    return  gulp.src(['location/*/*.{png,jpg,gif}'])
+                .pipe(newer('location/*/'))
+                .pipe(imagemin({ optimizationLevel: 7, progressive: true, interlaced: true }))
+                .pipe(gulp.dest('location/'))
+                .pipe( notify( { message: 'Images task complete', onLast: true } ) );
+});
 
 gulp.task('watch',function() {
 	browserSync.init({
@@ -27,6 +40,7 @@ gulp.task('watch',function() {
             baseDir: "./"
         }
     });
+    gulp.watch('location/*/*/*.jpg', ['images']).on('change', browserSync.reload);
     gulp.watch(sassFiles,['styles']).on('change', browserSync.reload);
     gulp.watch("*.html").on('change', browserSync.reload);
 });

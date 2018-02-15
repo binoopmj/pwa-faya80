@@ -207,6 +207,6 @@
            "date": "02/03/2016 5:00 pm",
            "youtubeID": "CILswTXxoNg",
            "details": "React.js is still a rather murky topic for a lot. And so this session explored its workings and main concepts like Components, Virtual DOM, One-way data binding etc.<strong>Topics Covered:</strong>Components<br>JSX<br>Data for component<br>The component lifecycle<br>Component Methods<br>Component Breakdown"
-       },
+       }
    ]
 }

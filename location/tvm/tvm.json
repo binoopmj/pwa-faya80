@@ -155,6 +155,58 @@
            "date": "07/07/2016 5:00 pm",
            "youtubeID": "ZrB3Mi7YWfY",
            "details": "Machine Learning and incorporating it into daily practices was the focus for this session. As organizations evolve and embrace technological advances, Machine Learning has become a key currency to gain an advantage over competitors and push business-success. With the big guns of technology like Google, Apple, Amazon, Facebook etc. rethinking everything around Machine Learning, it has transformed the way we do business and is impacting most parts of our lives. Machine learning has given us self-driving cars, speech recognition, effective web search, and a vastly improved understanding of the human genome. It harnesses the power of Pattern Recognition coupled with Computational Learning theory in Artificial Intelligence. Using algorithms that iteratively learn from data, Machine Learning allows computers to find hidden insights without being explicitly programmed where to look.<strong>Topics Covered:</strong>What is Machine Learning?<br>Basic Learning Concepts<br>Supervised Learning vs Unsupervised Learning<br>Popular Machine Learning Algorithms<br>Scope & Limits of Machine Learning<br>Machine Learning – Is it Statistics in Disguise?<br>Re-engineering Business with Machine Learning"
-       }
+       },
+      {
+          "eventID" : "37",
+           "title": "fastlane — Automation and Continuous Delivery for iOS Apps",
+           "technology": "web security",
+           "eventbanner":"37.jpg",
+           "speaker": "Sarath C",
+           "profile": "Architect at Experion Technologies, Technopark, Trivandrum",
+           "speakerdesc": "The session will be led by Mr. Sarath C. He works as an Architect at Experion Technologies, Technopark, Trivandrum. At Experion, he focuses on Product Engineering, Technical Consultation and administers mobile development practices focusing on iOS and Android Platforms. He has more than a decade of industry experience and has successfully delivered products across various technologies and domains.",
+           "thumb":"Sarath C.jpg",
+           "date": "01/06/2016 5:00 pm",
+           "youtubeID": "pKxaKLq_XMU",
+           "details": "this session dealt with Fastlane which provides the easiest way to automate building and releasing iOS apps. It is a set of tools that helps to unify and automate the app deployment or release process within a single streamlined workflow. With Fastlane, one can establish Continuous Delivery (CD), a design practice used in software development to automate and improve the process of software delivery.<strong>Topics Covered:</strong>Introduction to fastlane tools.<br>How to orchestrate fastlane tools to unify development workflow.<br>Automate Continuous Delivery to TestFlight, Crashlytics Beta and App Store using fastlane.<br>Accelerate development using fastlane tools and Continuous Integration.<br>Use fastlane tools for launch activities like generate screenshots, on board beta test users etc.<br>Demo with fastlane and CI"
+       },
+      {
+          "eventID" : "36",
+           "title": "Introduction to DevOps",
+           "technology": "web security",
+           "eventbanner":"36.jpg",
+           "speaker": "Priya Sivakumar",
+           "profile": "Delivery Head, TATA Elxsi",
+           "speakerdesc": "The session will be led by Priya Sivakumar. She is with TATA Elxsi for the last 10 years and is currently the Delivery Head in the Broadcast Business Unit. She handles the customer account for a leading US Cable Service Provider. She graduated from the College of Engineering, Trivandrum (CET) in 1998, and started her career with the Embedded Group in Philips Software Centre, Bangalore, before joining TATA Elxsi. In her current role, she led the team through a transition from Waterfall, to Agile to DevOps. Today, the team is working seamlessly with the customer in a mature DevOps environment and reaps the benefits of the transition.",
+           "thumb":"Priya Sivakumar.jpg",
+           "date": "04/05/2016 5:00 pm",
+           "youtubeID": "DoF8HQ8wULk",
+           "details": "This session dealt with DevOps, a practice of doing things faster in an automated and repeatable manner that emphasises the collaboration and communication of both software developers and other information-technology (IT) professionals while automating the process of software delivery and infrastructure changes. It aims at establishing a culture and environment where building, testing, and releasing software can happen rapidly, frequently, and more reliably.<strong>Topics Covered:</strong>Introduction to DevOps<br>Why the world is increasingly moving towards DevOps model<br>What it takes for this movement – in terms of understanding,<br>mindset, tools and infrastructure."
+       },
+      {
+          "eventID" : "35",
+           "title": "Beyond React - Flux and Redux",
+           "technology": "web security",
+           "eventbanner":"35.jpg",
+           "speaker": "Vijay Dev",
+           "profile": "Lead Front-End Developer of Qburst",
+           "speakerdesc": "The session will be led by the Lead Front-End Developer of Qburst, Mr. Vijay Dev. He is a pioneer in front-end development with over 7 years of experience in the filed. Started building javascript MVC applications since 2012, before powerful frameworks like Backbone, Ember, Angular etc became popular. Worked with few big clients like CustomMade & AOL.",
+           "thumb":"Vijay Dev.jpg",
+           "date": "06/04/2016 5:00 pm",
+           "youtubeID": "Nnz3D-H6sHs",
+           "details": "New modes of UI development has always gained popularity in the WebApp-development regime. While the previous session was on React JS, this one took the audience beyond React with a detailed discussion on Flux, Redux and immutable JS.<br>Redux provides a state container for JavaScript applications that will help applications behave consistently in different environments. It is an evolution of the ideas presented by Facebook's Flux, avoiding the complexity found in Flux. This session helped the attendees harness the power of Redux and Immutable.js by exploring the library and its main concepts. Understanding Flux, Compare flux and redux, more on Redux, Immutable.JS and normalizr.JS are some of the areas that were covered.<strong>Topics Covered:</strong>Understanding Flux<br>Difference between Flux and Redux<br>More into Redux<br>Immutable JS / Normalizr JS"
+       },
+      {
+          "eventID" : "34",
+           "title": "React.js: Rethinking UI development with Javascript",
+           "technology": "web security",
+           "eventbanner":"34.jpg",
+           "speaker": "Vijay Dev",
+           "profile": "Lead front-end developer who works with QBurst",
+           "speakerdesc": "Vijay Dev is Lead front-end developer who works with QBurst and has 7yrs of front-end development experience. Started building javascript MVC applications since 2012, before powerful frameworks like Backbone, Ember, Angular etc became popular. Worked with few big clients like CustomMade & AOL.",
+           "thumb":"Vijay Dev.jpg",
+           "date": "02/03/2016 5:00 pm",
+           "youtubeID": "CILswTXxoNg",
+           "details": "React.js is still a rather murky topic for a lot. And so this session explored its workings and main concepts like Components, Virtual DOM, One-way data binding etc.<strong>Topics Covered:</strong>Components<br>JSX<br>Data for component<br>The component lifecycle<br>Component Methods<br>Component Breakdown"
+       },
    ]
 }

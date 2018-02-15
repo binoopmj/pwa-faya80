@@ -142,6 +142,19 @@
            "date": "03/08/2016 5:00 pm",
            "youtubeID": "5CipHXEgKUk",
            "details": "The last few years saw a huge hype in the popularity of Machine Learning. The July edition of FAYA:80 unleashed Machine Learning by breaking the myths and hypes around it. Now it's the time to make use of the Machine Learning capabilities to transform and re-engineer daily business.The August edition of FAYA:80 provides the right opportunity with its session on TensorFlow.TensorFlow isa highly scalable machine learning system open-sourced by Google.It paves way for any individual, company, or organization to build their own systems using the same software that Google does to fuel everything from photo recognition to automated email replies. TensorFlow is power-packed for the users to gain expertise in Deep Learning as well as in other forms of AI, including Reinforcement Learning and Logistic Regression.It can run on a single smartphone or across thousands of computers in datacenters.<strong>Topics Covered:</strong>What is TensorFlow?<br>TensorFlow Computational Model<br>TensorFlow Capabilities<br>Visualise Learning through TensorBoard<br>Tensor Flow Performance and Parallelism<br>Live Demo: Build your own Image Classifier"
+       },
+      {
+          "eventID" : "38",
+           "title": "Machine Learning – Breaking the Myths & Hypes around",
+           "technology": "web security",
+           "eventbanner":"38.jpg",
+           "speaker": "Praseed Pai",
+           "profile": "Software Architect working in UST Global",
+           "speakerdesc": "The session will be led by Mr. Praseed Pai. He is a well-known Software Architect working in UST Global. His areas of interest include Enterprise Software Development (using C#/.net/Java), Engineering Software Development (CAD/CAM/C++), Cross Platform C++ Development (Windows/Linux/Mac), Computer Graphics, Computational Finance and Domain specific Programming Languages. He is the author of SLANG open source compiler infrastructure for learning about compilers. Currently, he is co-authoring a book for Packt Publishing on .NET Design Patterns. He has taken about 200 presentations on various technology topics.lobal with over 16 years of experience in IT Consulting and Product Development. His areas of interest include Reactive and Distributed Systems, Programming Languages, and Bitcoin. He is passionate about programming for the web and its potential as a tool to transform user experience. His career spans across diverse roles from Dev Ops to Developer to Quality Assurance to Product Owner.",
+           "thumb":"Praseed Pai.jpg",
+           "date": "07/07/2016 5:00 pm",
+           "youtubeID": "ZrB3Mi7YWfY",
+           "details": "Machine Learning and incorporating it into daily practices was the focus for this session. As organizations evolve and embrace technological advances, Machine Learning has become a key currency to gain an advantage over competitors and push business-success. With the big guns of technology like Google, Apple, Amazon, Facebook etc. rethinking everything around Machine Learning, it has transformed the way we do business and is impacting most parts of our lives. Machine learning has given us self-driving cars, speech recognition, effective web search, and a vastly improved understanding of the human genome. It harnesses the power of Pattern Recognition coupled with Computational Learning theory in Artificial Intelligence. Using algorithms that iteratively learn from data, Machine Learning allows computers to find hidden insights without being explicitly programmed where to look.<strong>Topics Covered:</strong>What is Machine Learning?<br>Basic Learning Concepts<br>Supervised Learning vs Unsupervised Learning<br>Popular Machine Learning Algorithms<br>Scope & Limits of Machine Learning<br>Machine Learning – Is it Statistics in Disguise?<br>Re-engineering Business with Machine Learning"
        }
    ]
 }

@@ -198,7 +198,7 @@
       {
           "eventID" : "34",
            "title": "React.js: Rethinking UI development with Javascript",
-           "technology": "web security",
+           "technology": "web frontend",
            "eventbanner":"34.jpg",
            "speaker": "Vijay Dev",
            "profile": "Lead front-end developer who works with QBurst",
@@ -237,7 +237,7 @@
       {
           "eventID" : "31",
            "title": "Why Ruby?",
-           "technology": "web security",
+           "technology": "web",
            "eventbanner":"31.jpg",
            "speaker": "Jikku Jose",
            "profile": "Ruby developer running a small startup by the name Qucentis in Kerala Startup Mission",
@@ -250,7 +250,7 @@
       {
           "eventID" : "30",
            "title": "Hybrid mobile app development and Ionic",
-           "technology": "web security",
+           "technology": "ios android",
            "eventbanner":"30.jpg",
            "speaker": "Liju Pillai",
            "profile": "Co-founder & CEO of Perfomatix Solutions Pvt Ltd",
@@ -276,7 +276,7 @@
       {
           "eventID" : "28",
            "title": "Uncommon Python",
-           "technology": "web security",
+           "technology": "web",
            "eventbanner":"28.jpg",
            "speaker": "Rajeev J Sebastian",
            "profile": "CEO, Alokin Software",
@@ -289,7 +289,7 @@
       {
           "eventID" : "27",
            "title": "Trends and Transformations in JavaScript",
-           "technology": "web security",
+           "technology": "frontend web",
            "eventbanner":"27.jpg",
            "speaker": "Faiz Mohamed Haneef, Deepu S Nath, Nithin S, Shiraz Samad",
            "profile": "Director - Neoito Technologies Pvt Ltd",
@@ -302,7 +302,7 @@
       {
           "eventID" : "26",
            "title": "Apple Watch: Start your developer engine",
-           "technology": "web ios",
+           "technology": "ios",
            "eventbanner":"26.jpg",
            "speaker": "Adarsh V C, Thahir Maheen",
            "profile": "IOS developers at DBG",

@@ -362,7 +362,7 @@
            "thumb":"aromal-thahir.jpg",
            "date": "04/03/2015 5:00 pm",
            "youtubeID": "utbmh23orVc",
-           "details": "Swift, the object oriented programming language introduced by Apple in June 2014, meant for developing applications for iOS and OS X platforms like the iPhone, iPad and Apple computers, was the focus for this session. A basic idea of how Swift will enhance mobile app development efforts was delivered.  <strong>Topics Covered:</strong>Techbites<br>Get Faster with Swift<br>Live Demo"
+           "details": "Swift, the object oriented programming language introduced by Apple in June 2014, meant for developing applications for iOS and OS X platforms like the iPhone, iPad and Apple computers, was the focus for this session. A basic idea of how Swift will enhance mobile app development efforts was delivered.  <strong>Topics Covered:</strong>Get Faster with Swift<br>Live Demo"
        },
       {
           "eventID" : "21",
@@ -389,6 +389,136 @@
            "date": "07/01/2015 5:00 pm",
            "youtubeID": "gvSzki6T7nU",
            "details": "The New Year edition featured an open forum on ‘Frontend Workflow Redefined’. Mr. Praveen Vijayan (Front End TeamLead) from Flip Media led the discussions. A basic lesson of HTML, CSS & Javascript was delivered.<strong>Topics Covered:</strong>Component based web development<br>JADE, SCSS and Browserify.<br>Project scaffolding<br>Yeomen, Bower, NPM<br>Enforcing coding standards<br>BEM, SMACSS, OOCSS<br>Front End Automation Using Gulp/Grunt tasks<br>Environment setup<br>Git, Vagrant, Nodejs, Jenkins"
+       },
+      {
+          "eventID" : "19",
+           "title": "Step into the Node.JS Express",
+           "technology": "web security",
+           "eventbanner":"19.jpg",
+           "speaker": "Dr. Jayaraj Poroor",
+           "profile": "Founder of DependSoft Consulting",
+           "speakerdesc": "The Session is handled by Dr. Jayaraj Poroor, Who is the Founder of DependSoft Consulting, with 19+ years of industry/R&D experience in cloud, web, mobile, and embedded settings. He is a hands-on, versatile technologist with a passion for information security. His security research papers have appeared in leading international journals such as the IEEE Internet Computing. He is the author of one of the earliest open source SSL VPNs.",
+           "thumb":"Dr. Jayaraj-Poroor.jpg",
+           "date": "03/12/2014 5:00 pm",
+           "youtubeID": "myHdwGa5rEo",
+           "details": "All questions on Node.JS were answered by Dr. Jayaraj Poroor during this session. All things Node.JS and why its making waves in the community were discussed. This was also the first ever talk on Node.JS in Kerala by its early adopters.<strong>Topics Covered:</strong>Introduction to Node.js<br>Anatomy of a node.js application<br>Database connectivity in Node.js<br>Step into Node.js Express<br>Security in Node.js"
+       },
+      {
+          "eventID" : "18",
+           "title": "Exploring Angular JS",
+           "technology": "web security",
+           "eventbanner":"18.jpg",
+           "speaker": "Liju Pillai",
+           "profile": "Co-founder & CEO of Perfomatix Solutions Pvt Ltd",
+           "speakerdesc": "The Session is handled by Liju Pillai, Who is the Co-founder & CEO of Perfomatix Solutions Pvt Ltd, with over a decade of experience in IT industry. At Perfomatix they have been using AngularJS for web and mobile development for over a year now and it is surely one of the frontrunners of Angular JS in Technopark.",
+           "thumb":"Liju-Pillai.jpg",
+           "date": "05/11/2014 5:00 pm",
+           "youtubeID": "7cAZZ4pdYkM",
+           "details": "AngularJS – the self-proclaimed superhero of JavaScript framework is gaining much traction now a days. This session dealt with this much awaited topic, helping developers expand the capabilities of JavaScript with the Google backed framework which is reshaping the web.<strong>Topics Covered:</strong>Introduction to Angular JS<br>Exploring Angular JS<br> Live Demo"
+       },
+      {
+          "eventID" : "17",
+           "title": "Mastering HTML5 & CSS3 - Building Performance Optimized Responsive Websites",
+           "technology": "web security",
+           "eventbanner":"17.jpg",
+           "speaker": "Shameer B & Rahul Raj, Sumil",
+           "profile": "UI Developer, UX Designer, UI Developer at FAYA",
+           "speakerdesc": "NIL",
+           "thumb":"Shameer-B.jpg & Rahul-Raj.jpg, Sumil.jpg",
+           "date": "01/10/2014 5:00 pm",
+           "youtubeID": "WwiKB10ZIKQ",
+           "details": "'Building Performance Optimized Responsive Websites' was the second of the Tri-Series on 'Mastering HTML5 & CSS3' aimed at creating awarenes on the HTML Layout and Frameworks available and how to build an optimized responsive website. This session helped set the tone for building a strong basement on best practices of front end development.strong>Topics Covered:</strong>HTML Layouts<br>HTML Frameworks<br>Optimizing Responsive Designs<br>Media Queries"
+       },
+      {
+          "eventID" : "16",
+           "title": "Mastering HTML5 & CSS3 - Leveling up to the future of Front End Development",
+           "technology": "web security",
+           "eventbanner":"16.jpg",
+           "speaker": "Shiraz Samad, Ganesh Kumar G, Shameer B & Rahul Raj",
+           "profile": "NIL",
+           "speakerdesc": "NIL",
+           "thumb":"Shiraz-Samad.jpg, Ganesh-Kumar G.jpg, Shameer-B.jpg & Rahul-Raj.jpg",
+           "date": "03/09/2014 5:00 pm",
+           "youtubeID": "RZJYWT5nGiU",
+           "details": "Mastering HTML5 & CSS3 was the first of the Tri-Series on 'Leveling up to the future of Front End Development' aimed at creating awarenes on the latest advancements of Front End Development. This session helped build a strong basement on the best practices of Front End Development.strong>Topics Covered:</strong>Evolution of HTML and CSS<br>Browser Highlevel Architecture<br>Trends and Updates on HTML5 and CSS3<br>Useful Tools for frontend developers"
+       },
+      {
+          "eventID" : "15",
+           "title": "Exploring Knockout JS - Live Demo",
+           "technology": "web security",
+           "eventbanner":"15.jpg",
+           "speaker": "Haneefa TP & Nithin S",
+           "profile": "NIL",
+           "speakerdesc": "NIL",
+           "thumb":"Haneefa-TP.jpg & Nithi-S.jpg",
+           "date": "06/08/2014 5:00 pm",
+           "youtubeID": "itWrYfPh864",
+           "details": "strong>Topics Covered:</strong>Basic knockout JS principles - MVC, MVVM patterns<br>Building a SPA using knockout JS<br>Useful extensions & related libraries"
+       },
+       {
+          "eventID" : "14",
+           "title": "Javascript Frameworks, A Walkthrough of Knockout, Ember, Angular, Backbone",
+           "technology": "web security",
+           "eventbanner":"14.jpg",
+           "speaker": "Deepu S Nath, Sreenath Sasikumar",
+           "profile": "NIL",
+           "speakerdesc": "NIL",
+           "thumb":"Deepu-S Nath.jpg, Sreenath-Sasikumar.jpg",
+           "date": "02/07/2014 5:00 pm",
+           "youtubeID": "zbx6nxAx_Qw",
+           "details": "strong>Topics Covered:</strong>About javascript libraries<br>Javascript frameworks smackdown - Knockout, Ember, Angular, Backbone"
+       },
+      {
+          "eventID" : "13",
+           "title": "Understanding Object Oriented JS, Frameworks & its Libraries",
+           "technology": "web security",
+           "eventbanner":"13.jpg",
+           "speaker": "Suresh Babu",
+           "profile": "NIL",
+           "speakerdesc": "NIL",
+           "thumb":"Suresh-Babu.jpg",
+           "date": "04/06/2014 5:00 pm",
+           "youtubeID": "f1qfko7BsRE",
+           "details": "strong>Topics Covered:</strong>Javascript - Myths Vs Reality<br>Understanding Object Oriented Javascript<br>Overview of Javascript Libraries"
+       },
+      {
+          "eventID" : "12",
+           "title": "Heart Bleed",
+           "technology": "web security",
+           "eventbanner":"12.jpg",
+           "speaker": "Deepu S Nath, Sreenath Sasikumar",
+           "profile": "NIL",
+           "speakerdesc": "NIL",
+           "thumb":"Deepu-S Nath.jpg, Sreenath-Sasikumar.jpg",
+           "date": "07/05/2014 5:00 pm",
+           "youtubeID": "tos1a3GXSXA",
+           "details": "strong>Topics Covered:</strong>Coffee@DBG Recap<br>Token of Appreciation<br>Know HeartBleed Vulnerability"
+       },
+      {
+          "eventID" : "11",
+           "title": "Mobility - Operating Systems, Privacy and Security",
+           "technology": "web security",
+           "eventbanner":"11.jpg",
+           "speaker": "Sreenath & Rejah Rehim",
+           "profile": "NIL",
+           "speakerdesc": "NIL",
+           "thumb":"Sreenath-Sasikumar.jpg & Rejah-Rehim.jpg",
+           "date": "02/04/2014 5:00 pm",
+           "youtubeID": "Obt33yU07is",
+           "details": "strong>Topics Covered:</strong>Mobility - Operating Systems, Privacy and Security<br>The topics of discussion includes<br>Enterprise Mobile Security & BYOD<br>Mobile Application Security<br>Privacy Concerns for Mobile Apps<br>Firefox OS and Ubuntu Touch"
+       },
+      {
+          "eventID" : "10",
+           "title": "Making Smart Moves In Mobility",
+           "technology": "web security",
+           "eventbanner":"10.jpg",
+           "speaker": "Aromal Sasidharan, Adarsh V C,
+           "profile": "NIL",
+           "speakerdesc": "NIL",
+           "thumb":"Aromal-Sasidharan.jpg, Adarsh-V C.jpg",
+           "date": "05/03/2014 5:00 pm",
+           "youtubeID": "gD2I2CN4GKo",
+           "details": "strong>Topics Covered:</strong>MBaaS - an overview<br>iOS/Android Libraries - the smarter choices<br>App Monetization - Understanding Mobility Revenue Channels"
        }
    ]
 }

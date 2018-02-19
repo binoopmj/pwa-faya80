@@ -164,7 +164,7 @@
            "speaker": "Sarath C",
            "profile": "Architect at Experion Technologies, Technopark, Trivandrum",
            "speakerdesc": "The session will be led by Mr. Sarath C. He works as an Architect at Experion Technologies, Technopark, Trivandrum. At Experion, he focuses on Product Engineering, Technical Consultation and administers mobile development practices focusing on iOS and Android Platforms. He has more than a decade of industry experience and has successfully delivered products across various technologies and domains.",
-           "thumb":"Sarath C.jpg",
+           "thumb":"Sarath-C.jpg",
            "date": "01/06/2016 5:00 pm",
            "youtubeID": "pKxaKLq_XMU",
            "details": "this session dealt with Fastlane which provides the easiest way to automate building and releasing iOS apps. It is a set of tools that helps to unify and automate the app deployment or release process within a single streamlined workflow. With Fastlane, one can establish Continuous Delivery (CD), a design practice used in software development to automate and improve the process of software delivery.<strong>Topics Covered:</strong>Introduction to fastlane tools.<br>How to orchestrate fastlane tools to unify development workflow.<br>Automate Continuous Delivery to TestFlight, Crashlytics Beta and App Store using fastlane.<br>Accelerate development using fastlane tools and Continuous Integration.<br>Use fastlane tools for launch activities like generate screenshots, on board beta test users etc.<br>Demo with fastlane and CI"
@@ -177,7 +177,7 @@
            "speaker": "Priya Sivakumar",
            "profile": "Delivery Head, TATA Elxsi",
            "speakerdesc": "The session will be led by Priya Sivakumar. She is with TATA Elxsi for the last 10 years and is currently the Delivery Head in the Broadcast Business Unit. She handles the customer account for a leading US Cable Service Provider. She graduated from the College of Engineering, Trivandrum (CET) in 1998, and started her career with the Embedded Group in Philips Software Centre, Bangalore, before joining TATA Elxsi. In her current role, she led the team through a transition from Waterfall, to Agile to DevOps. Today, the team is working seamlessly with the customer in a mature DevOps environment and reaps the benefits of the transition.",
-           "thumb":"Priya Sivakumar.jpg",
+           "thumb":"Priya-Sivakumar.jpg",
            "date": "04/05/2016 5:00 pm",
            "youtubeID": "DoF8HQ8wULk",
            "details": "This session dealt with DevOps, a practice of doing things faster in an automated and repeatable manner that emphasises the collaboration and communication of both software developers and other information-technology (IT) professionals while automating the process of software delivery and infrastructure changes. It aims at establishing a culture and environment where building, testing, and releasing software can happen rapidly, frequently, and more reliably.<strong>Topics Covered:</strong>Introduction to DevOps<br>Why the world is increasingly moving towards DevOps model<br>What it takes for this movement – in terms of understanding,<br>mindset, tools and infrastructure."
@@ -190,7 +190,7 @@
            "speaker": "Vijay Dev",
            "profile": "Lead Front-End Developer of Qburst",
            "speakerdesc": "The session will be led by the Lead Front-End Developer of Qburst, Mr. Vijay Dev. He is a pioneer in front-end development with over 7 years of experience in the filed. Started building javascript MVC applications since 2012, before powerful frameworks like Backbone, Ember, Angular etc became popular. Worked with few big clients like CustomMade & AOL.",
-           "thumb":"Vijay Dev.jpg",
+           "thumb":"Vijay-Dev.jpg",
            "date": "06/04/2016 5:00 pm",
            "youtubeID": "Nnz3D-H6sHs",
            "details": "New modes of UI development has always gained popularity in the WebApp-development regime. While the previous session was on React JS, this one took the audience beyond React with a detailed discussion on Flux, Redux and immutable JS.<br>Redux provides a state container for JavaScript applications that will help applications behave consistently in different environments. It is an evolution of the ideas presented by Facebook's Flux, avoiding the complexity found in Flux. This session helped the attendees harness the power of Redux and Immutable.js by exploring the library and its main concepts. Understanding Flux, Compare flux and redux, more on Redux, Immutable.JS and normalizr.JS are some of the areas that were covered.<strong>Topics Covered:</strong>Understanding Flux<br>Difference between Flux and Redux<br>More into Redux<br>Immutable JS / Normalizr JS"
@@ -203,7 +203,7 @@
            "speaker": "Vijay Dev",
            "profile": "Lead front-end developer who works with QBurst",
            "speakerdesc": "Vijay Dev is Lead front-end developer who works with QBurst and has 7yrs of front-end development experience. Started building javascript MVC applications since 2012, before powerful frameworks like Backbone, Ember, Angular etc became popular. Worked with few big clients like CustomMade & AOL.",
-           "thumb":"Vijay Dev.jpg",
+           "thumb":"Vijay-Dev.jpg",
            "date": "02/03/2016 5:00 pm",
            "youtubeID": "CILswTXxoNg",
            "details": "React.js is still a rather murky topic for a lot. And so this session explored its workings and main concepts like Components, Virtual DOM, One-way data binding etc.<strong>Topics Covered:</strong>Components<br>JSX<br>Data for component<br>The component lifecycle<br>Component Methods<br>Component Breakdown"
@@ -216,7 +216,7 @@
            "speaker": "Nikhil Raj R",
            "profile": "Senior SEO Engineer at Alamy Images India Pvt.Ltd.",
            "speakerdesc": "Nikhil is a Senior SEO Engineer at Alamy Images, a stock photography agency with a collection of over 65 million images. In this role, he is responsible for improving Alamy's presence in Google Image Search. Previously he worked for Suyati Technologies at Infopark and DK New Media, a marketing agency where he consulted some of the biggest brands like Socialcast, Zimbra, Angie's List, Mindjet, Formstack, Roche Diagnostics.",
-           "thumb":"Nikhil Raj R.jpg",
+           "thumb":"Nikhil-Raj-R.jpg",
            "date": "03/02/2016 5:00 pm",
            "youtubeID": "RupDeUUck24",
            "details": "This session focused on Search Engine Optimization (SEO) from a developer perspective. There is a common belief that SEO is to be handled by a specialist and that developers have nothing to do with it when in fact SEO starts from developers and there are many important things a developer needs to take care of before involving an SEO specialist. And so in this session, developers were brought to the spotligh, highlighting what they could do to make SEO look better.<strong>Topics Covered:</strong>SEO Basics<br>How search engines work<br>SEO myths<br>Developers and SEO<br>Tips and Tricks for Developers"
@@ -229,7 +229,7 @@
            "speaker": "Aneesh Sreedharan",
            "profile": "Chief Exicutive & Technology Enthusiast, 2Hats Logic Solutions, Kochi",
            "speakerdesc": "Aneesh is a developer turned entrepreneur with around 9 years’ experience in the industry. He started his career as a web developer in Kochi back in 2006 and got a chance to work with some of the best programmers back then. He started developing in Magento from 2008 in its early stages. Almost the same time started with Zend framework. Later he moved to Europe and worked with some talented western European programmers in some heavy traffic websites. Inspired by the Dutch entrepreneurs, he decided to move back to India to start his own company. Thus he founded 2Hats Logic Solutions with a partner in 2014. Currently the company work with Magento, Laravel , AngularJS, Zend framework, CodeIgniter etc.<br>Outside technical life he is a traveller and goes on solo trips across various countries, hosts travellers etc.",
-           "thumb":"Aneesh Sreedharan.jpg",
+           "thumb":"Aneesh-Sreedharan.jpg",
            "date": "06/01/2016 5:00 pm",
            "youtubeID": "J8bINwa4Aq0",
            "details": "More than 80% of the shopping websites around the world is powered by Magento.  Magento 2 opens up huge opportunities for web developers to capitalize its advanced features.This session helped developers get started and learn more about Magento 2. For all newbies in the crowd, this session helped kick start their Magento 2 application, while helping existing Magento developers learn tips and tricks to get better.<strong>Topics Covered:</strong>Overview of Magento<br>Getting started with Magento 2<br>Exploring Magento 2<br>Creating themes and modules"
@@ -242,7 +242,7 @@
            "speaker": "Jikku Jose",
            "profile": "Ruby developer running a small startup by the name Qucentis in Kerala Startup Mission",
            "speakerdesc": "Jikku Jose is a Ruby developer running a small startup by the name Qucentis in Kerala Startup Mission. Now working on building a framework for rapid prototyping of apps using Ruby.",
-           "thumb":"Jikku Jose.jpg",
+           "thumb":"Jikku-Jose.jpg",
            "date": "02/12/2015 5:00 pm",
            "youtubeID": "vzyWNqnnXK0",
            "details": "As a second step to the introductive Ruby session a month ago, this session dealt with the language in more detail, focusing on the opportunities and obstacles related to it. The session had 3 parts- the ﬁrst one explaining the philosophy & community and why the platform is very inviting to new developers, the second one dealing with how versatile of a language Ruby is, and the third being a demo of a real time front-end app.<strong>Topics Covered:</strong>Philosophy<br>Community and ease to get in<br>Versatility of the language<br>Opportunities in Ruby<br>Demo of a simple real time front-end app using Volt"
@@ -255,7 +255,7 @@
            "speaker": "Liju Pillai",
            "profile": "Co-founder & CEO of Perfomatix Solutions Pvt Ltd",
            "speakerdesc": "The Session is handled by Liju Pillai, who is the Co-founder & CEO of Perfomatix Solutions Pvt Ltd, with over a decade of experience in IT industry. At Perfomatix they have been using Ionic for hybrid app development for over a year now and they are one of the frontrunners of Ionic and Angular JS in Technopark.",
-           "thumb":"Liju Pillai.jpg",
+           "thumb":"Liju-Pillai.jpg",
            "date": "04/11/2015 5:00 pm",
            "youtubeID": "d74rqvOyP-A",
            "details": "This session was about all things Ionic. Ionic framework is a free and open source library for building highly interactive cross platform mobile apps. Over the last couple of years ionic has established itself as leader in the hybrid mobile apps development space. Ionic team keeps the framework updated by adapting to the latest trends ahead of the competitors. Its closest competitors sell commercially while Ionic is free to use and open source moreover its ecosystem has grown so huge that you can easily find tons of development resources from the community to get started within no time. Like most of the other hybrid app frameworks Ionic also utilizes Cordova to go native for iOS, Android, windows phone and other platforms.<strong>Topics Covered:</strong>Concepts of hybrid mobile app development.<br>Various hybrid mobile app development platforms.<br>When to and when not to choose hybrid mobile platforms.<br>Introduction to Ionic framework.<br>Hands on with Ionic framework.<br>The future of Hybrid mobile app development."
@@ -268,7 +268,7 @@
            "speaker": "Ashik Ajith",
            "profile": "Software Engineer, Ruby Software India Pvt.Ltd.",
            "speakerdesc": "NIL",
-           "thumb":"Ashik Ajith.jpg",
+           "thumb":"Ashik-Ajith.jpg",
            "date": "07/10/2015 5:00 pm",
            "youtubeID": "SYlBDop2_B4",
            "details": "This session was for all excited about Ruby and ready for some hands-on knowledge. The discussions ranged rom basics, for newbies, to a more in-depth look at the language for the experienced in the audience.<strong>Topics Covered:</strong>What is Ruby and why?<br>Getting started with Ruby.<br>Having Fun with Ruby<br>Ruby tricks and Tips<br>Live Demo."
@@ -280,8 +280,8 @@
            "eventbanner":"28.jpg",
            "speaker": "Rajeev J Sebastian",
            "profile": "CEO, Alokin Software",
-           "speakerdesc": "NIL",
-           "thumb":"Ashik Ajith.jpg",
+           "speakerdesc": "",
+           "thumb":"Rajeev-J-Sebastian.jpg",
            "date": "03/09/2015 5:00 pm",
            "youtubeID": "x8MQdEiqWKg",
            "details": "Python is easy to learn, but still unfamiliar to many web developers. It is one of the most sought after programming languages in the world. There are great opportunities available for Python developers. This session helped web developers become familiar with the features of Python and kick start using it.<strong>Topics Covered:</strong>Quick Intro to Python<br>Statements in Python<br>Built-in packages in Python<br>Third party packages."
@@ -293,8 +293,8 @@
            "eventbanner":"27.jpg",
            "speaker": "Faiz Mohamed Haneef, Deepu S Nath, Nithin S, Shiraz Samad",
            "profile": "Director - Neoito Technologies Pvt Ltd",
-           "speakerdesc": "NIL",
-           "thumb":"Faiz Mohamed Haneef.jpg, Deepu S Nath.jpg, Nithin S.jpg, Shiraz Samad.jpg",
+           "speakerdesc": "",
+           "thumb":"Faiz-Mohamed-Haneef.jpg",
            "date": "05/08/2015 5:00 pm",
            "youtubeID": "hNvaZWFDf9g",
            "details": "JavaScript is changing faster than it ever has before. The ES6 standard will soon be finished and released which could increase the scope and opportunities of a JS developer. The new features, new APIs and even syntax additions are in flux. Tons of libraries are taking advantage of the new features, even though Node and Browser’s haven’t yet settled in to the new standards. But it is the future and also the focus of this session.<strong>Topics Covered:</strong>Recap on JS Sessions, Package Managers, Build Tools, Trans Compilation (Speaker:Deepu S Nath)<br>Common misconcepts about Javascript - Context, Scope and Instantiation (Speaker:Nithin S)<br>Recent Trends in JS (Speaker:Shiraz Samad)<br>What is new in ES6 (Speaker:Faiz Mohamed Haneef, Director - Neoito Technologies Pvt Ltd)"
@@ -302,12 +302,12 @@
       {
           "eventID" : "26",
            "title": "Apple Watch: Start your developer engine",
-           "technology": "web security",
+           "technology": "web ios",
            "eventbanner":"26.jpg",
            "speaker": "Adarsh V C, Thahir Maheen",
            "profile": "IOS developers at DBG",
-           "speakerdesc": "NIL",
-           "thumb":"Adarsh V C.jpg, Thahir Maheen.jpg",
+           "speakerdesc": "",
+           "thumb":"Adarsh-V-C.jpg",
            "date": "01/07/2015 5:00 pm",
            "youtubeID": "7dv8c0HmNw0",
            "details": "This session explored Apple Watch development including the new capabilities introduced by Watch OS2. WatchKit for watchOS 2 introduced many new capabilities for creating responsive Watch experiences, beyond just a faster architecture. New updates on digital crown, accelerometer and heart rate data, as well as providing physical feedback via the Taptic Engine were discussed.<strong>Topics Covered:</strong>Introduction to WatchKit<br>Apple Watch OS2 Updates<br>Live Demo on Apple watch development"
@@ -315,12 +315,12 @@
       {
           "eventID" : "25",
            "title": "Material Design using Angular",
-           "technology": "web security",
+           "technology": "web frontend",
            "eventbanner":"25.jpg",
            "speaker": "Faiz Mohamed Haneef, Lakshmikant Deshpande",
            "profile": "Neoito Technologies",
-           "speakerdesc": "NIL",
-           "thumb":"Faiz Mohamed Haneef.jpg, Lakshmikant Deshpande.jpg",
+           "speakerdesc": "",
+           "thumb":"Lakshmikant-Deshpande.jpg",
            "date": "03/06/2015 5:00 pm",
            "youtubeID": "6G052cpkfJ8",
            "details": "This session explored Material Design, a new universal design language developed by Google and announced at the Google I/O conference on June 25, 2014, in depth.The design is meant to offer a more consistent, universal look-and-feel across mobile, tablets, desktop and beyond. Reusable, well-tested, and accessible UI components using AngularJS were also discussed.<strong>Topics Covered:</strong>Material Design Quick Overview<br>Angular Quick Overview<br>Material Design using Angular"
@@ -332,8 +332,8 @@
            "eventbanner":"24.jpg",
            "speaker": "Mohana Kumar",
            "profile": "Senior Software Developer",
-           "speakerdesc": "NIL",
-           "thumb":"Mohana Kumar.jpg",
+           "speakerdesc": "",
+           "thumb":"Mohana-Kumar.jpg",
            "date": "06/05/2015 5:00 pm",
            "youtubeID": "ukjFqekOZbc",
            "details": "This session explored Big Data Analytics tools. The audience was enriched with a basic idea of Google File System & Map Reduce, Apache Hadoop, Dremel and Apache Drill.<strong>Topics Covered:</strong>Google File System & Map reduce<br>Apache Hadoop<br>Dremel<br>Apache Dril"
@@ -341,12 +341,12 @@
       {
           "eventID" : "23",
            "title": "A Deep Dive into Swift",
-           "technology": "web security",
+           "technology": "android ios",
            "eventbanner":"23.jpg",
-           "speaker": "Sarath .C",
+           "speaker": "Sarath C",
            "profile": "Senior Software Developer",
            "speakerdesc": "Sarath has more than a decade of experience in designing and developing systems across various domains and platforms. He’s presently working as an Software Architect and leading mobile development at Experion Technologies.",
-           "thumb":"Sarath .C.jpg",
+           "thumb":"Sarath-C.jpg",
            "date": "01/04/2015 5:00 pm",
            "youtubeID": "MDI70A5BQro",
            "details": "After an introductory session on Swift, there was a lot of feedback requesting for more on Swift. So we obliged. This session dealt in detail with the Swift programming language.It helped the audience exploit its power & modern language features  to enhance their mobile app development efforts.  <strong>Topics Covered:</strong>Language Constructs<br>Pattern Matching with Switch<br>Memory Management<br>High level Compiler overview and optimisations<br>Demo"
@@ -354,12 +354,12 @@
       {
           "eventID" : "22",
            "title": "Get Faster with Swift",
-           "technology": "web security",
+           "technology": "android ios",
            "eventbanner":"22.jpg",
            "speaker": "Aromal, Thahir Maheen",
            "profile": "IOS developers at DBG",
-           "speakerdesc": "NIL",
-           "thumb":"Aromal.jpg, Thahir Maheen.jpg",
+           "speakerdesc": "",
+           "thumb":"Aromal.jpg",
            "date": "04/03/2015 5:00 pm",
            "youtubeID": "utbmh23orVc",
            "details": "Swift, the object oriented programming language introduced by Apple in June 2014, meant for developing applications for iOS and OS X platforms like the iPhone, iPad and Apple computers, was the focus for this session. A basic idea of how Swift will enhance mobile app development efforts was delivered.  <strong>Topics Covered:</strong>Techbites<br>Get Faster with Swift<br>Live Demo"
@@ -367,12 +367,12 @@
       {
           "eventID" : "21",
            "title": "SCSS - CSS with Superpowers",
-           "technology": "web security",
+           "technology": "web frontend",
            "eventbanner":"21.jpg",
            "speaker": "Shiraz Samad",
            "profile": "Front End Developer at DBG",
            "speakerdesc": "Shiraz samad is working as a Front End Developer at DBG, focusing on the intersection between web performance and cutting edge browser interactivity. He's an open source advocate who enjoys building tools for the web with third party API's and mesmerizing CSS animations.He has 6+ years of experience in developing and implementing clean, semantic & tidy traditional and dynamic websites, mobile sites/Apps.",
-           "thumb":"Aromal.jpg, Thahir Maheen.jpg",
+           "thumb":"Shiraz.jpg",
            "date": "04/02/2015 5:00 pm",
            "youtubeID": "qa-MchZSSOo",
            "details": "Variables, mixings, functions, inheritance, operators, and nesting for developers interested in SCSS were discussed in this sesssion. The developers left the session with a new toolset to take their CSS to the next level.<strong>Topics Covered:</strong>Introduction to CSS preprocessors<br>Sass - CSS with Superpowers<br>Demo"
@@ -380,12 +380,12 @@
       {
           "eventID" : "20",
            "title": "Frontend Workflow Redefined",
-           "technology": "web security",
+           "technology": "web frontend",
            "eventbanner":"20.jpg",
            "speaker": "Praveen Vijayan",
            "profile": "Flip Media",
            "speakerdesc": "As a front-end developer, Praveen Vijayan has 8+ years of experience in developing and implementing clean, semantic & tidy traditional and dynamic websites, mobile sites/App, interface designs across a wide range of industry sectors and for leading international brands, using state of the art technologies. He is passionate about art and technology, and also an avid contributor to the open source projects.",
-           "thumb":"Praveen Vijayan.jpg",
+           "thumb":"Praveen-Vijayan.jpg",
            "date": "07/01/2015 5:00 pm",
            "youtubeID": "gvSzki6T7nU",
            "details": "The New Year edition featured an open forum on ‘Frontend Workflow Redefined’. Mr. Praveen Vijayan (Front End TeamLead) from Flip Media led the discussions. A basic lesson of HTML, CSS & Javascript was delivered.<strong>Topics Covered:</strong>Component based web development<br>JADE, SCSS and Browserify.<br>Project scaffolding<br>Yeomen, Bower, NPM<br>Enforcing coding standards<br>BEM, SMACSS, OOCSS<br>Front End Automation Using Gulp/Grunt tasks<br>Environment setup<br>Git, Vagrant, Nodejs, Jenkins"

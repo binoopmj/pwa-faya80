@@ -505,7 +505,7 @@
            "thumb":"Sreenath-Sasikumar.jpg & Rejah-Rehim.jpg",
            "date": "02/04/2014 5:00 pm",
            "youtubeID": "Obt33yU07is",
-           "details": "strong>Topics Covered:</strong>Mobility - Operating Systems, Privacy and Security<br>The topics of discussion includes<br>Enterprise Mobile Security & BYOD<br>Mobile Application Security<br>Privacy Concerns for Mobile Apps<br>Firefox OS and Ubuntu Touch"
+           "details": "<strong>Topics Covered:</strong>Mobility - Operating Systems, Privacy and Security<br>The topics of discussion includes<br>Enterprise Mobile Security & BYOD<br>Mobile Application Security<br>Privacy Concerns for Mobile Apps<br>Firefox OS and Ubuntu Touch"
        },
       {
           "eventID" : "10",
@@ -531,7 +531,7 @@
            "thumb":"Rahul-Krishnan.jpg",
            "date": "05/02/2014 5:00 pm",
            "youtubeID": "_2cqa15NgUM",
-           "details": "strong>Topics Covered:</strong>Source Code Management & Build Tools<br>Code Quality Analysis<br>Test Automation<br>Packaging & Archiving<br>Deployment<br>Usage & Crash Analytics Aiding Continuous Improvement"
+           "details": "<strong>Topics Covered:</strong>Source Code Management & Build Tools<br>Code Quality Analysis<br>Test Automation<br>Packaging & Archiving<br>Deployment<br>Usage & Crash Analytics Aiding Continuous Improvement"
        },
       {
           "eventID" : "8",
@@ -544,7 +544,7 @@
            "thumb":"Deepu-S Nath.jpg, Sreenath-Sasikumar.jpg",
            "date": "08/01/2014 5:00 pm",
            "youtubeID": "ZHSPQjJ5J8M",
-           "details": "NIL"
+           "details": ""
        },
       {
           "eventID" : "7",

@@ -1,5 +1,109 @@
 {
    "event": [
+      {
+          "eventID" : "57",
+           "title": "Applying Design Thinking into Product Development",
+           "technology": "security",
+           "eventbanner":"57.jpg",
+           "speaker": "Sony John Bronzon",
+           "profile": "Heads Training and Development at ALLONTM.",
+           "speakerdesc": "As a Corporate Trainer and Design Thinking enthusiast, with 15 years of corporate experience in IT and L&D arenas, Sony John Bronzon heads Training and Development at ALLONTM. Having served previously in the capacity of Assistant Director of Learning and Development(L&D) at EY, Sony is currently involved extensively in conducting Design Studio for Product Innovation, Business Services Innovation, Strategy Development and preparing futuristic roadmaps. He is one of the very few trainers in the country who is a CPLP (Certified Professional in Learning and Performance) from the Association for Talent Development, USA."           
+           "thumb":"Sony-John-Bronzon.jpg",
+           "date": "07/02/2018 5:00 pm",
+           "youtubeID": "9sCBRlkZaZY",
+           "details": "As technology service companies and product-based companies, we are the best at thinking up and suggesting the latest business and technical solutions. However, we miss out on an integral element in the solution- the human element or the customer. Solutions that are incomplete, resulting in multiple(read painful) change requests, are commonplace. And here’s why- sufficient time has not been spent on getting into the customer's head. Simply put, Design Thinking shifts the focus from the problem to the customer who faces the problem.<br>It doesn't matter which industry you work in, which technology you work on or what role you play. If you have a customer and they have a problem that they want you to solve, you need Design Thinking.<br>The 57th edition of FAYA:80 Trivandrum, Applying Design Thinking into Product Development, helped all developers, leads, managers and business owners who are working to solve a customer’s problem, to step up.strong>Topics Covered:</strong>Design Thinking - concept in a nutshell<br>How does Design Thinking matter to problem solvers?<br>Design Thinking based products/solutions<br>Hands-on time on a live case scenario"       
+      },
+      {
+          "eventID" : "56",
+           "title": "AWS Lambda: Build your First Serverless Application",
+           "technology": "security",
+           "eventbanner":"56.jpg",
+           "speaker": "Madhusudan Shekar",
+           "profile": "Chief Evangelist of Amazon Web Services, Amazon India",
+           "speakerdesc": "Technology leader with a rich experience in transforming traditional IT into a modern real-time responsive service, Mr. Madhusudan Shekar is the Chief Evangelist of Amazon Web Services, Amazon India. Armed with an excellent understanding of incorporating Cloud, Mobility and Analytics into Amazon for real-time business and enabling new formats of collaboration within employees and with customers, his past clients and engagements include Deutsche Telekom, IDEA Cellular, Belgacom, DirecTV, HP, AMP Financial Services, News Corp, Societe-Generale, , Avaya, Matsushita, Tata-Sky and Tata Motors."           
+           "thumb":"Madhusudan-Shekar.jpg",
+           "date": "03/01/2018 5:00 pm",
+           "youtubeID": "L2xXG2rrNV4",
+           "details": "‘Serverless’ is the newest buzzword on the block. It can make your server resource management more convenient and cut infrastructure costs dramatically, while increasing the efficiency of IT spend.<br>AWS Lambda is an event-driven, serverless computing platform meant to simplify the on-demand applications building process. With serverless computing, your application will still run on servers, but all the server management heavy lifting will be done by AWS, leaving you to focus purely on your application's functionality and code.<br>The 56th edition of FAYA:80 was an opportunity for all developers, devOps managers, senior level managers and other technology enthusiasts to journey into the world of AWS serverless computing, guided by the chief evangelist of AWS himself.strong>Topics Covered:</strong>Introduction to Serverless Systems<br>Why Go Serverless<br>How to Build a Serverless Application<br>Live Demo & Debugging"       
+      },
+      {
+          "eventID" : "55",
+           "title": "Making Digital Marketing Strategies Work",
+           "technology": "security",
+           "eventbanner":"55.jpg",
+           "speaker": "Janeesh Uthuppan",
+           "profile": "digital marketing professional and the Founding Partner of Webdura Technologies",
+           "speakerdesc": "Janeesh Uthuppan is a highly rated digital marketing professional and the Founding Partner of Webdura Technologies, one of Kerala’s most impactful Digital Marketing agencies with expertise in Search Engine Optimization, Pay per Click Advertising and Online Marketing Campaigns. Janeesh has over seven years of Digital Marketing experience in helping businesses use the power of the web to drive sales and gain visibility. Prior to his career in Digital Marketing, he was part of Kerala’s leading news daily, the Mathrubhumi group"           
+           "thumb":"Janeesh-Uthuppan.jpg",
+           "date": "06/12/2017 5:00 pm",
+           "youtubeID": "p8A5GNb6XnY&t=4114s",
+           "details": "Digital Marketing, today, is recognized as an integral tool in any business’ marketing activities. However, the Digital Marketing strategies that are employed by most are clumsy and even the marketeers themselves are unsure of the efficacy of their strategies.<br>Google’s frequent algorithm updates, including the one earlier this year, make digital marketing a rather tricky area to master. These updates should translate to updates in the existing digital marketing strategies as well, something that is often overlooked. Similarly ignored are SEO and Content Marketing. The need of the hour is to integrate SEO, UI/UX and Content Marketing to form an effective and wholesome Digital Marketing strategy.<br>The 55th edition of FAYA:80, Making Digital Strategies Work, was an opportunity for all to ensure that every buck they spend on Digital Marketing will result in conversion.strong>Topics Covered:</strong>Take stock of where you are headed - Digital Marketing audit blueprint<br>SEO strategy for Google’s AI-powered RankBrain algorithm<br>Bridging the gap between SEO, UX, and Content for better relevance & rankings<br>Burning money? Getting the most out of your paid advertisements<br>Effective utilization of Analytics for CRO<br>Case study: on-page SEO & PPC"       
+      },
+      {
+          "eventID" : "54",
+           "title": "Bitcoin: Beyond Myths & Hypes",
+           "technology": "security",
+           "eventbanner":"54.jpg",
+           "speaker": "Rakesh B. S. and Jikku Jose",
+           "profile": "Co-Founders of Qucentis & BIGOrg",
+           "speakerdesc": "Rakesh B. S. and Jikku Jose are Co-Founders of Qucentis & BIGOrg. Qucentis is a software company building a Blockchain based Asset Management System. BIGOrg is an open collective of technologists, companies & hobbyists interested in Blockchain. BIGOrg conducts meetups every month on third Thursdays and hosts an active Telegram group."           
+           "thumb":"Rakesh-B. S.jpg, Jikku-Jose.jpg",
+           "date": "01/11/2017 5:00 pm",
+           "youtubeID": "DMl2X6CQOZc",
+           "details": "The word Bitcoin has been flooding our news streams recently. Simultaneously hailed as the next big thing and criticized as a scam, most of us are caught in this crossfire of myths and hypes surrounding Bitcoin. The need of the hour is a simple and objective understanding of what exactly Bitcoin is, what it means to the global financial system and how you can own, transact with and secure your own Bitcoin.<br>The 54th edition of FAYA:80 helped all enthusiasts unearth the reality about this revolutionary open-source software implementation of Blockchain.<br>The session included a Bitcoin cycle demo, where the audience learned how to create a wallet, receive and send Bitcoins and manage them. .strong>Topics Covered:</strong>Introduction<br>The What, Why & How of BitCoin<br>Transacting with & Securing BitCoin<br>Live Demo"       
+      },
+      {
+          "eventID" : "53",
+           "title": "Database Optimisation - A Dive into Query Optimizer",
+           "technology": "security",
+           "eventbanner":"53.jpg",
+           "speaker": "Krishnakumar.S",
+           "profile": "Senior Consultant-Database Administration at EnvestNet Trivandrum",
+           "speakerdesc": "Senior Consultant-Database Administration at EnvestNet Trivandrum, Krishnakumar designs various Database Projects and works closely with development teams, improving and scaling Data Intensive Applications. With around 15 years of experience in software, he has worked extensively on various Database Projects designing scalable Database Systems, Performance Optimizations,Upgrades and Migrations. He is also an active participant in various technical forums and a proponent of Free Knowledge Sharing."           
+           "thumb":"Krishnakumar.S.jpg",
+           "date": "04/10/2017 5:00 pm",
+           "youtubeID": "iV6SOOaLFzc",
+           "details": "Most of us interact with a database enabled service of some kind or the other almost on a daily basis. This makes Database Management Systems inevitable in the modern world. With millions of data transactions taking place every second, even the most minor of changes can have a dramatic impact on performance, which makes Database Optimisation a very important aspect for the developers to understand.<br>Even if you have the most powerful hardware available running your Database Server, its performance can be negatively affected by a couple of wrong queries, which is where Optimisation comes into play.<br>The 53rd edition of FAYA:80 took a deeper look into the practice of Database Optimisation, and provided a chance to use Query Optimizer as a case study and uncover its internals & best practices.strong>Topics Covered:</strong>Database Concepts<br>Storage, Indexes & Statistics<br>Query Optimizer & its Internals<br>Query Execution Plans"       
+      },
+      {
+           "eventID" : "52",
+           "title": "Stepping Up to Swift 4",
+           "technology": "web",
+           "eventbanner":"52.jpg",
+           "speaker": "Jeswin Simon",
+           "profile": "Senior Engineer - Product, Envestnet",
+           "speakerdesc": "The session will be led by Mr. Jeswin Simon, Senior Engineer - Product, Envestnet. He is a web and mobile developer who has previously developed applications for Blackberry 10 and Windows Phone 7. Passionate about hardware and tinkering, Jeswin was a speaker at TEDxCoimbatore during his student days.",
+           "thumb":"Jeswin-Simon.jpg",
+           "date": "06/09/2017 5:00 pm",
+           "youtubeID": "LxW4Y3IaxDI",
+           "details": "Swift is by far one of the most sought after programming languages for macOS, iOS, watchOS and tvOS. This powerful and intuitive programming language has modernised the way developers build their apps. Swift has been years in the making, and since its release in 2014, continues to evolve with new features and capabilities. Now we stand at the threshold of its fourth version, Swift 4.<br>Swift 4 attempts to transcend Swift 3 by building on its strengths, delivering robustness and stability and providing source code compatibility with Swift 3, thus enabling coders with a much more efficient platform to build their iOS apps on. This is the first version of the language that doesn’t break your code.<br>The 52nd edition of FAYA:80 was an opportunity for all to upgrade their skills to Swift 4.strong>Topics Covered:</strong>The Swift Timeline<br>Introduction to Swift 4<br>What’s New?<br>How to migrate to Swift 4?<br>iOS 11 & New Features<br>Basic Overview of ARKit and CoreML in iOS 11"
+       },
+      {
+           "eventID" : "51",
+           "title": "Singularity Series – Tools for an Exponential Tomorrow",
+           "technology": "web",
+           "eventbanner":"51.jpg",
+           "speaker": "Jaydev-S. V., and Hrishi-Olickel",
+           "profile": "founders of volvox",
+           "speakerdesc": "The session will be led by Jaydev S. V., and Hrishi Olickel, founders of volvox.<br>Jaydev is a risk analyst by trade. Responsible for engineering risk assessment, he currently works on implementation and overseeing underwriting macro-scale insurance programs. He spends his spare time studying up on everything that the different potential future timelines entail and identifies as a performing philosopher.<br>Hrishi has done VR and Robotics work with National Geographic and FLIR Inc., Machine Learning and Blockchain Development with Anquan Capital (Fintech VC Firm in Singapore) and Dinardirham ($500 million company based in Malaysia). He has also dabbled in Genetic Algorithm based Process Automation and Game Theoretic analysis.",
+           "thumb":"Jaydev S. V.jpg, Hrishi Olickel.jpg",
+           "date": "02/08/2017 5:00 pm",
+           "youtubeID": "muQFOuEiAFo",
+           "details": "Technologies are advancing exponentially, rapidly transforming age-old established patterns and processes in our world. The luxury of time we had in transfiguring computers the size of a building to the desktops, laptops and smartphones of today, cannot be expected for the next major shift in technology.<br>The top 10 tech job profiles of today did not exist 10 years ago and today’s may not exist in another 3-5 years.The August edition of FAYA:80 provided rapid-fire introductions to the concept of Singularity and the exponential technologies, including AI, Machine Learning, BlockChain and next-generation computing. An understanding of these exponentials can lead to a completely different approach in solving some of the most challenging problems of our times.strong>Topics Covered:</strong>Singularity – Why, What, How<br>Models of Trust & Trustless Systems<br>BlockChain<br>Game Theory & Financial Models<br>Artificial Intelligence – A Primer<br>Machine Learning – History & Landscape<br>Build your own BlockChain – Live Demo"
+       },
+      {
+           "eventID" : "50",
+           "title": "Disrupt Kerala 2017: Break the Echo Chamber",
+           "technology": "Miscellaneous/ Exponential",
+           "eventbanner":"50.jpg",
+           "speaker": "NIL",
+           "profile": "NIL",
+           "speakerdesc": "NIL",
+           "thumb":"NIL",
+           "date": "05/07/2017 5:00 pm",
+           "youtubeID": "NIL",
+           "details": "Disrupt Kerala 2017: Break the Echo Chamber, marking FAYA:80’s 50th edition, was a melange of technical sessions, workshops and panel discussions, celebrating FAYA:80’s successful run for the past four years.It was a tech summit like never before in Trivandrum, with world-renowned innovators, veteran technologists, and prominent entrepreneurs coming together to discuss the disruptive technologies in IT and shed new light on future trends and technologies that are on the rise.<br>The sessions and workshops revolved around the driving technologies of the future – Artificial Intelligence, Deep Learning, Blockchain, User Experience, Mixed Reality & IoT and were headed by Michael Gord, Founder of Bitcoin Canada and the McGill Cryptocurrency Club, Amrit Sanjeev of Google, and other leading technologists proficient in global technology disruption."
+       },
        {
            "eventID" : "49",
            "title": "Deep Learning in AI – A Closer Look with Image Recognition",

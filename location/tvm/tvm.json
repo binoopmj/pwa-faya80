@@ -453,7 +453,7 @@
            "thumb":"Haneefa-TP.jpg & Nithi-S.jpg",
            "date": "06/08/2014 5:00 pm",
            "youtubeID": "itWrYfPh864",
-           "details": "strong>Topics Covered:</strong>Basic knockout JS principles - MVC, MVVM patterns<br>Building a SPA using knockout JS<br>Useful extensions & related libraries"
+           "details": "<strong>Topics Covered:</strong>Basic knockout JS principles - MVC, MVVM patterns<br>Building a SPA using knockout JS<br>Useful extensions & related libraries"
        },
        {
           "eventID" : "14",
@@ -466,7 +466,7 @@
            "thumb":"Deepu-S Nath.jpg, Sreenath-Sasikumar.jpg",
            "date": "02/07/2014 5:00 pm",
            "youtubeID": "zbx6nxAx_Qw",
-           "details": "strong>Topics Covered:</strong>About javascript libraries<br>Javascript frameworks smackdown - Knockout, Ember, Angular, Backbone"
+           "details": "<strong>Topics Covered:</strong>About javascript libraries<br>Javascript frameworks smackdown - Knockout, Ember, Angular, Backbone"
        },
       {
           "eventID" : "13",
@@ -479,7 +479,7 @@
            "thumb":"Suresh-Babu.jpg",
            "date": "04/06/2014 5:00 pm",
            "youtubeID": "f1qfko7BsRE",
-           "details": "strong>Topics Covered:</strong>Javascript - Myths Vs Reality<br>Understanding Object Oriented Javascript<br>Overview of Javascript Libraries"
+           "details": "<strong>Topics Covered:</strong>Javascript - Myths Vs Reality<br>Understanding Object Oriented Javascript<br>Overview of Javascript Libraries"
        },
       {
           "eventID" : "12",
@@ -492,7 +492,7 @@
            "thumb":"Deepu-S Nath.jpg, Sreenath-Sasikumar.jpg",
            "date": "07/05/2014 5:00 pm",
            "youtubeID": "tos1a3GXSXA",
-           "details": "strong>Topics Covered:</strong>Coffee@DBG Recap<br>Token of Appreciation<br>Know HeartBleed Vulnerability"
+           "details": "<strong>Topics Covered:</strong>Coffee@DBG Recap<br>Token of Appreciation<br>Know HeartBleed Vulnerability"
        },
       {
           "eventID" : "11",
@@ -518,7 +518,7 @@
            "thumb":"Aromal-Sasidharan.jpg, Adarsh-V C.jpg",
            "date": "05/03/2014 5:00 pm",
            "youtubeID": "gD2I2CN4GKo",
-           "details": "strong>Topics Covered:</strong>MBaaS - an overview<br>iOS/Android Libraries - the smarter choices<br>App Monetization - Understanding Mobility Revenue Channels"
+           "details": "<strong>Topics Covered:</strong>MBaaS - an overview<br>iOS/Android Libraries - the smarter choices<br>App Monetization - Understanding Mobility Revenue Channels"
        },
       {
           "eventID" : "9",
@@ -565,77 +565,77 @@
            "technology": "web security",
            "eventbanner":"6.jpg",
            "speaker": "Sreenath Sasikumar & Rejah Rehim,
-           "profile": "NIL",
-           "speakerdesc": "NIL",
+           "profile": "",
+           "speakerdesc": "",
            "thumb":"Sreenath-Sasikumar.jpg & Rejah-Rehim.jpg",
            "date": "06/11/2013 5:00 pm",
            "youtubeID": "dANpQBW4xlk",
-           "details": "strong>Topics Covered:</strong>Understanding Continuous Integration<br>Introduction to Jenkins<br>Configuring Jenkins<br>CI with Jenkins and Git,<br>More than CI with Jenkins.."
+           "details": "<strong>Topics Covered:</strong>Understanding Continuous Integration<br>Introduction to Jenkins<br>Configuring Jenkins<br>CI with Jenkins and Git,<br>More than CI with Jenkins.."
        },
       {
           "eventID" : "5",
            "title": "Continuous Integration and Jenkins",
            "technology": "web security",
-           "eventbanner":"NIL",
+           "eventbanner":"",
            "speaker": "Rejah Rehim,
-           "profile": "NIL",
-           "speakerdesc": "NIL",
+           "profile": "",
+           "speakerdesc": "",
            "thumb":"Rejah-Rehim.jpg",
            "date": "02/10/2013 5:00 pm",
-           "youtubeID": "NIL",
-           "details": "strong>Topics Covered:</strong>Basic concepts of Versioning System<br>Why to use versioning<br>Common versioning tools,<br>Introduction to Git,<br>Implementation of Git in our workflow,<br>Migration from SVN to Git."
+           "youtubeID": "",
+           "details": "<strong>Topics Covered:</strong>Basic concepts of Versioning System<br>Why to use versioning<br>Common versioning tools,<br>Introduction to Git,<br>Implementation of Git in our workflow,<br>Migration from SVN to Git."
        },
       {
           "eventID" : "4",
            "title": "Essential Testing Tools for Web Developers",
            "technology": "web security",
-           "eventbanner":"NIL",
+           "eventbanner":"",
            "speaker": "Sreenath Sasikumar, Rejah Rehim, Sudhahar,
-           "profile": "NIL",
-           "speakerdesc": "NIL",
+           "profile": "",
+           "speakerdesc": "",
            "thumb":"Sreenath Sasikumar.jpg, Rejah Rehim.jpg, Sudhahar.jpg",
            "date": "04/09/2013 5:00 pm",
-           "youtubeID": "NIL",
-           "details": "NIL"
+           "youtubeID": "",
+           "details": ""
        },
        {
           "eventID" : "3",
            "title": "Tooling for Modern Web App Developers",
            "technology": "web security",
-           "eventbanner":"NIL",
+           "eventbanner":"",
            "speaker": "Praveen Vijayan",
            "profile": "Flip Media",
            "speakerdesc": "As a front-end developer, Praveen Vijayan has 8+ years of experience in developing and implementing clean, semantic & tidy traditional and dynamic websites, mobile sites/App, interface designs across a wide range of industry sectors and for leading international brands, using state of the art technologies. He is passionate about art and technology, and also an avid contributor to the open source projects.",
            "thumb":"Praveen-Vijayan.jpg",
            "date": "07/08/2013 5:00 pm",
-           "youtubeID": "NIL",
-           "details": "NIL"
+           "youtubeID": "",
+           "details": ""
        },
       {
           "eventID" : "2",
            "title": "Angular JS",
            "technology": "web security",
-           "eventbanner":"NIL",
+           "eventbanner":"",
            "speaker": "Haneefa TP,
-           "profile": "NIL",
-           "speakerdesc": "NIL",
+           "profile": "",
+           "speakerdesc": "",
            "thumb":"Haneefa TP.jpg",
            "date": "03/07/2013 5:00 pm",
-           "youtubeID": "NIL",
-           "details": "NIL"
+           "youtubeID": "",
+           "details": ""
        },
       {
           "eventID" : "1",
            "title": "Apache Solr",
            "technology": "web security",
-           "eventbanner":"NIL",
+           "eventbanner":"",
            "speaker": "Nithin S, Sajin TM,
-           "profile": "NIL",
-           "speakerdesc": "NIL",
+           "profile": "",
+           "speakerdesc": "",
            "thumb":"Nithin S.jpg, Sajin TM.jpg",
            "date": "05/06/2013 5:00 pm",
-           "youtubeID": "NIL",
-           "details": "NIL"
+           "youtubeID": "",
+           "details": ""
        }
    ]
 }

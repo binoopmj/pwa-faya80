@@ -21,7 +21,7 @@ $(function() {
           var bannerdetail = "<div class='video-wrap'><amp-youtube data-videoid='"+ f.youtubeID +"' layout='responsive' width='480' height='270'></amp-youtube></div>"
         }
         
-        var eventdetail = "<div class='event-detail'><h4>"+ f.title +"</h4><span class='speaker-detail speaker'>By: " + f.speaker + "</span><span class='speaker-detail month'>Streamed live on " + f.date + "</span><p class='event-content'>"+ f.details +"</p></div><div class='speaker-wrap'><img class='speaker-thumb' src='/location/"+ location +"/speakers/"+ f.thumb +"'><h3>"+ f.speaker +"</h3><span class='speaker-name'><span class='speaker-detail company'>" + f.profile + "</span></span><div class='details'><p>"+ f.speakerdesc +"</p></div></div>"
+        var eventdetail = "<div class='event-detail'><h4>"+ f.title +"</h4><div class='star-rating'><div class='rating rating-"+ f.rating +"'></div><img src='/images/star.png'></div><span class='speaker-detail speaker'>By: " + f.speaker + "</span><span class='speaker-detail month'>Streamed live on " + f.date + "</span><p class='event-content'>"+ f.details +"</p></div><div class='speaker-wrap'><img class='speaker-thumb' src='/location/"+ location +"/speakers/"+ f.thumb +"'><h3>"+ f.speaker +"</h3><span class='speaker-name'><span class='speaker-detail company'>" + f.profile + "</span></span><div class='details'><p>"+ f.speakerdesc +"</p></div></div>"
         
         $(bannerdetail).appendTo("#event-detail-wrap");
         $(eventdetail).appendTo("#event-detail-wrap");

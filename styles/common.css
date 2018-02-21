@@ -14,7 +14,6 @@ body {
 
 header {
   font-size: 2em;
-  text-align: center;
   padding: 15px 0;
   margin: 0 auto;
   max-width: 1200px; }
@@ -107,6 +106,34 @@ p {
     font-family: FontAwesome; }
   .backbtn:hover {
     background: #73a932; }
+
+.star-rating {
+  display: inline-block;
+  background: #a0a0a0;
+  height: 20px;
+  margin-bottom: 5px;
+  position: relative; }
+  .star-rating .rating {
+    background: #ffd203;
+    position: absolute;
+    width: 80%;
+    left: 0;
+    top: 0;
+    height: 21px;
+    z-index: 1; }
+    .star-rating .rating.rating-1 {
+      width: 20%; }
+    .star-rating .rating.rating-2 {
+      width: 40%; }
+    .star-rating .rating.rating-3 {
+      width: 60%; }
+    .star-rating .rating.rating-4 {
+      width: 80%; }
+    .star-rating .rating.rating-5 {
+      width: 100%; }
+  .star-rating img {
+    z-index: 2;
+    position: relative; }
 
 footer {
   background: #313131;
@@ -245,7 +272,7 @@ h4.filter-title {
   color: #525252; }
   .event-detail h4 {
     font-size: 22px;
-    margin: 20px 0 10px;
+    margin: 20px 0 5px;
     font-weight: 100; }
 
 .speaker-wrap .speaker-thumb {

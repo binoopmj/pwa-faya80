@@ -17,7 +17,6 @@ body {
 
 header {
   font-size: 2em;
-  text-align: center;
   padding: 15px 0;
   margin: 0 auto;
   max-width: 1200px;
@@ -131,7 +130,41 @@ p {
     background: #73a932;
   }
 }
-
+.star-rating {
+  display: inline-block;
+  background: #a0a0a0;
+  height: 20px;
+  margin-bottom: 5px;
+  position: relative;
+  .rating {
+    background: #ffd203;
+    position: absolute;
+    width: 80%;
+    left: 0;
+    top: 0;
+    height: 21px;
+    z-index: 1;
+    &.rating-1 {
+      width: 20%;
+    }
+    &.rating-2 {
+      width: 40%;
+    }
+    &.rating-3 {
+      width: 60%;
+    }
+    &.rating-4 {
+      width: 80%;
+    }
+    &.rating-5 {
+      width: 100%;
+    }
+  }
+  img {
+    z-index: 2;
+    position: relative;
+  }
+}
 footer {
   background: #313131;
   color: #969595;
@@ -296,7 +329,7 @@ h4.filter-title {
   color: #525252;
   h4 {
     font-size: 22px;
-    margin: 20px 0 10px;
+    margin: 20px 0 5px;
     font-weight: 100;
   }
 }

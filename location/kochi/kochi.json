@@ -1,7 +1,7 @@
 {
    "event": [
        {
-           "eventID" : "1",
+           "eventID" : "E1",
            "title": "Deep Learning in AI",
            "technology": "web security",
            "eventbanner":"1.jpg",
@@ -15,7 +15,7 @@
           
        },
       {
-           "eventID" : "2",
+           "eventID" : "E2",
            "title": "Strategic Media Production for Technology Product Companies",
            "technology": "web security",
            "eventbanner":"2.jpg",
@@ -29,7 +29,7 @@
           
        },
       {
-           "eventID" : "3",
+           "eventID" : "E3",
            "title": "The Changing Face of SEO",
            "technology": "web security",
            "eventbanner":"3.jpg",
@@ -43,7 +43,7 @@
           
        },
       {
-           "eventID" : "4",
+           "eventID" : "E4",
            "title": "A Roadmap for Angular 4",
            "technology": "web security",
            "eventbanner":"4.jpg",
@@ -57,7 +57,7 @@
           
        },
       {
-           "eventID" : "5",
+           "eventID" : "E5",
            "title": "Singularity Series - The Robots' Guide To World Domination",
            "technology": "web security",
            "eventbanner":"5.jpg",
@@ -71,7 +71,7 @@
           
        },
       {
-           "eventID" : "6",
+           "eventID" : "E6",
            "title": "Artificial Intelligence - The First Step",
            "technology": "web security",
            "eventbanner":"6.jpg",
@@ -85,7 +85,7 @@
           
        },
       {
-           "eventID" : "7",
+           "eventID" : "E7",
            "title": "Essential Web Security for Developers",
            "technology": "web security",
            "eventbanner":"7.jpg",
@@ -99,7 +99,7 @@
           
        },
       {
-           "eventID" : "8",
+           "eventID" : "E8",
            "title": "Hello XR: An Introduction to VR, AR and MR",
            "technology": "web security",
            "eventbanner":"8.jpg",

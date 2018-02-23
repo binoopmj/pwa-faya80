@@ -195,7 +195,6 @@ footer {
 }
 
 .open-stage-wrap {
-  text-align: center;
   padding: 40px 0;
   clear: left;
   background: url(../images/port80-bg.jpg) repeat top center;
@@ -221,6 +220,12 @@ footer {
     color: #5F5F5F;
     margin-top: 20px;
     display: inline-block;
+  }
+  ul {
+    li {
+      float: left;
+      margin-left: 25px;
+    }
   }
 }
 
@@ -401,7 +406,9 @@ h4.filter-title {
     max-width: 100%;
   }
 }
-
+.clear {
+  clear: both;
+}
 @media only screen and (min-width: 768px) {
   .content {
     min-height: 400px;

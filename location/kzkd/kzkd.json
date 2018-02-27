@@ -1,7 +1,7 @@
 {
    "event": [
        {
-           "eventID" : "E1",
+           "eventID" : "K1",
            "title": "Mining the Opportunities of Bitcoin & Blockchain",
            "technology": "web",
            "eventbanner":"1.jpg",
@@ -15,7 +15,7 @@
            
        },
       {
-           "eventID" : "E2",
+           "eventID" : "K2",
            "title": "A Roadmap for Angular 4",
            "technology": "web",
            "eventbanner":"2.jpg",
@@ -29,7 +29,7 @@
            
        },
       {
-           "eventID" : "E3",
+           "eventID" : "K3",
            "title": "Security in Web Applications",
            "technology": "web",
            "eventbanner":"3.jpg",
@@ -43,7 +43,7 @@
            
        },
       {
-           "eventID" : "E4",
+           "eventID" : "K4",
            "title": "The Changing Face of SEO",
            "technology": "web",
            "eventbanner":"4.jpg",
@@ -57,7 +57,7 @@
            
        },
       {
-           "eventID" : "E5",
+           "eventID" : "K5",
            "title": "Launch it with Docker",
            "technology": "web",
            "eventbanner":"5.jpg",
@@ -71,7 +71,7 @@
            
        },
       {
-           "eventID" : "E6",
+           "eventID" : "K6",
            "title": "Deep Learning in AI",
            "technology": "web",
            "eventbanner":"6.jpg",
@@ -85,7 +85,7 @@
            
        },
       {
-           "eventID" : "E7",
+           "eventID" : "K7",
            "title": "Artificial Intelligence- The First Step",
            "technology": "web",
            "eventbanner":"7.jpg",
@@ -99,7 +99,7 @@
            
        }, 
       {
-           "eventID" : "E8",
+           "eventID" : "K8",
            "title": "Discovering Cross-platform Mobile App Development Using Xamarin",
            "technology": "web",
            "eventbanner":"8.jpg",

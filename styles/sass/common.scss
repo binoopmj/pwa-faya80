@@ -328,6 +328,7 @@ h4.filter-title {
   font-style: italic;
   color: #555;
   line-height: 21px;
+  text-align: justify;
 }
 
 .event-detail {
@@ -453,12 +454,13 @@ h4.filter-title {
     }
   }
   .event-detail {
-    width: 75%;
+    width: 100%;
     float: left;
   }
   .speaker-wrap {
-    width: 22%;
-    float: right;
+    width: 48%;
+    margin-right: 2%;
+    float: left;
     margin-top: 20px;
   }
   .edition-list__item h2 {

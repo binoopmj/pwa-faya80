@@ -5,10 +5,10 @@
            "title": "Applying Design Thinking into Product Development",
            "technology": "security",
            "eventbanner":"57.jpg",
-           "speaker": "Sony John Bronzon",
-           "profile": "Heads Training and Development at ALLONTM.",
-           "speakerdesc": "As a Corporate Trainer and Design Thinking enthusiast, with 15 years of corporate experience in IT and L&D arenas, Sony John Bronzon heads Training and Development at ALLONTM. Having served previously in the capacity of Assistant Director of Learning and Development(L&D) at EY, Sony is currently involved extensively in conducting Design Studio for Product Innovation, Business Services Innovation, Strategy Development and preparing futuristic roadmaps. He is one of the very few trainers in the country who is a CPLP (Certified Professional in Learning and Performance) from the Association for Talent Development, USA.",           
-           "thumb":"Sony-John-Bronzon.jpg",
+           "speakers" : 
+            {
+              "speaker1" : "S1"
+            },
            "date": "07/02/2018 5:00 pm",
            "youtubeID": "9sCBRlkZaZY",
            "rating": "5",
@@ -19,10 +19,11 @@
            "title": "AWS Lambda: Build your First Serverless Application",
            "technology": "security",
            "eventbanner":"56.jpg",
-           "speaker": "Madhusudan Shekar",
-           "profile": "Chief Evangelist of Amazon Web Services, Amazon India",
-           "speakerdesc": "Technology leader with a rich experience in transforming traditional IT into a modern real-time responsive service, Mr. Madhusudan Shekar is the Chief Evangelist of Amazon Web Services, Amazon India. Armed with an excellent understanding of incorporating Cloud, Mobility and Analytics into Amazon for real-time business and enabling new formats of collaboration within employees and with customers, his past clients and engagements include Deutsche Telekom, IDEA Cellular, Belgacom, DirecTV, HP, AMP Financial Services, News Corp, Societe-Generale, , Avaya, Matsushita, Tata-Sky and Tata Motors.",           
-           "thumb":"Madhusudan-Shekar.jpg",
+           "speakers" : 
+            {
+              "speaker1" : "S1",
+              "speaker2" : "S2"
+            },
            "date": "03/01/2018 5:00 pm",
            "youtubeID": "L2xXG2rrNV4",
            "details": "‘Serverless’ is the newest buzzword on the block. It can make your server resource management more convenient and cut infrastructure costs dramatically, while increasing the efficiency of IT spend.<br>AWS Lambda is an event-driven, serverless computing platform meant to simplify the on-demand applications building process. With serverless computing, your application will still run on servers, but all the server management heavy lifting will be done by AWS, leaving you to focus purely on your application's functionality and code.<br>The 56th edition of FAYA:80 was an opportunity for all developers, devOps managers, senior level managers and other technology enthusiasts to journey into the world of AWS serverless computing, guided by the chief evangelist of AWS himself.strong>Topics Covered:</strong>Introduction to Serverless Systems<br>Why Go Serverless<br>How to Build a Serverless Application<br>Live Demo & Debugging"       

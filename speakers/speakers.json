@@ -8,7 +8,8 @@
            "thumb":"Sony-John-Bronzon.jpg",
            "events" : 
             {
-              "event1" : "T57",    
+              "event1" : "T57",
+            }
       },
       {
           "speakerID" : "S2",
@@ -46,7 +47,7 @@
             }
       },
       {
-          "speakerID" : "S4",
+          "speakerID" : "S5",
            "speaker": "Jikku Jose",
            "profile": "Ruby developer running a small startup by the name Qucentis in Kerala Startup Mission",
            "speakerdesc": "Jikku Jose is a Ruby developer running a small startup by the name Qucentis in Kerala Startup Mission. Now working on building a framework for rapid prototyping of apps using Ruby.",           

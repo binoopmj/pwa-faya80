@@ -309,9 +309,93 @@
             {
               "event1" : "T29",
             }
+},
+      {
+          "speakerID" : "S28",
+           "speaker": "Rajeev J Sebastian",
+           "profile": "CEO, Alokin Software",
+           "speakerdesc": "NIL",           
+           "thumb":"Rajeev J-Sebastian.jpg",
+           "events" : 
+            {
+              "event1" : "T28",
+            }
+},
+      {
+          "speakerID" : "S29",
+           "speaker": "Faiz Mohamed Haneef",
+           "profile": "Director - Neoito Technologies Pvt Ltd",
+           "speakerdesc": "NIL",           
+           "thumb":"Faiz-Mohamed-Haneef.jpg",
+           "events" : 
+            {
+              "event1" : "T27",
+              "event1" : "T25",
+            }
+},
+      {
+          "speakerID" : "S30",
+           "speaker": "Deepu S-Nath",
+           "profile": "Managing Director - Tech Faya Innovations Pvt Ltd",
+           "speakerdesc": "NIL",           
+           "thumb":"Deepu S-Nath.jpg",
+           "events" : 
+            {
+              "event1" : "T27",
+              "event1" : "T12",
+              "event1" : "T7",
+              "event1" : "T8",
+              "event1" : "T14",
+            }
+},
+      {
+          "speakerID" : "S31",
+           "speaker": "Nithin S",
+           "profile": "NIL",
+           "speakerdesc": "NIL",           
+           "thumb":"Nithin S.jpg",
+           "events" : 
+            {
+              "event1" : "T27",
+              "event1" : "T1",
+              "event1" : "T15",
+            }
+},
+       {
+          "speakerID" : "S32",
+           "speaker": "Shiraz Samad",
+           "profile": "Front End Developer at DBG",
+           "speakerdesc": "Shiraz samad is working as a Front End Developer at DBG, focusing on the intersection between web performance and cutting edge browser interactivity. He's an open source advocate who enjoys building tools for the web with third party API's and mesmerizing CSS animations.He has 6+ years of experience in developing and implementing clean, semantic & tidy traditional and dynamic websites, mobile sites/Apps.",           
+           "thumb":"Shiraz-Samad.jpg",
+           "events" : 
+            {
+              "event1" : "T27",
+              "event1" : "T16",
+              "event1" : "T21",
+            }
+},
+       {
+          "speakerID" : "S33",
+           "speaker": "Lakshmikant Deshpande",
+           "profile": "Neoito Technologies",
+           "speakerdesc": "NIL",           
+           "thumb":"Lakshmikant-Deshpande.jpg",
+           "events" : 
+            {
+              "event1" : "T25",
+            }
+},
+      {
+          "speakerID" : "S34",
+           "speaker": "Mohana Kumar",
+           "profile": "Senior Software Developer",
+           "speakerdesc": "NIL",           
+           "thumb":"Mohana-Kumar.jpg",
+           "events" : 
+            {
+              "event1" : "T24",
+            }
 }
-
-
 
 
 

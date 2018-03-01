@@ -347,6 +347,42 @@ h4.filter-title {
 .clear {
   clear: both; }
 
+#speaker-list li {
+  list-style-type: none;
+  float: left;
+  width: 98%;
+  padding: 1%;
+  margin-bottom: 10px;
+  background: #eee;
+  margin: 5px 0.5%; }
+  #speaker-list li p.desc {
+    font-size: 14px;
+    width: 40%;
+    float: left;
+    text-align: justify; }
+  #speaker-list li img.speaker-thumb {
+    width: 15%;
+    float: left;
+    margin-right: 10px; }
+  #speaker-list li h4 {
+    float: left;
+    margin: -3px 4px 2px 0;
+    font-size: 18px;
+    width: 40%; }
+  #speaker-list li span.profile {
+    float: left;
+    font-style: italic;
+    width: 50%; }
+  #speaker-list li a.event-link {
+    float: right;
+    clear: right;
+    width: 44%;
+    text-align: right;
+    color: #008fca;
+    text-decoration: none; }
+    #speaker-list li a.event-link:hover {
+      text-decoration: underline; }
+
 @media only screen and (min-width: 768px) {
   .content {
     min-height: 400px; }

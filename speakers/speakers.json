@@ -40,10 +40,10 @@
            "speaker": "Rakesh B. S",
            "profile": "Co-Founders of Qucentis & BIGOrg",
            "speakerdesc": "Rakesh B. S. and Jikku Jose are Co-Founders of Qucentis & BIGOrg. Qucentis is a software company building a Blockchain based Asset Management System. BIGOrg is an open collective of technologists, companies & hobbyists interested in Blockchain. BIGOrg conducts meetups every month on third Thursdays and hosts an active Telegram group.",           
-           "thumb":"Rakesh-B. S.jpg",
+           "thumb":"Rakesh-B-S.jpg",
            "events" : 
             {
-              "event1" : "T54",
+              "event1" : "T54"
             }
       },
       {
@@ -64,10 +64,10 @@
            "speaker": "Krishnakumar.S",
            "profile": "Senior Consultant-Database Administration at EnvestNet Trivandrum",
            "speakerdesc": "Senior Consultant-Database Administration at EnvestNet Trivandrum, Krishnakumar designs various Database Projects and works closely with development teams, improving and scaling Data Intensive Applications. With around 15 years of experience in software, he has worked extensively on various Database Projects designing scalable Database Systems, Performance Optimizations,Upgrades and Migrations. He is also an active participant in various technical forums and a proponent of Free Knowledge Sharing.",           
-           "thumb":"Krishnakumar.S.jpg",
+           "thumb":"Krishnakumar-S.jpg",
            "events" : 
             {
-              "event1" : "T53",
+              "event1" : "T53"
             }
        },
       {
@@ -78,7 +78,7 @@
            "thumb":"Jeswin-Simon.jpg",
            "events" : 
             {
-              "event1" : "T52",
+              "event1" : "T52"
             }
        },
       {
@@ -86,10 +86,10 @@
            "speaker": "Jaydev S. V.",
            "profile": "Founder of volvox",
            "speakerdesc": "Jaydev is a risk analyst by trade. Responsible for engineering risk assessment, he currently works on implementation and overseeing underwriting macro-scale insurance programs. He spends his spare time studying up on everything that the different potential future timelines entail and identifies as a performing philosopher.",           
-           "thumb":"Jaydev S. V.jpg",
+           "thumb":"Jaydev-S-V.jpg",
            "events" : 
             {
-              "event1" : "T51",
+              "event1" : "T51"
             }
        },
       {
@@ -100,7 +100,7 @@
            "thumb":"Hrishi-Olickel.jpg",
            "events" : 
             {
-              "event1" : "T51",
+              "event1" : "T51"
             }
        },
       {
@@ -108,12 +108,12 @@
            "speaker": "Manuyash Chaudary",
            "profile": "AI & NLP Developer & Researcher, Accubits Technologies",
            "speakerdesc": "The session will be led by Mr. Manuyash Chaudhary, AI & NLP Developer & Researcher, Accubits Technologies. An MS in Machine Learning & Artificial Intelligence from University College London, Manuyash has been instrumental for path-breaking research on Data Science and its implementation during his career. He is responsible for developing AI technologies and solving machine learning problems for clients at Accubits. He works in Python and R, on platforms like Tensorflow, H2O.ai and tools like SPSS, WEKA and Tableau.",           
-           "thumb":"Manuyash-Chaudary.jpg",
+           "thumb":"manuyash-chaudhary.jpg",
            "events" : 
             {
               "event1" : "T49",
                "event1" : "K1",
-               "event1" : "C6",
+               "event1" : "C6"
             }
        },
       {
@@ -136,7 +136,7 @@
            "events" : 
             {
               "event1" : "T47",
-               "event1" : "C5",
+               "event1" : "C5"
             }
        },
       {
@@ -147,7 +147,7 @@
            "thumb":"Shine-Xavier.jpg",
            "events" : 
             {
-              "event1" : "T46",   
+              "event1" : "T46"
             }
        },
       {
@@ -160,7 +160,7 @@
             {
               "event1" : "T45",
                "event1" : "K4",
-               "event1" : "C2",
+               "event1" : "C2"
             }
 },
       {
@@ -168,10 +168,10 @@
            "speaker": "Vijay Kumar M",
            "profile": "CEO & MD – Webyfy Infotech Pvt Ltd",
            "speakerdesc": "The session will be led by Mr. Vijay Kumar M, CEO & MD – Webyfy Infotech Pvt Ltd. He has a multi-faceted career handling different roles like Vice President – International Marketing, Nest Group, Vice President - Operations Suntec Business Solutions, Director & CIO GE Power Controls India and many more. He is passionate about IOT and has developed many technology products in that realm. His other areas of interest include Business Intelligence, Product Management, Cloud Computing, Testing, etc. He has published several papers and has compiled several books on technology, maintenance and development.",           
-           "thumb":"Vijay-Kumar M.jpg",
+           "thumb":"Vijay-Kumar-M.jpg",
            "events" : 
             {
-              "event1" : "T44",
+              "event1" : "T44"
             }
        },
       {
@@ -182,7 +182,7 @@
            "thumb":"Anand-Ramkumar.jpg",
            "events" : 
             {
-              "event1" : "T43",
+              "event1" : "T43"
             }
 },
       {
@@ -193,7 +193,7 @@
            "thumb":"Sarath-Varma-Asokan.jpg",
            "events" : 
             {
-              "event1" : "T42",
+              "event1" : "T42"
             }
 },
       {
@@ -205,7 +205,7 @@
            "events" : 
             {
               "event1" : "T41",
-              "event1" : "T38",
+              "event1" : "T38"
             }
 },
       {
@@ -216,7 +216,7 @@
            "thumb":"Deepak-Varma.jpg",
            "events" : 
             {
-              "event1" : "T40",
+              "event1" : "T40"
             }
 },
       {
@@ -227,7 +227,7 @@
            "thumb":"Nikhil-Krishna.jpg",
            "events" : 
             {
-              "event1" : "T39",
+              "event1" : "T39"
             }
 },
       {
@@ -235,11 +235,11 @@
            "speaker": "Sarath C",
            "profile": "Architect at Experion Technologies, Technopark, Trivandrum",
            "speakerdesc": "The session will be led by Mr. Sarath C. He works as an Architect at Experion Technologies, Technopark, Trivandrum. At Experion, he focuses on Product Engineering, Technical Consultation and administers mobile development practices focusing on iOS and Android Platforms. He has more than a decade of industry experience and has successfully delivered products across various technologies and domains.",           
-           "thumb":"Sarath C.jpg",
+           "thumb":"Sarath-C.jpg",
            "events" : 
             {
               "event1" : "T37",
-              "event1" : "T23",
+              "event1" : "T23"
             }
 },
       {
@@ -250,7 +250,7 @@
            "thumb":"Priya-Sivakumar.jpg",
            "events" : 
             {
-              "event1" : "T36",
+              "event1" : "T36"
             }
 },
        {
@@ -262,7 +262,7 @@
            "events" : 
             {
               "event1" : "T35",
-              "event1" : "T34",
+              "event1" : "T34"
             }
 },
        {
@@ -270,10 +270,10 @@
            "speaker": "Nikhil Raj R",
            "profile": "Senior SEO Engineer at Alamy Images India Pvt.Ltd.",
            "speakerdesc": "Nikhil is a Senior SEO Engineer at Alamy Images, a stock photography agency with a collection of over 65 million images. In this role, he is responsible for improving Alamy's presence in Google Image Search. Previously he worked for Suyati Technologies at Infopark and DK New Media, a marketing agency where he consulted some of the biggest brands like Socialcast, Zimbra, Angie's List, Mindjet, Formstack, Roche Diagnostics.",           
-           "thumb":"Nikhil-Raj R.jpg",
+           "thumb":"Nikhil-Raj-R.jpg",
            "events" : 
             {
-              "event1" : "T33",
+              "event1" : "T33"
             }
 },
       {
@@ -284,7 +284,7 @@
            "thumb":"Aneesh-Sreedharan.jpg",
            "events" : 
             {
-              "event1" : "T32",
+              "event1" : "T32"
             }
 },
       {
@@ -296,7 +296,7 @@
            "events" : 
             {
               "event1" : "T30",
-              "event1" : "T18",
+              "event1" : "T18"
             }
 },
       {
@@ -307,7 +307,7 @@
            "thumb":"Ashik-Ajith.jpg",
            "events" : 
             {
-              "event1" : "T29",
+              "event1" : "T29"
             }
 },
       {
@@ -315,10 +315,10 @@
            "speaker": "Rajeev J Sebastian",
            "profile": "CEO, Alokin Software",
            "speakerdesc": "NIL",           
-           "thumb":"Rajeev J-Sebastian.jpg",
+           "thumb":"Rajeev-J-Sebastian.jpg",
            "events" : 
             {
-              "event1" : "T28",
+              "event1" : "T28"
             }
 },
       {
@@ -330,7 +330,7 @@
            "events" : 
             {
               "event1" : "T27",
-              "event1" : "T25",
+              "event1" : "T25"
             }
 },
       {
@@ -338,14 +338,14 @@
            "speaker": "Deepu S-Nath",
            "profile": "Managing Director - Tech Faya Innovations Pvt Ltd",
            "speakerdesc": "NIL",           
-           "thumb":"Deepu S-Nath.jpg",
+           "thumb":"Deepu-S-Nath.jpg",
            "events" : 
             {
               "event1" : "T27",
               "event1" : "T12",
               "event1" : "T7",
               "event1" : "T8",
-              "event1" : "T14",
+              "event1" : "T14"
             }
 },
       {
@@ -358,7 +358,7 @@
             {
               "event1" : "T27",
               "event1" : "T1",
-              "event1" : "T15",
+              "event1" : "T15"
             }
 },
        {
@@ -371,7 +371,7 @@
             {
               "event1" : "T27",
               "event1" : "T16",
-              "event1" : "T21",
+              "event1" : "T21"
             }
 },
        {
@@ -382,7 +382,7 @@
            "thumb":"Lakshmikant-Deshpande.jpg",
            "events" : 
             {
-              "event1" : "T25",
+              "event1" : "T25"
             }
 },
       {
@@ -393,7 +393,7 @@
            "thumb":"Mohana-Kumar.jpg",
            "events" : 
             {
-              "event1" : "T24",
+              "event1" : "T24"
             }
 }
 

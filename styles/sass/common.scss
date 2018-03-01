@@ -425,6 +425,51 @@ h4.filter-title {
 .clear {
   clear: both;
 }
+#speaker-list {
+  li {
+    list-style-type: none;
+    float: left;
+    width:98%;
+    padding: 1%;
+    margin-bottom: 10px;
+    background: #eee;
+    margin: 5px 0.5%;
+    p.desc {
+      font-size: 14px; 
+      width: 40%;
+      float: left;
+      text-align: justify;
+    }
+    img.speaker-thumb {
+      width: 15%;
+      float: left;
+      margin-right: 10px;
+    }
+    h4 {
+      float: left;
+      margin: -3px 4px 2px 0;
+      font-size: 18px;
+      width: 40%;
+    }
+    span.profile {
+      float: left;
+      font-style: italic;
+      width: 50%;
+    }
+    a.event-link {
+      float: right;
+      clear: right;
+      width: 44%;
+      text-align: right;
+      color: #008fca;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .content {
     min-height: 400px;

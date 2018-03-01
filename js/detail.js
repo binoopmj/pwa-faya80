@@ -32,7 +32,7 @@ $(function() {
 
                   if (spkr == sp.speakerID) {
                     var speakerdetail = "<div class='speaker-wrap'><img class='speaker-thumb' src='/speakers/thumb/"+ sp.thumb +"'><h3>"+ sp.speaker +"</h3><span class='speaker-name'><span class='speaker-detail company'>" + sp.profile + "</span></span><div class='details'><p>"+ sp.speakerdesc +"</p></div></div>"
-                    $(speakerdetail).appendTo("#event-detail-wrap");
+                    $(speakerdetail).appendTo("#speaker-detail-wrap");
                   }
                 });
                 

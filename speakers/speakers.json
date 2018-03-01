@@ -112,8 +112,8 @@
            "events" : 
             {
               "event1" : "T49",
-               "event1" : "K1",
-               "event1" : "C6"
+               "event2" : "K1",
+               "event3" : "C6"
             }
        },
       {
@@ -136,7 +136,7 @@
            "events" : 
             {
               "event1" : "T47",
-               "event1" : "C5"
+               "event2" : "C5"
             }
        },
       {
@@ -159,8 +159,8 @@
            "events" : 
             {
               "event1" : "T45",
-               "event1" : "K4",
-               "event1" : "C2"
+               "event2" : "K4",
+               "event3" : "C2"
             }
 },
       {
@@ -205,7 +205,7 @@
            "events" : 
             {
               "event1" : "T41",
-              "event1" : "T38"
+              "event2" : "T38"
             }
 },
       {
@@ -239,7 +239,7 @@
            "events" : 
             {
               "event1" : "T37",
-              "event1" : "T23"
+              "event2" : "T23"
             }
 },
       {
@@ -262,7 +262,7 @@
            "events" : 
             {
               "event1" : "T35",
-              "event1" : "T34"
+              "event2" : "T34"
             }
 },
        {
@@ -296,7 +296,7 @@
            "events" : 
             {
               "event1" : "T30",
-              "event1" : "T18"
+              "event2" : "T18"
             }
 },
       {
@@ -330,7 +330,7 @@
            "events" : 
             {
               "event1" : "T27",
-              "event1" : "T25"
+              "event2" : "T25"
             }
 },
       {
@@ -342,10 +342,10 @@
            "events" : 
             {
               "event1" : "T27",
-              "event1" : "T12",
-              "event1" : "T7",
-              "event1" : "T8",
-              "event1" : "T14"
+              "event2" : "T12",
+              "event3" : "T7",
+              "event4" : "T8",
+              "event5" : "T14"
             }
 },
       {
@@ -357,8 +357,8 @@
            "events" : 
             {
               "event1" : "T27",
-              "event1" : "T1",
-              "event1" : "T15"
+              "event2" : "T1",
+              "event3" : "T15"
             }
 },
        {
@@ -370,8 +370,8 @@
            "events" : 
             {
               "event1" : "T27",
-              "event1" : "T16",
-              "event1" : "T21"
+              "event2" : "T16",
+              "event3" : "T21"
             }
 },
        {
@@ -395,7 +395,69 @@
             {
               "event1" : "T24"
             }
+},
+       {
+          "speakerID" : "S35",
+           "speaker": "Aromal Sasidharan",
+           "profile": "IOS developer at DBG",
+           "speakerdesc": "NIL",           
+           "thumb":"Aromal-Sasidharan.jpg",
+           "events" : 
+            {
+              "event1" : "T22",
+              "event2" : "T10"
+            }
+},
+      {
+          "speakerID" : "S36",
+           "speaker": "Thahir Maheen",
+           "profile": "IOS developer at DBG",
+           "speakerdesc": "NIL",           
+           "thumb":"Thahir-Maheen.jpg",
+           "events" : 
+            {
+              "event1" : "T22",
+              "event2" : "T26"
+            }
+},
+      {
+          "speakerID" : "S37",
+           "speaker": "Adarsh V C",
+           "profile": "IOS developer(Team Lead) at DBG",
+           "speakerdesc": "NIL",           
+           "thumb":"Thahir-Maheen.jpg",
+           "events" : 
+            {
+              "event1" : "T26",
+              "event2" : "T10"
+            }
+},
+      {
+          "speakerID" : "S38",
+           "speaker": "Praveen Vijayan",
+           "profile": "Front-end developer at Flip Media",
+           "speakerdesc": "As a front-end developer, Praveen Vijayan has 8+ years of experience in developing and implementing clean, semantic & tidy traditional and dynamic websites, mobile sites/App, interface designs across a wide range of industry sectors and for leading international brands, using state of the art technologies. He is passionate about art and technology, and also an avid contributor to the open source projects.",           
+           "thumb":"Praveen-Vijayan.jpg",
+           "events" : 
+            {
+              "event1" : "T3",
+              "event2" : "T20"
+            }
+},
+      {
+          "speakerID" : "S39",
+           "speaker": "Dr. Jayaraj Poroor",
+           "profile": "Founder of DependSoft Consulting",
+           "speakerdesc": "The Session is handled by Dr. Jayaraj Poroor, Who is the Founder of DependSoft Consulting, with 19+ years of industry/R&D experience in cloud, web, mobile, and embedded settings. He is a hands-on, versatile technologist with a passion for information security. His security research papers have appeared in leading international journals such as the IEEE Internet Computing. He is the author of one of the earliest open source SSL VPNs",           
+           "thumb":"Dr. Jayaraj-Poroor.jpg",
+           "events" : 
+            {
+              "event1" : "T19"
+            }
 }
+
+
+
 
 
 

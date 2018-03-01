@@ -8,7 +8,7 @@
            "thumb":"Sony-John-Bronzon.jpg",
            "events" : 
             {
-              "event1" : "T57"
+              "event1" : "T57",
             }
       },
       {
@@ -19,7 +19,7 @@
            "thumb":"Madhusudan-Shekar.jpg",
            "events" : 
             {
-              "event1" : "T56"
+              "event1" : "T56",
             }
       },
       {
@@ -393,9 +393,72 @@
            "thumb":"Mohana-Kumar.jpg",
            "events" : 
             {
-              "event1" : "T24",
+              "event1" : "T24"
+            }
+},
+       {
+          "speakerID" : "S35",
+           "speaker": "Aromal Sasidharan",
+           "profile": "IOS developer at DBG",
+           "speakerdesc": "NIL",           
+           "thumb":"Aromal-Sasidharan.jpg",
+           "events" : 
+            {
+              "event1" : "T22",
+              "event1" : "T10"
+            }
+},
+      {
+          "speakerID" : "S36",
+           "speaker": "Thahir Maheen",
+           "profile": "IOS developer at DBG",
+           "speakerdesc": "NIL",           
+           "thumb":"Thahir-Maheen.jpg",
+           "events" : 
+            {
+              "event1" : "T22",
+              "event1" : "T26"
+            }
+},
+      {
+          "speakerID" : "S37",
+           "speaker": "Adarsh V C",
+           "profile": "IOS developer(Team Lead) at DBG",
+           "speakerdesc": "NIL",           
+           "thumb":"Thahir-Maheen.jpg",
+           "events" : 
+            {
+              "event1" : "T26",
+              "event1" : "T10"
+            }
+},
+      {
+          "speakerID" : "S38",
+           "speaker": "Praveen Vijayan",
+           "profile": "Front-end developer at Flip Media",
+           "speakerdesc": "As a front-end developer, Praveen Vijayan has 8+ years of experience in developing and implementing clean, semantic & tidy traditional and dynamic websites, mobile sites/App, interface designs across a wide range of industry sectors and for leading international brands, using state of the art technologies. He is passionate about art and technology, and also an avid contributor to the open source projects.",           
+           "thumb":"Praveen-Vijayan.jpg",
+           "events" : 
+            {
+              "event1" : "T3",
+              "event1" : "T20"
+            }
+},
+      {
+          "speakerID" : "S39",
+           "speaker": "Dr. Jayaraj Poroor",
+           "profile": "Founder of DependSoft Consulting",
+           "speakerdesc": "The Session is handled by Dr. Jayaraj Poroor, Who is the Founder of DependSoft Consulting, with 19+ years of industry/R&D experience in cloud, web, mobile, and embedded settings. He is a hands-on, versatile technologist with a passion for information security. His security research papers have appeared in leading international journals such as the IEEE Internet Computing. He is the author of one of the earliest open source SSL VPNs",           
+           "thumb":"Dr. Jayaraj-Poroor.jpg",
+           "events" : 
+            {
+              "event1" : "T19"
+              
             }
 }
+
+
+
 
 
 

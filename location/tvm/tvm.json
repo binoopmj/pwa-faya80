@@ -17,7 +17,7 @@
       {
           "eventID" : "56",
            "title": "AWS Lambda: Build your First Serverless Application",
-           "technology": "security",
+           "technology": "web security",
            "eventbanner":"56.jpg",
            "speaker": "Madhusudan Shekar",
            "profile": "Chief Evangelist of Amazon Web Services, Amazon India",

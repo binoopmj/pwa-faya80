@@ -432,7 +432,7 @@ h4.filter-title {
     width:98%;
     padding: 1%;
     margin-bottom: 10px;
-    background: #eee;
+    background: #e2f3cd;
     margin: 5px 0.5%;
     p.desc {
       font-size: 14px; 
@@ -468,6 +468,24 @@ h4.filter-title {
       }
     }
   }
+}
+.main-nav {
+    float: right;
+    list-style-type: none;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-right: 15px;
+    li {
+      float: left;
+      padding: 0 10px;
+      a {
+        text-decoration: none;
+        color: #444;
+        &:hover {
+          color: #87c042;
+        }
+      }
+    }
 }
 
 @media only screen and (min-width: 768px) {

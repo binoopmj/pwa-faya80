@@ -31,8 +31,8 @@
            "events" : 
             {
               "event1" : "T55",
-              "event2" : "K3",
-              "event3" : "C4"
+              "event2" : "C3",
+              "event3" : "K4"
             }
       },
       {
@@ -43,7 +43,8 @@
            "thumb":"Rakesh-B-S.jpg",
            "events" : 
             {
-              "event1" : "T54"
+              "event1" : "T54",
+              "event2" : "K1"
             }
       },
       {
@@ -56,7 +57,7 @@
             {
               "event1" : "T54",
               "event2" : "T31",
-              "event3" : "C1"
+              "event3" : "K1"
             }
       },
       {
@@ -107,13 +108,13 @@
           "speakerID" : "S10",
            "speaker": "Manuyash Chaudary",
            "profile": "AI & NLP Developer & Researcher, Accubits Technologies",
-           "speakerdesc": "The session will be led by Mr. Manuyash Chaudhary, AI & NLP Developer & Researcher, Accubits Technologies. An MS in Machine Learning & Artificial Intelligence from University College London, Manuyash has been instrumental for path-breaking research on Data Science and its implementation during his career. He is responsible for developing AI technologies and solving machine learning problems for clients at Accubits. He works in Python and R, on platforms like Tensorflow, H2O.ai and tools like SPSS, WEKA and Tableau.",           
+           "speakerdesc": "AI & NLP Developer & Researcher, Accubits Technologies. An MS in Machine Learning & Artificial Intelligence from University College London, Manuyash has been instrumental for path-breaking research on Data Science and its implementation during his career. He is responsible for developing AI technologies and solving machine learning problems for clients at Accubits. He works in Python and R, on platforms like Tensorflow, H2O.ai and tools like SPSS, WEKA and Tableau.",           
            "thumb":"manuyash-chaudhary.jpg",
            "events" : 
             {
               "event1" : "T49",
-               "event2" : "K1",
-               "event3" : "C6"
+               "event2" : "K6",
+               "event3" : "C1"
             }
        },
       {
@@ -131,12 +132,12 @@
           "speakerID" : "S12",
            "speaker": "Amal Dev",
            "profile": "Technical Analyst, UST Global",
-           "speakerdesc": "The session will be led by Mr. Amal Dev, Technical Analyst, UST Global. He is a full stack web developer with over 10 years of experience focusing on Microsoft Technologies. Being a passionate developer of web and desktop applications, he is currently involved in delivering applications for the enterprises which includes Fortune 500 companies. He won the Microsoft MVP Award in 2016 for his exceptional contribution to the development community. He is also an active blogger who regularly writes about technologies such as ASP.NET Core, Docker, ASP.NET MVC and many more.",           
+           "speakerdesc": "He is a full stack web developer with over 10 years of experience focusing on Microsoft Technologies. Being a passionate developer of web and desktop applications, he is currently involved in delivering applications for the enterprises which includes Fortune 500 companies. He won the Microsoft MVP Award in 2016 for his exceptional contribution to the development community. He is also an active blogger who regularly writes about technologies such as ASP.NET Core, Docker, ASP.NET MVC and many more.",           
            "thumb":"Amal-Dev.jpg",
            "events" : 
             {
               "event1" : "T47",
-               "event2" : "C5"
+               "event2" : "K5"
             }
        },
       {
@@ -159,8 +160,8 @@
            "events" : 
             {
               "event1" : "T45",
-               "event2" : "K4",
-               "event3" : "C2"
+               "event2" : "C4",
+               "event3" : "K2"
             }
 },
       {
@@ -353,7 +354,7 @@
            "speaker": "Nithin S",
            "profile": "NIL",
            "speakerdesc": "NIL",           
-           "thumb":"Nithin S.jpg",
+           "thumb":"Nithin-S.jpg",
            "events" : 
             {
               "event1" : "T27",
@@ -425,7 +426,7 @@
            "speaker": "Adarsh V C",
            "profile": "IOS developer(Team Lead) at DBG",
            "speakerdesc": "NIL",           
-           "thumb":"Thahir-Maheen.jpg",
+           "thumb":"Adarsh-V-C.jpg",
            "events" : 
             {
               "event1" : "T26",
@@ -449,17 +450,220 @@
            "speaker": "Dr. Jayaraj Poroor",
            "profile": "Founder of DependSoft Consulting",
            "speakerdesc": "The Session is handled by Dr. Jayaraj Poroor, Who is the Founder of DependSoft Consulting, with 19+ years of industry/R&D experience in cloud, web, mobile, and embedded settings. He is a hands-on, versatile technologist with a passion for information security. His security research papers have appeared in leading international journals such as the IEEE Internet Computing. He is the author of one of the earliest open source SSL VPNs",           
-           "thumb":"Dr. Jayaraj-Poroor.jpg",
+           "thumb":"Dr-Jayaraj-Poroor.jpg",
            "events" : 
             {
               "event1" : "T19"
             }
+},
+      {
+          "speakerID" : "S40",
+           "speaker": "Shameer B",
+           "profile": "UI Lead at FAYA",
+           "speakerdesc": "",           
+           "thumb":"Shameer-B.jpg",
+           "events" : 
+            {
+              "event1" : "T17",
+              "event2" : "T16"
+            }
+},
+      {
+          "speakerID" : "S41",
+           "speaker": "Rahul Raj",
+           "profile": "UX Lead at FAYA",
+           "speakerdesc": "",           
+           "thumb":"Rahul-Raj.jpg",
+           "events" : 
+            {
+              "event1" : "T17",
+              "event2" : "T16"
+            }
+},
+      {
+          "speakerID" : "S42",
+           "speaker": "Sumil K S",
+           "profile": "UI Developer at FAYA",
+           "speakerdesc": "",           
+           "thumb":"Sumil-K-S.jpg",
+           "events" : 
+            {
+              "event1" : "T17"
+            }
+},
+      {
+          "speakerID" : "S43",
+           "speaker": "Ganesh Kumar G",
+           "profile": "Senior UI Developer at McFadyen Digital",
+           "speakerdesc": "",           
+           "thumb":"Ganesh-Kumar-G.jpg",
+           "events" : 
+            {
+              "event1" : "T16"
+            }
+},
+      {
+          "speakerID" : "S44",
+           "speaker": "Haneefa T P",
+           "profile": "Developer at FAYA",
+           "speakerdesc": "",           
+           "thumb":"Haneefa-T-P.jpg",
+           "events" : 
+            {
+              "event1" : "T15",
+              "event2" : "T2"
+            }
+},
+      {
+          "speakerID" : "S45",
+           "speaker": "Sreenath Sasikumar",
+           "profile": "Developer at FAYA",
+           "speakerdesc": "",           
+           "thumb":"Sreenath-Sasikumar.jpg",
+           "events" : 
+            {
+              "event1" : "C7",
+              "event2" : "T15",
+              "event3" : "T2"
+            }
+},
+      {
+          "speakerID" : "S46",
+           "speaker": "Suresh Babu",
+           "profile": "Firmusoft Pvt. Ltd",
+           "speakerdesc": "",           
+           "thumb":"Suresh-Babu.jpg",
+           "events" : 
+            {
+              "event1" : "T13"
+            }
+},
+      {
+          "speakerID" : "S47",
+           "speaker": "Rejah Rehim",
+           "profile": "FAYA",
+           "speakerdesc": "",           
+           "thumb":"Rejah-Rehim.jpg",
+           "events" : 
+            {
+              "event1" : "K3",
+              "event2" : "T11",
+              "event3" : "T6",
+              "event4" : "T5",
+              "event5" : "T4"
+            }
+},
+      {
+          "speakerID" : "S48",
+           "speaker": "Rahul Krishnan",
+           "profile": "Attinad Software",
+           "speakerdesc": "",           
+           "thumb":"Rahul-Krishnan.jpg",
+           "events" : 
+            {
+              "event1" : "T9"
+            }
+},
+      {
+          "speakerID" : "S49",
+           "speaker": "Sudhahar Viswanathan",
+           "profile": "QA Lead at FAYA",
+           "speakerdesc": "",           
+           "thumb":"Sudhahar-Viswanathan.jpg",
+           "events" : 
+            {
+              "event1" : "T4"
+            }
+},
+      {
+          "speakerID" : "S50",
+           "speaker": "Sajin TM",
+           "profile": "FAYA",
+           "speakerdesc": "",           
+           "thumb":"Sajin-TM.jpg",
+           "events" : 
+            {
+              "event1" : "T1"
+            }
+},
+      {
+          "speakerID" : "S51",
+           "speaker": "Madhav M Nair",
+           "profile": "Sr Developer for VR-AR Tech at UST Global",
+           "speakerdesc": "An Immersive Technology aficionado and Design Geek, Mr Madhav M Nair is a Unity3D Ambassador for Unity India and works as a Sr Developer for VR-AR Tech at UST Global. Being an ardent tinkerer and designer, he was a Mentor at Techtop, MIT-IIT Innovation Workshop which was recently held at IIT Delhi and has also worked as a Jr Research Fellow at Future Technologies Lab under Kerala Startup Mission.",           
+           "thumb":"Madhav-M-Nair.jpg",
+           "events" : 
+            {
+              "event1" : "C8"
+            }
+},
+      {
+          "speakerID" : "S52",
+           "speaker": "Savio Victor",
+           "profile": "AI enthusiast and entrepreneur, co-founder of air.ai and KnightClan.",
+           "speakerdesc": "Savio Victor is an AI enthusiast and entrepreneur, co-founder of air.ai and KnightClan. A jack of all trades, he has dabbled in web development and web designing before venturing into the realm of Artificial Intelligence. ",           
+           "thumb":"Savio-Victor.jpg",
+           "events" : 
+            {
+              "event1" : "K7",
+              "event2" : "C6"
+            }
+},
+      {
+          "speakerID" : "S53",
+           "speaker": "Viju Chacko",
+           "profile": "Senior Consultant at Tata Consultancy Services ",
+           "speakerdesc": "Viju Chacko is an experienced Senior Consultant at Tata Consultancy Services with a demonstrated history of working in the Information Technology and Services industry. Strong consulting professional skilled in Digital Technologies, especially in Big Data and IoT, his other focus areas include Blockchain, Deep Learning, etc.",           
+           "thumb":"Viju-Chacko.jpg",
+           "events" : 
+            {
+              "event1" : "C6"
+            }
+},
+      {
+          "speakerID" : "S54",
+           "speaker": "Charles Andrews",
+           "profile": "Singularity evangelist and entrepreneur",
+           "speakerdesc": "Charles Andrews is a Singularity evangelist and entrepreneur. A futurist by philosophy and practice, Andrews is also an avid quizzer. Having architected various game models for various quiz shows both within the country and abroad, he has also headed the team behind “Pothole Go”, a satirical app that aims to better the situation of the roads in the country. The app is currently being adapted as an official road safety app for Kerala's PWD.",           
+           "thumb":"Charles-Andrews.jpg",
+           "events" : 
+            {
+              "event1" : "C5"
+            }
+},
+      {
+          "speakerID" : "S55",
+           "speaker": "Amarnath Sankar",
+           "profile": "CEO at CAT Entertainments Pvt Ltd & Co-Founder at TastySpots",
+           "speakerdesc": "CEO at CAT Entertainments Pvt Ltd & Co-Founder at TastySpots. Apart from these, he is an Entrepreneur, Traveller, Public Speaker, Strategist, Poet, Director and Producer. He has an elaborate career with many success stories of building top notch businesses with highly competitive Digital Media Strategy.",           
+           "thumb":"Amarnath-Sankar.jpg",
+           "events" : 
+            {
+              "event1" : "C2"
+            }
+},
+      {
+          "speakerID" : "S56",
+           "speaker": "Abdul Muhyami Arif",
+           "profile": "Mobile developer at FantaCode",
+           "speakerdesc": "A technology enthusiast who strives to find cost-effective solutions to various problems, Abdul Muhyami Arif is a mobile developer at FantaCode whose current interest area includes Mobility and Chat Bots. He has been working on the Xamarin platform for three years, and has extensive hands-on experience in Xamarin.Android, Xamarin.Forms and Xamarin.IOS. An avid follower of the Microsoft technologies, he also develops UWP (Universal Windows Applications) applications and wishes to leverage the full power of Microsoft Azure, Mixed Reality and Bot Frameworks.",           
+           "thumb":"Abdul-Muhyami-Arif.jpg",
+           "events" : 
+            {
+              "event1" : "K8"
+            }
+},
+      {
+          "speakerID" : "S57",
+           "speaker": "Pranoy Radhakrishnan",
+           "profile": "Deep Learning researcher and co-founder of air.ai",
+           "speakerdesc": "Pranoy Radhakrishnan is a Deep Learning researcher and co-founder of air.ai. The entrepreneurial bug bit him during his stint as a Software Engineer at Good Methods Global",           
+           "thumb":"Pranoy-Radhakrishnan.jpg",
+           "events" : 
+            {
+              "event1" : "K7"
+            }
 }
-
-
-
-
-
 
 
 

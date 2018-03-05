@@ -330,6 +330,71 @@ h4.filter-title {
     display: block;
     max-width: 100%; }
 
+.success {
+  background: #d4e4d7;
+  color: #0b4717;
+  padding: 10px;
+  font-size: 15px;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  float: left; }
+
+.contact .contact-title {
+  float: left;
+  width: 100%;
+  text-align: center; }
+  .contact .contact-title h2 {
+    font-size: 30px;
+    color: #3A3A3A;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 2px solid #57AD68;
+    padding-bottom: 25px; }
+
+.contact .form-area {
+  width: 65%;
+  padding-top: 1px;
+  margin: 0 auto; }
+  .contact .form-area .form-group {
+    margin-bottom: 20px; }
+    .contact .form-area .form-group .form-control {
+      height: 38px;
+      padding: 6px 20px 6px 20px;
+      font-size: 18px;
+      line-height: 24px;
+      color: #8a8a8a;
+      border: 2px solid #F1F1F1;
+      border-radius: 5px;
+      box-shadow: none;
+      font-weight: 100;
+      background-color: #fff;
+      background-image: none;
+      display: block;
+      width: 100%; }
+      .contact .form-area .form-group .form-control:focus {
+        outline: none; }
+    .contact .form-area .form-group .form-control.textarea {
+      height: 115px;
+      resize: none; }
+      .contact .form-area .form-group .form-control.textarea:focus {
+        outline: none; }
+  .contact .form-area .form-btn {
+    padding: 9px 53px;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: none;
+    margin: 10px 0px 15px;
+    background-color: #57AD68;
+    border-color: #57AD68;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    cursor: pointer; }
+    .contact .form-area .form-btn:focus {
+      outline: none; }
+
 @media only screen and (min-width: 768px) {
   .content {
     min-height: 400px; }

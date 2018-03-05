@@ -30,7 +30,7 @@ $(function() {
 	            });
 	     	});
     	});
-	    setTimeout(function(){ $('.loc-cls').matchHeight({byRow: false});}, 100); // Reapplying Matchheight after tab works
+	    setTimeout(function(){ $('.loc-cls').matchHeight({byRow: false});}, 1000); // Reapplying Matchheight after tab works
 	    $(".filter-list a").removeClass('active');
 	    $(".filter-list a#all").addClass('active');
 	});

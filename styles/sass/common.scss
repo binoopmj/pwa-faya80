@@ -131,7 +131,8 @@ p {
   }
 }
 .star-rating {
-  display: inline-block;
+  display: none;
+  //display: inline-block;
   background: #a0a0a0;
   height: 20px;
   margin-bottom: 5px;
@@ -250,7 +251,13 @@ ul {
     .video-detail-wrap,
     .speaker-widget-wrap {
       padding: 0 2%;
-      line-height: 14px;
+      line-height: 12px; 
+    }
+    .speaker-widget-wrap {
+      &:nth-child(4) ,
+      &:nth-child(5) {
+        display: none;
+      }
     }
     .speaker {
       font-size: 12px;
@@ -280,6 +287,7 @@ ul {
     -webkit-box-orient: vertical;
     overflow: hidden;
     font-weight: normal;
+    line-height: 17px;
   }
 }
 
@@ -313,6 +321,7 @@ h4.filter-title {
     border-radius: 30px 0 0;
     font-weight: bold;
     font-size: 15px;
+    display: none;
   }
 }
 
@@ -542,6 +551,7 @@ h4.filter-title {
     margin-right: 2%;
     float: left;
     margin-top: 20px;
+    min-width: 200px;
   }
   .edition-list__item h2 {
     font-size: 16px;

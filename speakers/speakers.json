@@ -37,9 +37,9 @@
       },
       {
           "speakerID" : "S4",
-           "speaker": "Rakesh B. S",
+           "speaker": "Rakesh B S",
            "profile": "Co-Founders of Qucentis & BIGOrg",
-           "speakerdesc": "Rakesh B. S. and Jikku Jose are Co-Founders of Qucentis & BIGOrg. Qucentis is a software company building a Blockchain based Asset Management System. BIGOrg is an open collective of technologists, companies & hobbyists interested in Blockchain. BIGOrg conducts meetups every month on third Thursdays and hosts an active Telegram group.",           
+           "speakerdesc": "Qucentis is a software company building a Blockchain based Asset Management System. BIGOrg is an open collective of technologists, companies & hobbyists interested in Blockchain. BIGOrg conducts meetups every month on third Thursdays and hosts an active Telegram group.",           
            "thumb":"Rakesh-B-S.jpg",
            "events" : 
             {
@@ -62,7 +62,7 @@
       },
       {
           "speakerID" : "S6",
-           "speaker": "Krishnakumar.S",
+           "speaker": "Krishnakumar S",
            "profile": "Senior Consultant-Database Administration at EnvestNet Trivandrum",
            "speakerdesc": "Senior Consultant-Database Administration at EnvestNet Trivandrum, Krishnakumar designs various Database Projects and works closely with development teams, improving and scaling Data Intensive Applications. With around 15 years of experience in software, he has worked extensively on various Database Projects designing scalable Database Systems, Performance Optimizations,Upgrades and Migrations. He is also an active participant in various technical forums and a proponent of Free Knowledge Sharing.",           
            "thumb":"Krishnakumar-S.jpg",
@@ -84,7 +84,7 @@
        },
       {
           "speakerID" : "S8",
-           "speaker": "Jaydev S. V.",
+           "speaker": "Jaydev S V",
            "profile": "Founder of volvox",
            "speakerdesc": "Jaydev is a risk analyst by trade. Responsible for engineering risk assessment, he currently works on implementation and overseeing underwriting macro-scale insurance programs. He spends his spare time studying up on everything that the different potential future timelines entail and identifies as a performing philosopher.",           
            "thumb":"Jaydev-S-V.jpg",
@@ -106,7 +106,7 @@
        },
       {
           "speakerID" : "S10",
-           "speaker": "Manuyash Chaudary",
+           "speaker": "Manuyash Chaudhary",
            "profile": "AI & NLP Developer & Researcher, Accubits Technologies",
            "speakerdesc": "AI & NLP Developer & Researcher, Accubits Technologies. An MS in Machine Learning & Artificial Intelligence from University College London, Manuyash has been instrumental for path-breaking research on Data Science and its implementation during his career. He is responsible for developing AI technologies and solving machine learning problems for clients at Accubits. He works in Python and R, on platforms like Tensorflow, H2O.ai and tools like SPSS, WEKA and Tableau.",           
            "thumb":"manuyash-chaudhary.jpg",
@@ -304,7 +304,7 @@
           "speakerID" : "S27",
            "speaker": "Ashik Ajith",
            "profile": "Software Engineer, Ruby Software India Pvt.Ltd.",
-           "speakerdesc": "NIL",           
+           "speakerdesc": "",           
            "thumb":"Ashik-Ajith.jpg",
            "events" : 
             {
@@ -315,7 +315,7 @@
           "speakerID" : "S28",
            "speaker": "Rajeev J Sebastian",
            "profile": "CEO, Alokin Software",
-           "speakerdesc": "NIL",           
+           "speakerdesc": "",           
            "thumb":"Rajeev-J-Sebastian.jpg",
            "events" : 
             {
@@ -326,7 +326,7 @@
           "speakerID" : "S29",
            "speaker": "Faiz Mohamed Haneef",
            "profile": "Director - Neoito Technologies Pvt Ltd",
-           "speakerdesc": "NIL",           
+           "speakerdesc": "",           
            "thumb":"Faiz-Mohamed-Haneef.jpg",
            "events" : 
             {
@@ -336,9 +336,9 @@
 },
       {
           "speakerID" : "S30",
-           "speaker": "Deepu S-Nath",
+           "speaker": "Deepu S Nath",
            "profile": "Managing Director - Tech Faya Innovations Pvt Ltd",
-           "speakerdesc": "NIL",           
+           "speakerdesc": "",           
            "thumb":"Deepu-S-Nath.jpg",
            "events" : 
             {
@@ -352,8 +352,8 @@
       {
           "speakerID" : "S31",
            "speaker": "Nithin S",
-           "profile": "NIL",
-           "speakerdesc": "NIL",           
+           "profile": "",
+           "speakerdesc": "",           
            "thumb":"Nithin-S.jpg",
            "events" : 
             {
@@ -379,7 +379,7 @@
           "speakerID" : "S33",
            "speaker": "Lakshmikant Deshpande",
            "profile": "Neoito Technologies",
-           "speakerdesc": "NIL",           
+           "speakerdesc": "",           
            "thumb":"Lakshmikant-Deshpande.jpg",
            "events" : 
             {
@@ -390,7 +390,7 @@
           "speakerID" : "S34",
            "speaker": "Mohana Kumar",
            "profile": "Senior Software Developer",
-           "speakerdesc": "NIL",           
+           "speakerdesc": "",           
            "thumb":"Mohana-Kumar.jpg",
            "events" : 
             {
@@ -401,7 +401,7 @@
           "speakerID" : "S35",
            "speaker": "Aromal Sasidharan",
            "profile": "IOS developer at DBG",
-           "speakerdesc": "NIL",           
+           "speakerdesc": "",           
            "thumb":"Aromal-Sasidharan.jpg",
            "events" : 
             {
@@ -413,7 +413,7 @@
           "speakerID" : "S36",
            "speaker": "Thahir Maheen",
            "profile": "IOS developer at DBG",
-           "speakerdesc": "NIL",           
+           "speakerdesc": "",           
            "thumb":"Thahir-Maheen.jpg",
            "events" : 
             {
@@ -425,7 +425,7 @@
           "speakerID" : "S37",
            "speaker": "Adarsh V C",
            "profile": "IOS developer(Team Lead) at DBG",
-           "speakerdesc": "NIL",           
+           "speakerdesc": "",           
            "thumb":"Adarsh-V-C.jpg",
            "events" : 
             {
@@ -577,7 +577,7 @@
 },
       {
           "speakerID" : "S50",
-           "speaker": "Sajin TM",
+           "speaker": "Sajin T M",
            "profile": "FAYA",
            "speakerdesc": "",           
            "thumb":"Sajin-TM.jpg",
@@ -662,6 +662,17 @@
            "events" : 
             {
               "event1" : "K7"
+            }
+},
+      {
+          "speakerID" : "S58",
+           "speaker": "Mr. Michael Gord",
+           "profile": "Founder & CEO, MLG Blockchain Consulting",
+           "speakerdesc": "Michael is a blockchain developer at TD and the founder of Bitcoin Canada and the McGill Cryptocurrency Club. While at McGill, Michael organized the Bitcoin Airdrop events where he gave hundreds of students their first bitcoin.",           
+           "thumb":"Michael-Gord.jpg",
+           "events" : 
+            {
+              "event1" : "T50"
             }
 }
 

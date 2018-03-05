@@ -6,6 +6,7 @@ var gulp = require('gulp'),
     newer = require('gulp-newer'), 
     notify  = require('gulp-notify'),
     imagemin = require('gulp-imagemin');
+    merge = require('gulp-merge-json');
 
 
 //style paths
@@ -33,7 +34,15 @@ gulp.task('images', function() {
                 .pipe(gulp.dest('location/'))
                 .pipe( notify( { message: 'Images task complete', onLast: true } ) );
 });
+gulp.task('merge', function(){
+    gulp.src('location/*/*.json')
+    .pipe(merge({
+        fileName: 'events.json',
+        concatArrays: true
+    }))
+    .pipe(gulp.dest('./location/all'));
 
+});
 gulp.task('watch',function() {
 	browserSync.init({
         server: {

@@ -1,7 +1,7 @@
 <?php
 if($_POST)
 {
-    $to_email       = "sumil.ks@fayausa.com"; //Recipient email, Replace with own email here
+    $to_email       = "binoop.mj@fayausa.com"; //Recipient email, Replace with own email here
     $from_email     = 'contact@fayaport80.com'; //from mail, it is mandatory with some hosts and without it mail might endup in spam.
     
     //check if its an ajax request, exit if not

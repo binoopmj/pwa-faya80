@@ -24,6 +24,14 @@
         <a href="/index.html">
             <amp-img src="logo.png" class="logo"  width="200" height="46"></amp-img>
         </a>
+        <ul class="main-nav">
+          <li>
+            <a href="speakers.html">Speakers</a>
+          </li>
+          <li>
+            <a href="contact.php">Contact</a>
+          </li>
+        </ul>
     </header>
     <div class="wrapper">
       <article>

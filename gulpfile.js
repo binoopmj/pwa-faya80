@@ -42,7 +42,7 @@ gulp.task('merge', function(){
         concatArrays: true,
         mergeArrays: true
     }))
-    .pipe(gulp.dest('./json/all'));
+    .pipe(gulp.dest('./json/all-events'));
 
 });
 gulp.task('watch',function() {

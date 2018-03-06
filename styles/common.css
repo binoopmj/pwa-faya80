@@ -348,7 +348,6 @@ h4.filter-title {
     display: block;
     max-width: 100%; }
 
-
 .success {
   background: #d4e4d7;
   color: #0b4717;
@@ -467,7 +466,6 @@ h4.filter-title {
       color: #444; }
       .main-nav li a:hover {
         color: #87c042; }
-
 
 @media only screen and (min-width: 768px) {
   .content {

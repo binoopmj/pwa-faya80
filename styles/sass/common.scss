@@ -445,7 +445,7 @@ h4.filter-title {
     margin: 5px 0.5%;
     p.desc {
       font-size: 14px; 
-      width: 40%;
+      width: 80%;
       float: left;
       text-align: justify;
     }
@@ -458,18 +458,18 @@ h4.filter-title {
       float: left;
       margin: -3px 4px 2px 0;
       font-size: 18px;
-      width: 40%;
+      width: 80%;
     }
     span.profile {
       float: left;
       font-style: italic;
-      width: 50%;
+      width: 80%;
     }
     a.event-link {
-      float: right;
-      clear: right;
-      width: 44%;
-      text-align: right;
+      float: left;
+      clear: left;
+      width: 100%;
+      text-align: left;
       color: #008fca;
       text-decoration: none;
       &:hover {
@@ -564,5 +564,21 @@ h4.filter-title {
       font-size: 13px;
     }
     padding: 25px;
+  }
+  #speaker-list {
+    li {
+      a.event-link {
+        width: 44%;
+        float: right;
+        clear: right;
+        text-align: right;
+      }
+      p.desc, h4 {
+        width: 40%;
+      }
+      span.profile {
+        width: 50%
+      }
+    }
   }
 }

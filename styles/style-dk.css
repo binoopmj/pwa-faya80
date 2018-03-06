@@ -1021,7 +1021,8 @@ features start
   background: url(../images/dk17/prt80-bg.png) no-repeat 0 0;
   text-align: center;
   position: relative;
-  background-size: cover; }
+  background-size: cover;
+  padding: 10px 0; }
 
 .carousel-inner img {
   padding: 0; }

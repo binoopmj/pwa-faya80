@@ -18,7 +18,7 @@
   background-color: #E7E7E7; }
 
 .event-schedule-bg {
-  background: url(../img/event-bg.jpg) repeat 0 0; }
+  background: url(../images/dk17/event-bg.jpg) repeat 0 0; }
 
 /* --------------------
    main Wrapper
@@ -102,7 +102,7 @@
 
 /*feature-section*/
 .feature-section {
-  background: url(../../assets/img/feature-bg.jpg) no-repeat;
+  background: url(../../assets/images/dk17/feature-bg.jpg) no-repeat;
   background-size: cover; }
 
 #toTop {
@@ -130,7 +130,7 @@
 
 .page-title-section {
   padding-top: 80px;
-  background: url(../../assets/img/page-bg/page-bg-1.jpg) no-repeat center center #4795bb;
+  background: url(../../assets/images/dk17/page-bg/page-bg-1.jpg) no-repeat center center #4795bb;
   background-size: cover; }
 
 @media screen and (max-width: 768px) {
@@ -642,7 +642,7 @@ features start
     margin-bottom: 30px; } }
 
 .single-page-title {
-  background: url(../img/img-page-title.jpg) no-repeat bottom;
+  background: url(../images/dk17/img-page-title.jpg) no-repeat bottom;
   background-size: cover;
   width: 100%;
   background-attachment: fixed;
@@ -931,7 +931,7 @@ features start
   z-index: 9999; }
 
 #status {
-  background-image: url(../img/preloader.gif);
+  background-image: url(../images/dk17/preloader.gif);
   background-position: center;
   background-repeat: no-repeat;
   height: 200px;
@@ -942,7 +942,7 @@ features start
   width: 200px; }
 
 .status-mes {
-  background-image: url(../img/preloader.gif);
+  background-image: url(../images/dk17/preloader.gif);
   background-position: center;
   background-repeat: no-repeat;
   height: 200px;
@@ -1018,7 +1018,7 @@ features start
   padding: 5px 6px; }
 
 .banner-bg {
-  background: url(../img/prt80-bg.png) no-repeat 0 0;
+  background: url(../images/dk17/prt80-bg.png) no-repeat 0 0;
   text-align: center;
   position: relative;
   background-size: cover; }
@@ -1093,7 +1093,7 @@ features start
   width: 15px;
   height: 15px;
   float: left;
-  background: url(../img/social-icons.png) no-repeat 0 0;
+  background: url(../images/dk17/social-icons.png) no-repeat 0 0;
   margin-right: 15px;
   cursor: pointer;
   transition-property: none; }
@@ -1164,7 +1164,7 @@ features start
   float: right; }
 
 .early-bird {
-  background: url(../img/register-bg.jpg) repeat 0 0;
+  background: url(../images/dk17/register-bg.jpg) repeat 0 0;
   padding: 50px 0; }
   .early-bird img {
     max-width: 100%; }

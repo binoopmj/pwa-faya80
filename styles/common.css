@@ -108,7 +108,7 @@ p {
     background: #73a932; }
 
 .star-rating {
-  display: inline-block;
+  display: none;
   background: #a0a0a0;
   height: 20px;
   margin-bottom: 5px;
@@ -160,7 +160,6 @@ footer {
     width: 100%; }
 
 .open-stage-wrap {
-  text-align: center;
   padding: 40px 0;
   clear: left;
   background: url(../images/port80-bg.jpg) repeat top center; }
@@ -183,6 +182,9 @@ footer {
     color: #5F5F5F;
     margin-top: 20px;
     display: inline-block; }
+  .open-stage-content ul li {
+    float: left;
+    margin-left: 25px; }
 
 ul {
   margin: 0;
@@ -194,21 +196,31 @@ ul {
   width: 100%; }
   .event-list li {
     width: 48%;
-    padding: 0 1%;
+    margin: 0 0.5%;
     float: left;
     list-style-type: none;
-    margin-bottom: 15px; }
-
-.video-widget-wrap {
-  border: 1px solid #ddd;
-  position: relative; }
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    position: relative;
+    padding-bottom: 10px; }
+    .event-list li .video-detail-wrap,
+    .event-list li .speaker-widget-wrap {
+      padding: 0 2%;
+      line-height: 12px; }
+    .event-list li .speaker-widget-wrap:nth-child(4), .event-list li .speaker-widget-wrap:nth-child(5) {
+      display: none; }
+    .event-list li .speaker {
+      font-size: 12px;
+      font-weight: bold; }
+    .event-list li .company {
+      font-size: 11px;
+      font-style: italic; }
 
 .tech-filter {
   text-align: center; }
 
 .video-detail-wrap {
-  font-size: 13px;
-  padding: 5px 10px; }
+  font-size: 13px; }
   .video-detail-wrap h4 {
     font-size: 15px;
     color: #333;
@@ -216,7 +228,9 @@ ul {
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
-    overflow: hidden; }
+    overflow: hidden;
+    font-weight: normal;
+    line-height: 17px; }
 
 h4.filter-title {
   color: #444;
@@ -232,17 +246,20 @@ h4.filter-title {
   .video-detail-wrap span.company {
     font-size: 11px; }
   .video-detail-wrap span.month {
-    margin-top: 10px; }
+    margin-top: 6px;
+    margin-bottom: 2px;
+    font-size: 12px; }
   .video-detail-wrap span.edition {
     position: absolute;
     right: 0;
     bottom: 0;
     background: #87c042;
     color: #fff;
-    padding: 7px 3px 1px 8px;
+    padding: 3px 3px 1px 10px;
     border-radius: 30px 0 0;
     font-weight: bold;
-    font-size: 15px; }
+    font-size: 15px;
+    display: none; }
 
 .view-btn {
   background: #87c142;
@@ -266,7 +283,8 @@ h4.filter-title {
   font-size: 14px;
   font-style: italic;
   color: #555;
-  line-height: 21px; }
+  line-height: 21px;
+  text-align: justify; }
 
 .event-detail {
   color: #525252; }
@@ -329,6 +347,7 @@ h4.filter-title {
     margin: 0 auto;
     display: block;
     max-width: 100%; }
+
 
 .success {
   background: #d4e4d7;
@@ -395,6 +414,61 @@ h4.filter-title {
     .contact .form-area .form-btn:focus {
       outline: none; }
 
+.clear {
+  clear: both; }
+
+#speaker-list li {
+  list-style-type: none;
+  float: left;
+  width: 98%;
+  padding: 1%;
+  margin-bottom: 10px;
+  background: #e2f3cd;
+  margin: 5px 0.5%; }
+  #speaker-list li p.desc {
+    font-size: 14px;
+    width: 40%;
+    float: left;
+    text-align: justify; }
+  #speaker-list li img.speaker-thumb {
+    width: 15%;
+    float: left;
+    margin-right: 10px; }
+  #speaker-list li h4 {
+    float: left;
+    margin: -3px 4px 2px 0;
+    font-size: 18px;
+    width: 40%; }
+  #speaker-list li span.profile {
+    float: left;
+    font-style: italic;
+    width: 50%; }
+  #speaker-list li a.event-link {
+    float: right;
+    clear: right;
+    width: 44%;
+    text-align: right;
+    color: #008fca;
+    text-decoration: none; }
+    #speaker-list li a.event-link:hover {
+      text-decoration: underline; }
+
+.main-nav {
+  float: right;
+  list-style-type: none;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-right: 15px; }
+  .main-nav li {
+    float: left;
+    padding: 0 10px; }
+    .main-nav li a {
+      text-decoration: none;
+      color: #444; }
+      .main-nav li a:hover {
+        color: #87c042; }
+
+
 @media only screen and (min-width: 768px) {
   .content {
     min-height: 400px; }
@@ -406,7 +480,6 @@ h4.filter-title {
     font-size: 16px; }
   .event-list li {
     width: 23%;
-    padding: 0 1%;
     float: left;
     list-style-type: none; }
   .video-detail-wrap span.company {
@@ -426,12 +499,16 @@ h4.filter-title {
         font-size: 35px;
         margin-left: -15px; }
   .event-detail {
-    width: 75%;
+    width: 100%;
     float: left; }
+  .speaker-detail-wrap {
+    display: flex;
+    clear: left; }
   .speaker-wrap {
-    width: 22%;
-    float: right;
-    margin-top: 20px; }
+    margin-right: 2%;
+    float: left;
+    margin-top: 20px;
+    min-width: 200px; }
   .edition-list__item h2 {
     font-size: 16px; }
   footer {

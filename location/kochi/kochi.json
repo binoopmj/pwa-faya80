@@ -17,7 +17,7 @@
        {
            "eventID" : "C7",
            "title": "Essential Web Security for Developers",
-           "technology": "security",
+           "technology": "web security",
            "eventbanner":"7.jpg",
            "speakers" : 
             {
@@ -59,7 +59,7 @@
        {
            "eventID" : "C4",
            "title": "A Roadmap for Angular 4",
-           "technology": "web security",
+           "technology": "web security frontend",
            "eventbanner":"4.jpg",
            "speakers" : 
             {

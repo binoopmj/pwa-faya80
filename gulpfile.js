@@ -35,12 +35,14 @@ gulp.task('images', function() {
                 .pipe( notify( { message: 'Images task complete', onLast: true } ) );
 });
 gulp.task('merge', function(){
+
     gulp.src('location/*/*.json')
     .pipe(merge({
         fileName: 'events.json',
-        concatArrays: true
+        concatArrays: true,
+        mergeArrays: true
     }))
-    .pipe(gulp.dest('./location/all'));
+    .pipe(gulp.dest('./json/all'));
 
 });
 gulp.task('watch',function() {
@@ -53,3 +55,6 @@ gulp.task('watch',function() {
     gulp.watch(sassFiles,['styles']).on('change', browserSync.reload);
     gulp.watch("*.html").on('change', browserSync.reload);
 });
+
+gulp.task('build', ['styles', 'images', 'merge']);
+

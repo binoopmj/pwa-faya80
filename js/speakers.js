@@ -2,7 +2,7 @@ $(function() {
   // Speaker details
 	$.getJSON('/speakers/speakers.json', function(data) {
 	    $.each(data.speakers, function(i, sp) {
-	    	$.getJSON('/location/all/events.json', function(data) {
+	    	$.getJSON('/json/all-events/events.json', function(data) {
 	    		var li = $('<li/>').appendTo("#speaker-list");
 	    		var speakerimg = "<img class='speaker-thumb' src='speakers/thumb/"+sp.thumb+"'>";
 	    		$(speakerimg).appendTo(li);

@@ -1132,6 +1132,9 @@ features start
   font-size: 14px;
   list-style-type: none;
   padding-top: 25px; }
+  .event-schedule .event-schedule-list {
+    color: #636363;
+    line-height: 25px; }
   .event-schedule .event-time {
     float: left;
     width: 35%; }
